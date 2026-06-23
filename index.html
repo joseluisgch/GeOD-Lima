@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +12,10 @@
   <!-- MapLibre GL CSS -->
   <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
   <!-- Custom CSS -->
-  <script type="module" crossorigin src="/GeOD-Lima/assets/index-C59mM5ou.js"></script>
-  <link rel="stylesheet" crossorigin href="/GeOD-Lima/assets/index-B11QDAIC.css">
+  <script type="module" crossorigin src="/GeOD-Lima/assets/index-BbuvXHWf.js"></script>
+  <link rel="stylesheet" crossorigin href="/GeOD-Lima/assets/index-BO77Zxyv.css">
 </head>
+
 <body>
   <!-- Map Container -->
   <div id="map"></div>
@@ -35,7 +37,7 @@
       <div class="logo-container">
         <span class="logo-dot"></span>
         <span class="logo-pulse"></span>
-        <h1>Lima O-D Flujos</h1>
+        <h1>GeoFlow-Lima</h1>
       </div>
       <p class="subtitle">Visualización interactiva de movilidad urbana 2023</p>
     </header>
@@ -90,7 +92,7 @@
       <!-- Section: Estilo y Animación -->
       <section class="control-group">
         <h3>Ajustes Visuales</h3>
-        
+
         <div class="setting-row">
           <label for="width-slider">Grosor de Líneas</label>
           <input type="range" id="width-slider" min="0.5" max="5" step="0.1" value="1.5">
@@ -116,6 +118,18 @@
         </div>
       </section>
 
+      <!-- Section: Exportar -->
+      <section class="control-group">
+        <h3>Exportar Animación</h3>
+        <div class="export-container">
+          <button id="btn-record" class="btn-record-action">
+            <span class="record-dot-icon">🔴</span>
+            <span id="record-text">Grabar Video Corto</span>
+          </button>
+          <p class="helper-text" id="record-helper">Genera un video .mp4 de la animación (máx. 30s).</p>
+        </div>
+      </section>
+
       <!-- Section: Resumen Estadístico -->
       <section class="control-group stats-panel">
         <h3>Estadísticas Visibles</h3>
@@ -131,7 +145,7 @@
             <span class="stat-unit">conexiones</span>
           </div>
         </div>
-        
+
         <!-- Filter Status (e.g., District selected) -->
         <div class="filter-status hidden" id="filter-status-container">
           <div class="filter-status-content">
@@ -143,7 +157,7 @@
 
         <!-- Top Routes -->
         <div class="top-routes">
-          <h4>Top 3 Rutas más Transitadas</h4>
+          <h4>Top 5 Rutas más Transitadas</h4>
           <ul id="top-routes-list">
             <li>Cargando rutas...</li>
           </ul>
@@ -167,4 +181,5 @@
 
   <!-- Main JavaScript Bundle -->
 </body>
+
 </html>
