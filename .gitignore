@@ -1,0 +1,24 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Vite build output
+dist/
+
+# Python Virtual Environments & cache
+venv/
+.venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+
+# Raw Data (Excludes the heavy source shapefiles and raw CSV matrices from Git)
+2023-matrices_entregado MML/
+
+# Local configuration & scratch files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

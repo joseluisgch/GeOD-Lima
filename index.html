@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movilidad Lima Metropolitana - Flujos Origen-Destino</title>
+  <!-- Google Fonts Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- MapLibre GL CSS -->
+  <link href="https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <script type="module" crossorigin src="/GeOD-Lima/assets/index-Cjl3WjIz.js"></script>
+  <link rel="stylesheet" crossorigin href="/GeOD-Lima/assets/index-DJNNCCgc.css">
+</head>
+<body>
+  <!-- Map Container -->
+  <div id="map"></div>
+
+  <!-- Sidebar Control Panel -->
+  <aside class="sidebar">
+    <header class="sidebar-header">
+      <div class="logo-container">
+        <span class="logo-dot"></span>
+        <span class="logo-pulse"></span>
+        <h1>Lima O-D Flujos</h1>
+      </div>
+      <p class="subtitle">Visualización interactiva de movilidad urbana 2023</p>
+    </header>
+
+    <div class="sidebar-scroll">
+      <!-- Section: Modo de Transporte -->
+      <section class="control-group">
+        <h3>Modo de Transporte</h3>
+        <div class="toggle-buttons" id="mode-selector">
+          <button class="btn active" data-mode="publico">
+            <span class="btn-icon">🚌</span>
+            <span class="btn-text">Público</span>
+          </button>
+          <button class="btn" data-mode="privado">
+            <span class="btn-icon">🚗</span>
+            <span class="btn-text">Privado</span>
+          </button>
+          <button class="btn" data-mode="camiones">
+            <span class="btn-icon">🚚</span>
+            <span class="btn-text">Carga</span>
+          </button>
+        </div>
+        <p class="helper-text" id="mode-helper">Transporte público (viajes)</p>
+      </section>
+
+      <!-- Section: Nivel Espacial -->
+      <section class="control-group">
+        <h3>Nivel de Agregación</h3>
+        <div class="toggle-buttons" id="level-selector">
+          <button class="btn active" data-level="districts">
+            <span class="btn-icon">🏢</span>
+            <span class="btn-text">Distrital</span>
+          </button>
+          <button class="btn" data-level="zones">
+            <span class="btn-icon">📍</span>
+            <span class="btn-text">Zonal</span>
+          </button>
+        </div>
+        <p class="helper-text">Distrital (51 distritos, 100% flujos), Zonal (1209 zonas, filtrado)</p>
+      </section>
+
+      <!-- Section: Filtros -->
+      <section class="control-group">
+        <div class="slider-header">
+          <h3>Umbral de Flujo Mínimo</h3>
+          <span class="slider-value" id="threshold-val">0.0</span>
+        </div>
+        <input type="range" id="threshold-slider" min="0" max="10" step="0.5" value="0">
+        <p class="helper-text" id="threshold-helper">Mostrar flujos mayores a este valor.</p>
+      </section>
+
+      <!-- Section: Estilo y Animación -->
+      <section class="control-group">
+        <h3>Ajustes Visuales</h3>
+        
+        <div class="setting-row">
+          <label for="width-slider">Grosor de Líneas</label>
+          <input type="range" id="width-slider" min="0.5" max="5" step="0.1" value="1.5">
+        </div>
+
+        <div class="setting-row">
+          <label for="anim-speed">Animación de Flujo</label>
+          <div class="checkbox-container">
+            <input type="checkbox" id="animate-toggle" checked>
+            <label for="animate-toggle">Activar partículas</label>
+          </div>
+        </div>
+
+        <div class="setting-row">
+          <label for="color-scheme">Paleta de Colores</label>
+          <select id="color-scheme">
+            <option value="Magma">Magma</option>
+            <option value="Teal">Cian & Azul</option>
+            <option value="Viridis">Viridis</option>
+            <option value="Blues">Azules</option>
+            <option value="Reds">Rojos</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- Section: Resumen Estadístico -->
+      <section class="control-group stats-panel">
+        <h3>Estadísticas Visibles</h3>
+        <div class="stats-grid">
+          <div class="stat-box">
+            <span class="stat-label">Total Flujo</span>
+            <span class="stat-value" id="stat-total-flow">0</span>
+            <span class="stat-unit" id="stat-flow-unit">viajes</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-label">Rutas Activas</span>
+            <span class="stat-value" id="stat-active-flows">0</span>
+            <span class="stat-unit">conexiones</span>
+          </div>
+        </div>
+        
+        <!-- Filter Status (e.g., District selected) -->
+        <div class="filter-status hidden" id="filter-status-container">
+          <div class="filter-status-content">
+            <span class="filter-icon">🔍</span>
+            <span class="filter-text" id="filter-status-text">Filtro: LIMA</span>
+          </div>
+          <button class="btn-clear" id="btn-clear-filter">✖</button>
+        </div>
+
+        <!-- Top Routes -->
+        <div class="top-routes">
+          <h4>Top 3 Rutas más Transitadas</h4>
+          <ul id="top-routes-list">
+            <li>Cargando rutas...</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <footer class="sidebar-footer">
+      <p>Desarrollado con flowmap.gl, deck.gl y Python</p>
+    </footer>
+  </aside>
+
+  <!-- Interactive Tooltip -->
+  <div id="tooltip" class="tooltip hidden"></div>
+
+  <!-- Loading Overlay -->
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="spinner"></div>
+    <p>Cargando datos de movilidad...</p>
+  </div>
+
+  <!-- Main JavaScript Bundle -->
+</body>
+</html>

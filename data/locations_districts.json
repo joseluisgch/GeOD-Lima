@@ -1,0 +1,308 @@
+[
+  {
+    "id": "ANCON",
+    "name": "ANCON",
+    "lat": -11.701249429875537,
+    "lon": -77.09804747145354
+  },
+  {
+    "id": "ATE VITARTE",
+    "name": "ATE VITARTE",
+    "lat": -12.032672696018178,
+    "lon": -76.87733852296752
+  },
+  {
+    "id": "BARRANCO",
+    "name": "BARRANCO",
+    "lat": -12.143987196634473,
+    "lon": -77.0208606408651
+  },
+  {
+    "id": "BELLAVISTA",
+    "name": "BELLAVISTA",
+    "lat": -12.05998252076652,
+    "lon": -77.10997892655203
+  },
+  {
+    "id": "BREÑA",
+    "name": "BREÑA",
+    "lat": -12.059157688490483,
+    "lon": -77.05060581730832
+  },
+  {
+    "id": "CALLAO",
+    "name": "CALLAO",
+    "lat": -12.016184419912813,
+    "lon": -77.12179139626691
+  },
+  {
+    "id": "CARABAYLLO",
+    "name": "CARABAYLLO",
+    "lat": -11.796450991061645,
+    "lon": -76.97622618656493
+  },
+  {
+    "id": "CARMEN DE LA LEGUA",
+    "name": "CARMEN DE LA LEGUA",
+    "lat": -12.042845572748387,
+    "lon": -77.09044176838256
+  },
+  {
+    "id": "CHACLACAYO",
+    "name": "CHACLACAYO",
+    "lat": -11.991815161122993,
+    "lon": -76.76677716611434
+  },
+  {
+    "id": "CHORRILLOS",
+    "name": "CHORRILLOS",
+    "lat": -12.192781304640093,
+    "lon": -77.00603833458246
+  },
+  {
+    "id": "CIENEGUILLA",
+    "name": "CIENEGUILLA",
+    "lat": -12.077921489201653,
+    "lon": -76.7781806933098
+  },
+  {
+    "id": "COMAS",
+    "name": "COMAS",
+    "lat": -11.929075525041696,
+    "lon": -77.03895183843821
+  },
+  {
+    "id": "EL AGUSTINO",
+    "name": "EL AGUSTINO",
+    "lat": -12.039992084983602,
+    "lon": -76.9870238128454
+  },
+  {
+    "id": "INDEPENDENCIA",
+    "name": "INDEPENDENCIA",
+    "lat": -11.987561061525666,
+    "lon": -77.04610554708401
+  },
+  {
+    "id": "JESUS MARIA",
+    "name": "JESUS MARIA",
+    "lat": -12.078084578401139,
+    "lon": -77.04821108354199
+  },
+  {
+    "id": "LA MOLINA",
+    "name": "LA MOLINA",
+    "lat": -12.087564261966381,
+    "lon": -76.92493572990975
+  },
+  {
+    "id": "LA PERLA",
+    "name": "LA PERLA",
+    "lat": -12.07030160270572,
+    "lon": -77.11613504710402
+  },
+  {
+    "id": "LA PUNTA",
+    "name": "LA PUNTA",
+    "lat": -12.071535438795808,
+    "lon": -77.16375427628928
+  },
+  {
+    "id": "LA VICTORIA",
+    "name": "LA VICTORIA",
+    "lat": -12.072336955781411,
+    "lon": -77.01731970831577
+  },
+  {
+    "id": "LIMA",
+    "name": "LIMA",
+    "lat": -12.051059855552218,
+    "lon": -77.0489309993394
+  },
+  {
+    "id": "LINCE",
+    "name": "LINCE",
+    "lat": -12.085773740105827,
+    "lon": -77.03562576141057
+  },
+  {
+    "id": "LOS OLIVOS",
+    "name": "LOS OLIVOS",
+    "lat": -11.972485493655787,
+    "lon": -77.07435117896088
+  },
+  {
+    "id": "LURIGANCHO",
+    "name": "LURIGANCHO",
+    "lat": -11.957455615644562,
+    "lon": -76.79610175408365
+  },
+  {
+    "id": "LURIN",
+    "name": "LURIN",
+    "lat": -12.234082291550527,
+    "lon": -76.80042442491646
+  },
+  {
+    "id": "MAGDALENA DEL MAR",
+    "name": "MAGDALENA DEL MAR",
+    "lat": -12.093826998350753,
+    "lon": -77.06667680087277
+  },
+  {
+    "id": "MI PERU",
+    "name": "MI PERU",
+    "lat": -11.854231960130189,
+    "lon": -77.12045500141313
+  },
+  {
+    "id": "MIRAFLORES",
+    "name": "MIRAFLORES",
+    "lat": -12.120876672064353,
+    "lon": -77.02891853050996
+  },
+  {
+    "id": "PACHACAMAC",
+    "name": "PACHACAMAC",
+    "lat": -12.162820097002552,
+    "lon": -76.81114157525732
+  },
+  {
+    "id": "PUCUSANA",
+    "name": "PUCUSANA",
+    "lat": -12.471462818634766,
+    "lon": -76.76163795572681
+  },
+  {
+    "id": "PUEBLO LIBRE",
+    "name": "PUEBLO LIBRE",
+    "lat": -12.075088664185179,
+    "lon": -77.06574100033991
+  },
+  {
+    "id": "PUENTE PIEDRA",
+    "name": "PUENTE PIEDRA",
+    "lat": -11.871710705288928,
+    "lon": -77.08638561985063
+  },
+  {
+    "id": "PUNTA HERMOSA",
+    "name": "PUNTA HERMOSA",
+    "lat": -12.26938198931412,
+    "lon": -76.74321577230586
+  },
+  {
+    "id": "PUNTA NEGRA",
+    "name": "PUNTA NEGRA",
+    "lat": -12.304544211342892,
+    "lon": -76.70917330518884
+  },
+  {
+    "id": "RIMAC",
+    "name": "RIMAC",
+    "lat": -12.023553979502152,
+    "lon": -77.03258945054996
+  },
+  {
+    "id": "SAN BARTOLO",
+    "name": "SAN BARTOLO",
+    "lat": -12.36969043059699,
+    "lon": -76.72413878146985
+  },
+  {
+    "id": "SAN BORJA",
+    "name": "SAN BORJA",
+    "lat": -12.097548132047802,
+    "lon": -76.99520443088504
+  },
+  {
+    "id": "SAN ISIDRO",
+    "name": "SAN ISIDRO",
+    "lat": -12.098957136897562,
+    "lon": -77.03664396956705
+  },
+  {
+    "id": "SAN JUAN DE LURIGANCHO",
+    "name": "SAN JUAN DE LURIGANCHO",
+    "lat": -11.945735906724263,
+    "lon": -76.97121883049216
+  },
+  {
+    "id": "SAN JUAN DE MIRAFLORES",
+    "name": "SAN JUAN DE MIRAFLORES",
+    "lat": -12.16059151342929,
+    "lon": -76.96832155435087
+  },
+  {
+    "id": "SAN LUIS",
+    "name": "SAN LUIS",
+    "lat": -12.074131522121295,
+    "lon": -76.99731762879493
+  },
+  {
+    "id": "SAN MARTIN DE PORRES",
+    "name": "SAN MARTIN DE PORRES",
+    "lat": -11.992939460486301,
+    "lon": -77.08844230737255
+  },
+  {
+    "id": "SAN MIGUEL",
+    "name": "SAN MIGUEL",
+    "lat": -12.076394923940354,
+    "lon": -77.09010746863238
+  },
+  {
+    "id": "SANTA ANITA",
+    "name": "SANTA ANITA",
+    "lat": -12.043230957431508,
+    "lon": -76.9632381147097
+  },
+  {
+    "id": "SANTA MARIA DEL MAR",
+    "name": "SANTA MARIA DEL MAR",
+    "lat": -12.408877710968229,
+    "lon": -76.76695617463291
+  },
+  {
+    "id": "SANTA ROSA",
+    "name": "SANTA ROSA",
+    "lat": -11.805872139506826,
+    "lon": -77.15997610259544
+  },
+  {
+    "id": "SANTIAGO DE SURCO",
+    "name": "SANTIAGO DE SURCO",
+    "lat": -12.127116269758739,
+    "lon": -76.98442952738318
+  },
+  {
+    "id": "SURQUILLO",
+    "name": "SURQUILLO",
+    "lat": -12.113419303509408,
+    "lon": -77.01293096112695
+  },
+  {
+    "id": "VENTANILLA",
+    "name": "VENTANILLA",
+    "lat": -11.879142287218182,
+    "lon": -77.13067604559714
+  },
+  {
+    "id": "VILLA EL SALVADOR",
+    "name": "VILLA EL SALVADOR",
+    "lat": -12.21863059001212,
+    "lon": -76.94557606002432
+  },
+  {
+    "id": "VILLA MARIA DEL TRIUNFO",
+    "name": "VILLA MARIA DEL TRIUNFO",
+    "lat": -12.167889126818212,
+    "lon": -76.91863574987022
+  },
+  {
+    "id": "ZONA EXTERNA",
+    "name": "ZONA EXTERNA",
+    "lat": -12.507250555269266,
+    "lon": -76.6723685991612
+  }
+]
