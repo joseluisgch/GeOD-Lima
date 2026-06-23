@@ -375,7 +375,7 @@ function handleHover(info) {
   const unit = modeConfigs[state.currentMode].unit;
   
   // Case A: Hovering a Location Node
-  if (object.lat !== undefined) {
+  if (object.type === 'location' || object.lat !== undefined || (object.id && !object.origin)) {
     const isDistrict = state.currentLevel === 'districts';
     const locIdStr = String(object.id);
     
@@ -416,7 +416,7 @@ function handleHover(info) {
     `;
   } 
   // Case B: Hovering a Flow Line
-  else if (object.origin !== undefined) {
+  else if (object.type === 'flow' || object.origin !== undefined) {
     const originLabel = typeof object.origin === 'object' && object.origin !== null ? object.origin.name : object.origin;
     const destLabel = typeof object.dest === 'object' && object.dest !== null ? object.dest.name : object.dest;
     
@@ -451,13 +451,13 @@ function handleClick(info) {
   }
   
   // If location clicked, isolate it
-  if (object.lat !== undefined) {
+  if (object.type === 'location' || object.lat !== undefined || (object.id && !object.origin)) {
     console.log("Location clicked:", object.id);
     state.selectedLocation = object.id;
     updateVisualization();
   }
   // If flow clicked, isolate by its origin
-  else if (object.origin !== undefined) {
+  else if (object.type === 'flow' || object.origin !== undefined) {
     const originId = typeof object.origin === 'object' && object.origin !== null ? object.origin.id : object.origin;
     console.log("Flow clicked, isolating origin:", originId);
     state.selectedLocation = originId;
