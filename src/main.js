@@ -192,6 +192,12 @@ function initMap() {
   // Re-enable terrain and custom sources on style load/change
   state.map.on('style.load', () => {
     enableTerrain();
+    updateDeckLayers();
+  });
+
+  // Dynamic zoom listener to update label sizing and semantic visibility
+  state.map.on('zoom', () => {
+    updateDeckLayers();
   });
 
   // Add zoom and rotation controls
@@ -335,7 +341,7 @@ function wrapText(text) {
   return `${line1}\n${line2}`;
 }
 
-// Filter, calculate stats, and update FlowmapLayer
+// Filter, calculate stats, and trigger map layer updates
 function updateVisualization() {
   const level = state.currentLevel;
   const threshold = state.currentThreshold;
@@ -374,9 +380,6 @@ function updateVisualization() {
     loc.activeFlow = nodeFlows.get(loc.id) || 0;
   });
 
-  const activeFlowValues = state.locations.map(l => l.activeFlow);
-  const maxActiveFlow = activeFlowValues.length > 0 ? Math.max(...activeFlowValues) : 1;
-  
   // 3. Compute stats
   const totalFlow = filteredFlows.reduce((sum, f) => sum + f.count, 0);
   const activeRoutes = filteredFlows.length;
@@ -388,8 +391,19 @@ function updateVisualization() {
   // Update Top 5 Routes List
   updateTopRoutesList(filteredFlows);
   
-  // 4. Instantiate FlowmapLayer
-  console.log(`Rendering flowmap with ${activeRoutes} visible flows...`);
+  // 4. Update the Deck.gl overlay layers
+  updateDeckLayers();
+}
+
+// Re-render deck.gl overlay layers (e.g. on filter change, mode switch, or map zoom)
+function updateDeckLayers() {
+  if (!state.map || !state.deckOverlay) return;
+  
+  const level = state.currentLevel;
+  const filteredFlows = state.visibleFlows || [];
+  
+  const activeFlowValues = state.locations.map(l => l.activeFlow || 0);
+  const maxActiveFlow = activeFlowValues.length > 0 ? Math.max(...activeFlowValues) : 1;
   
   const flowmapLayer = new FlowmapLayer({
     id: 'flowmap-layer',
@@ -428,16 +442,35 @@ function updateVisualization() {
   
   const layers = [flowmapLayer];
   
-  if (state.currentLevel === 'districts') {
+  if (level === 'districts') {
+    const mapZoom = state.map.getZoom();
+    
     const textLayer = new TextLayer({
       id: 'text-layer',
       data: state.locations,
       getPosition: l => [l.lon, l.lat],
-      getText: l => wrapText(l.name),
+      getText: l => {
+        const maxVal = maxActiveFlow || 1;
+        const ratio = (l.activeFlow || 0) / maxVal;
+        
+        // Semantic Zoom filtering:
+        // - Under zoom 9.5: Hide all labels
+        // - Under zoom 10.2: Only show major districts with very high flows (top 40%)
+        // - Under zoom 10.8: Show districts with at least moderate flows (top 12%)
+        // - Under zoom 11.4: Show districts with at least some flow (top 3%)
+        // - Zoom 11.4+: Show all labels
+        if (mapZoom < 9.5) return '';
+        if (mapZoom < 10.2 && ratio < 0.40) return '';
+        if (mapZoom < 10.8 && ratio < 0.12) return '';
+        if (mapZoom < 11.4 && ratio < 0.03) return '';
+        
+        return wrapText(l.name);
+      },
       fontFamily: 'Outfit, system-ui, sans-serif',
       fontWeight: 600,
       characterSet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,:-_()&ñÑáÁéÉíÍóÓúÚüÜ/ ',
-      getSize: 12,
+      // Size scales dynamically with map zoom to be smaller when zoomed out
+      getSize: l => Math.max(7.5, Math.min(11.5, 9.5 + (mapZoom - 10.8) * 1.5)),
       getColor: [255, 255, 255, 230],
       outlineWidth: 3,
       outlineColor: [12, 15, 22, 255],
@@ -454,17 +487,18 @@ function updateVisualization() {
         
         // Offset horizontally to the left or right of the circle
         const isLeft = l.lon < -77.0428;
-        const offsetX = isLeft ? -(r + 8) : (r + 8);
+        const offsetX = isLeft ? -(r + 6) : (r + 6);
         return [offsetX, 0];
       },
       updateTriggers: {
+        getText: [mapZoom, maxActiveFlow],
+        getSize: [mapZoom],
         getPixelOffset: [maxActiveFlow]
       }
     });
     layers.push(textLayer);
   }
-
-  // Set layers into overlay
+  
   state.deckOverlay.setProps({
     layers
   });
