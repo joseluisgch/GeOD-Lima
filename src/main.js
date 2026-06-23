@@ -272,6 +272,20 @@ function updateVisualization() {
   // Save currently visible flows in state for stats and tooltips
   state.visibleFlows = filteredFlows;
   
+  // Calculate active flow volume per location node for label offsetting
+  const nodeFlows = new Map();
+  filteredFlows.forEach(f => {
+    nodeFlows.set(f.origin, (nodeFlows.get(f.origin) || 0) + f.count);
+    nodeFlows.set(f.dest, (nodeFlows.get(f.dest) || 0) + f.count);
+  });
+
+  state.locations.forEach(loc => {
+    loc.activeFlow = nodeFlows.get(loc.id) || 0;
+  });
+
+  const activeFlowValues = state.locations.map(l => l.activeFlow);
+  const maxActiveFlow = activeFlowValues.length > 0 ? Math.max(...activeFlowValues) : 1;
+  
   // 3. Compute stats
   const totalFlow = filteredFlows.reduce((sum, f) => sum + f.count, 0);
   const activeRoutes = filteredFlows.length;
@@ -333,11 +347,26 @@ function updateVisualization() {
     outlineWidth: 3,
     outlineColor: [12, 15, 22, 255],
     getTextAnchor: 'middle',
-    getAlignmentBaseline: 'center',
+    getAlignmentBaseline: 'bottom', // Place text above the offset coordinate
+    getPixelOffset: l => {
+      const val = l.activeFlow || 0;
+      const maxVal = maxActiveFlow || 1;
+      const isDistrict = state.currentLevel === 'districts';
+      
+      // Calculate dynamic radius matching flowmap.gl visual scaling
+      // Min radius for districts is 8px, max is 28px. For zones, min is 4px, max is 16px.
+      const minR = isDistrict ? 8 : 4;
+      const maxR = isDistrict ? 28 : 16;
+      const r = val > 0 ? minR + (maxR - minR) * Math.sqrt(val / maxVal) : minR;
+      
+      // Offset vertically Y upward (negative) by radius + 6px padding
+      return [0, -(r + 6)];
+    },
     minZoom: state.currentLevel === 'districts' ? 0 : 12.5,
     updateTriggers: {
       getText: [state.currentLevel],
-      getSize: [state.currentLevel]
+      getSize: [state.currentLevel],
+      getPixelOffset: [state.currentLevel, maxActiveFlow]
     }
   });
 
