@@ -119,6 +119,62 @@ const modeConfigs = {
   }
 };
 
+// Enable MapLibre 3D Terrain (Digital Elevation Model)
+function enableTerrain() {
+  if (!state.map) return;
+  
+  const currentPitch = state.map.getPitch();
+  
+  if (currentPitch > 10) {
+    if (!state.map.getSource('terrain-source')) {
+      state.map.addSource('terrain-source', {
+        type: 'raster-dem',
+        tiles: [
+          'https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'
+        ],
+        encoding: 'terrarium',
+        tileSize: 256,
+        maxzoom: 15
+      });
+    }
+    
+    // Set terrain with 3.0 exaggeration for high relief (alto relieve)
+    state.map.setTerrain({ source: 'terrain-source', exaggeration: 3.0 });
+    
+    // Add hillshade layer in Dark mode to make terrain visible on flat dark style
+    const isSatellite = document.getElementById('btn-satellite-toggle')?.classList.contains('active');
+    if (!isSatellite) {
+      if (!state.map.getLayer('hillshade-layer')) {
+        // Find the background layer to insert hillshade right above it
+        const layers = state.map.getStyle().layers;
+        const firstLayerId = layers && layers.length > 0 ? layers[0].id : null;
+        
+        state.map.addLayer({
+          id: 'hillshade-layer',
+          type: 'hillshade',
+          source: 'terrain-source',
+          paint: {
+            'hillshade-shadow-color': '#000000',
+            'hillshade-highlight-color': '#3a3d45',
+            'hillshade-accent-color': '#111318',
+            'hillshade-exaggeration': 1.2
+          }
+        }, firstLayerId);
+      }
+    } else {
+      if (state.map.getLayer('hillshade-layer')) {
+        state.map.removeLayer('hillshade-layer');
+      }
+    }
+  } else {
+    // Disable terrain and remove hillshade layer in 2D mode
+    state.map.setTerrain(null);
+    if (state.map.getLayer('hillshade-layer')) {
+      state.map.removeLayer('hillshade-layer');
+    }
+  }
+}
+
 // Initialize Map and Deck.gl
 function initMap() {
   console.log("Initializing map...");
@@ -131,6 +187,11 @@ function initMap() {
     pitch: 25,
     bearing: 0,
     preserveDrawingBuffer: true
+  });
+
+  // Re-enable terrain and custom sources on style load/change
+  state.map.on('style.load', () => {
+    enableTerrain();
   });
 
   // Add zoom and rotation controls
@@ -831,12 +892,17 @@ function bindEvents() {
         btn3D.textContent = '🧊';
         btn3D.title = 'Cambiar a perspectiva 3D';
         btn3D.classList.remove('active');
+        state.map.setTerrain(null); // Disable terrain
       } else {
         // Change to 3D isometric view
         state.map.easeTo({ pitch: 55, bearing: -15, duration: 800 });
         btn3D.textContent = '🗺️';
         btn3D.title = 'Cambiar a plano 2D';
         btn3D.classList.add('active');
+        // Enable terrain
+        setTimeout(() => {
+          enableTerrain();
+        }, 100); // Small timeout to ensure camera starts tilting
       }
     });
   }
