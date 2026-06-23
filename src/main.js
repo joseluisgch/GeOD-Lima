@@ -1,5 +1,6 @@
 import { MapboxOverlay } from '@deck.gl/mapbox';
 import { FlowmapLayer } from '@flowmap.gl/layers';
+import { TextLayer } from 'deck.gl';
 import maplibregl from 'maplibre-gl';
 
 // Map Base Styles (CartoDB Dark Matter & Esri World Imagery Satellite)
@@ -320,9 +321,29 @@ function updateVisualization() {
     fadeOpacity: 0.15,
   });
   
-  // Set layer into overlay
+  const textLayer = new TextLayer({
+    id: 'text-layer',
+    data: state.locations,
+    getPosition: l => [l.lon, l.lat],
+    getText: l => state.currentLevel === 'districts' ? l.name : String(l.id),
+    fontFamily: 'Outfit, system-ui, sans-serif',
+    fontWeight: 600,
+    getSize: state.currentLevel === 'districts' ? 12 : 9,
+    getColor: [255, 255, 255, 230],
+    outlineWidth: 3,
+    outlineColor: [12, 15, 22, 255],
+    getTextAnchor: 'middle',
+    getAlignmentBaseline: 'center',
+    minZoom: state.currentLevel === 'districts' ? 0 : 12.5,
+    updateTriggers: {
+      getText: [state.currentLevel],
+      getSize: [state.currentLevel]
+    }
+  });
+
+  // Set layers into overlay
   state.deckOverlay.setProps({
-    layers: [flowmapLayer]
+    layers: [flowmapLayer, textLayer]
   });
 }
 
