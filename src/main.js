@@ -42,6 +42,7 @@ const state = {
   // Data caches
   locations: [],
   flows: [],
+  visibleFlows: [],            // stores currently filtered/visible flows for stats and tooltips
   zoneToDistrictMap: new Map(),
   zoneToNameMap: new Map(),
   
@@ -75,7 +76,12 @@ const el = {
   
   // Overlay/Tooltip
   loadingOverlay: document.getElementById('loading-overlay'),
-  tooltip: document.getElementById('tooltip')
+  tooltip: document.getElementById('tooltip'),
+  
+  // Recording
+  btnRecord: document.getElementById('btn-record'),
+  recordText: document.getElementById('record-text'),
+  recordHelper: document.getElementById('record-helper')
 };
 
 // Mode Configs: Display names, units, and slider ranges
@@ -122,7 +128,8 @@ function initMap() {
     center: [-77.0428, -12.0464], // Centered on Lima, Peru
     zoom: 10.8,
     pitch: 25,
-    bearing: 0
+    bearing: 0,
+    preserveDrawingBuffer: true
   });
 
   // Add zoom and rotation controls
@@ -136,6 +143,9 @@ function initMap() {
   // Initialize DeckGL Overlay
   state.deckOverlay = new MapboxOverlay({
     interleaved: false, // Render in separate canvas overlay for compatibility
+    glOptions: {
+      preserveDrawingBuffer: true
+    },
     layers: [],
     onClick: (info) => {
       if (!info.object) {
@@ -258,6 +268,9 @@ function updateVisualization() {
     el.filterStatusContainer.classList.add('hidden');
   }
   
+  // Save currently visible flows in state for stats and tooltips
+  state.visibleFlows = filteredFlows;
+  
   // 3. Compute stats
   const totalFlow = filteredFlows.reduce((sum, f) => sum + f.count, 0);
   const activeRoutes = filteredFlows.length;
@@ -266,7 +279,7 @@ function updateVisualization() {
   el.statTotalFlow.textContent = Math.round(totalFlow).toLocaleString('es-PE');
   el.statActiveFlows.textContent = activeRoutes.toLocaleString('es-PE');
   
-  // Update Top 3 Routes List
+  // Update Top 5 Routes List
   updateTopRoutesList(filteredFlows);
   
   // 4. Instantiate FlowmapLayer
@@ -313,20 +326,20 @@ function updateVisualization() {
   });
 }
 
-// Generate the list items for top 3 routes
+// Generate the list items for top 5 routes
 function updateTopRoutesList(flows) {
   // Clear list
   el.topRoutesList.innerHTML = '';
   
-  // Get top 3 sorted by magnitude (since they are pre-sorted descending, just slice first 3)
-  const top3 = flows.slice(0, 3);
+  // Get top 5 sorted by magnitude (since they are pre-sorted descending, just slice first 5)
+  const top5 = flows.slice(0, 5);
   
-  if (top3.length === 0) {
+  if (top5.length === 0) {
     el.topRoutesList.innerHTML = '<li>Sin rutas visibles</li>';
     return;
   }
   
-  top3.forEach(flow => {
+  top5.forEach(flow => {
     let originName = flow.origin;
     let destName = flow.dest;
     
@@ -348,12 +361,12 @@ function updateTopRoutesList(flows) {
 
 // Handle Map Interaction: Hover Tooltip
 function handleHover(info) {
-  const { x, y, object } = info;
-  
-  if (!object) {
+  if (!info || !info.object) {
     el.tooltip.classList.add('hidden');
     return;
   }
+  
+  const { x, y, object } = info;
   
   el.tooltip.classList.remove('hidden');
   el.tooltip.style.left = `${x + 15}px`;
@@ -364,6 +377,21 @@ function handleHover(info) {
   // Case A: Hovering a Location Node
   if (object.lat !== undefined) {
     const isDistrict = state.currentLevel === 'districts';
+    const locIdStr = String(object.id);
+    
+    // Calculate incoming and outgoing sum from current visible flows
+    let totalIncoming = 0;
+    let totalOutgoing = 0;
+    if (state.visibleFlows) {
+      for (const f of state.visibleFlows) {
+        if (String(f.dest) === locIdStr) {
+          totalIncoming += f.count;
+        }
+        if (String(f.origin) === locIdStr) {
+          totalOutgoing += f.count;
+        }
+      }
+    }
     
     el.tooltip.innerHTML = `
       <div class="tooltip-title">${isDistrict ? 'Distrito' : 'Zona de Movilidad'}</div>
@@ -376,7 +404,15 @@ function handleHover(info) {
         <span>Distrito:</span>
         <span class="tooltip-value">${object.district}</span>
       </div>` : ''}
-      <div class="helper-text" style="margin-top: 6px;">Haz clic para filtrar flujos entrantes/salientes.</div>
+      <div class="tooltip-row" style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 6px; margin-top: 4px;">
+        <span>Flujo Recibido:</span>
+        <span class="tooltip-value">${Math.round(totalIncoming).toLocaleString('es-PE')} ${unit}</span>
+      </div>
+      <div class="tooltip-row">
+        <span>Flujo Enviado:</span>
+        <span class="tooltip-value">${Math.round(totalOutgoing).toLocaleString('es-PE')} ${unit}</span>
+      </div>
+      <div class="helper-text" style="margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 4px;">Haz clic para filtrar flujos entrantes/salientes.</div>
     `;
   } 
   // Case B: Hovering a Flow Line
@@ -426,6 +462,184 @@ function handleClick(info) {
     console.log("Flow clicked, isolating origin:", originId);
     state.selectedLocation = originId;
     updateVisualization();
+  }
+}
+
+// Screen Recording Variables & Logic
+let mediaRecorder = null;
+let recordedChunks = [];
+let recordingTimer = null;
+let recordingSeconds = 0;
+let animationFrameId = null;
+
+function toggleControlsDisable(disabled) {
+  const elementsToToggle = [
+    el.modeSelector,
+    el.levelSelector,
+    el.thresholdSlider,
+    el.widthSlider,
+    el.animateToggle,
+    el.colorSchemeSelect
+  ];
+  
+  elementsToToggle.forEach(element => {
+    if (!element) return;
+    if (disabled) {
+      element.style.pointerEvents = 'none';
+      element.style.opacity = '0.5';
+    } else {
+      element.style.pointerEvents = 'auto';
+      element.style.opacity = '1';
+    }
+  });
+}
+
+function resetRecordingUI() {
+  if (el.btnRecord) {
+    el.btnRecord.classList.remove('recording');
+    const dot = el.btnRecord.querySelector('.record-dot-icon');
+    if (dot) dot.textContent = '🔴';
+  }
+  if (el.recordText) el.recordText.textContent = 'Grabar Video Corto';
+  if (el.recordHelper) el.recordHelper.textContent = 'Genera un video .mp4 de la animación (máx. 30s).';
+  toggleControlsDisable(false);
+}
+
+function startRecording() {
+  recordedChunks = [];
+  recordingSeconds = 0;
+  
+  // Find all canvases inside map container
+  const canvases = Array.from(document.querySelectorAll('#map canvas'));
+  if (canvases.length === 0) {
+    console.error("No canvases found in map container.");
+    alert("Error: No se encontró el lienzo del mapa para grabar.");
+    return;
+  }
+  
+  let stream;
+  
+  if (canvases.length === 1) {
+    // Standard capture if interleaved is true (one canvas)
+    stream = canvases[0].captureStream(30); // 30 FPS
+  } else {
+    // If interleaved is false, we have two canvases (MapLibre and deck.gl).
+    // We must merge them into a combined canvas in real time.
+    const recordingCanvas = document.createElement('canvas');
+    recordingCanvas.width = canvases[0].width;
+    recordingCanvas.height = canvases[0].height;
+    const ctx = recordingCanvas.getContext('2d');
+    
+    function drawMergedFrame() {
+      ctx.clearRect(0, 0, recordingCanvas.width, recordingCanvas.height);
+      canvases.forEach(canvas => {
+        ctx.drawImage(canvas, 0, 0, recordingCanvas.width, recordingCanvas.height);
+      });
+      animationFrameId = requestAnimationFrame(drawMergedFrame);
+    }
+    drawMergedFrame();
+    
+    stream = recordingCanvas.captureStream(30); // 30 FPS
+  }
+  
+  // Check browser MIME type compatibility for MP4 and WebM
+  const types = [
+    { mime: 'video/mp4; codecs="avc1.42E01E, mp4a.40.2"', ext: 'mp4' },
+    { mime: 'video/mp4; codecs=h264', ext: 'mp4' },
+    { mime: 'video/mp4', ext: 'mp4' },
+    { mime: 'video/webm; codecs=vp9', ext: 'webm' },
+    { mime: 'video/webm; codecs=vp8', ext: 'webm' },
+    { mime: 'video/webm', ext: 'webm' }
+  ];
+  
+  let selectedType = null;
+  for (const type of types) {
+    if (MediaRecorder.isTypeSupported(type.mime)) {
+      selectedType = type;
+      break;
+    }
+  }
+  
+  if (!selectedType) {
+    selectedType = { mime: '', ext: 'webm' };
+  }
+  
+  console.log(`Recording using MIME type: "${selectedType.mime}" (Extension: .${selectedType.ext})`);
+  
+  try {
+    const options = selectedType.mime ? { mimeType: selectedType.mime } : {};
+    mediaRecorder = new MediaRecorder(stream, options);
+  } catch (err) {
+    console.error("Failed to create MediaRecorder with selected MIME type, falling back:", err);
+    mediaRecorder = new MediaRecorder(stream);
+    selectedType = { mime: mediaRecorder.mimeType, ext: mediaRecorder.mimeType.includes('mp4') ? 'mp4' : 'webm' };
+  }
+  
+  mediaRecorder.ondataavailable = (event) => {
+    if (event.data && event.data.size > 0) {
+      recordedChunks.push(event.data);
+    }
+  };
+  
+  mediaRecorder.onstop = () => {
+    if (animationFrameId) {
+      cancelAnimationFrame(animationFrameId);
+      animationFrameId = null;
+    }
+    
+    if (recordingTimer) {
+      clearInterval(recordingTimer);
+      recordingTimer = null;
+    }
+    
+    const blob = new Blob(recordedChunks, { type: selectedType.mime || 'video/webm' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    
+    const dateStr = new Date().toISOString().slice(0, 10);
+    const mode = state.currentMode;
+    const level = state.currentLevel;
+    a.download = `lima-movilidad-${mode}-${level}-${dateStr}.${selectedType.ext}`;
+    
+    document.body.appendChild(a);
+    a.click();
+    
+    setTimeout(() => {
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 100);
+    
+    resetRecordingUI();
+  };
+  
+  mediaRecorder.start();
+  
+  if (el.btnRecord) {
+    el.btnRecord.classList.add('recording');
+    const dot = el.btnRecord.querySelector('.record-dot-icon');
+    if (dot) dot.textContent = '⏹️';
+  }
+  if (el.recordText) el.recordText.textContent = 'Detener Grabación (00:00)';
+  if (el.recordHelper) el.recordHelper.textContent = 'Grabando animación... los controles están temporalmente bloqueados.';
+  
+  toggleControlsDisable(true);
+  
+  recordingTimer = setInterval(() => {
+    recordingSeconds++;
+    const mins = String(Math.floor(recordingSeconds / 60)).padStart(2, '0');
+    const secs = String(recordingSeconds % 60).padStart(2, '0');
+    if (el.recordText) el.recordText.textContent = `Detener Grabación (${mins}:${secs})`;
+    
+    if (recordingSeconds >= 30) {
+      stopRecording();
+    }
+  }, 1000);
+}
+
+function stopRecording() {
+  if (mediaRecorder && mediaRecorder.state !== 'inactive') {
+    mediaRecorder.stop();
   }
 }
 
@@ -559,6 +773,18 @@ function bindEvents() {
         state.map.setStyle(MAP_STYLES.satellite);
         btnSatellite.classList.add('active');
         btnSatellite.title = 'Activar mapa oscuro';
+      }
+    });
+  }
+
+  // Screen recording toggle listener
+  if (el.btnRecord) {
+    el.btnRecord.addEventListener('click', () => {
+      const isRecording = el.btnRecord.classList.contains('recording');
+      if (isRecording) {
+        stopRecording();
+      } else {
+        startRecording();
       }
     });
   }
