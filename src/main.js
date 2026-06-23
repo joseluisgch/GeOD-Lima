@@ -2,6 +2,33 @@ import { MapboxOverlay } from '@deck.gl/mapbox';
 import { FlowmapLayer } from '@flowmap.gl/layers';
 import maplibregl from 'maplibre-gl';
 
+// Map Base Styles (CartoDB Dark Matter & Esri World Imagery Satellite)
+const MAP_STYLES = {
+  dark: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+  satellite: {
+    version: 8,
+    sources: {
+      'satellite-tiles': {
+        type: 'raster',
+        tiles: [
+          'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
+        ],
+        tileSize: 256,
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, ArcGIS Online, and the GIS User Community'
+      }
+    },
+    layers: [
+      {
+        id: 'satellite-layer',
+        type: 'raster',
+        source: 'satellite-tiles',
+        minzoom: 0,
+        maxzoom: 20
+      }
+    ]
+  }
+};
+
 // App State
 const state = {
   currentMode: 'publico',      // 'publico', 'privado', 'camiones'
@@ -91,7 +118,7 @@ function initMap() {
   
   state.map = new maplibregl.Map({
     container: 'map',
-    style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+    style: MAP_STYLES.dark,
     center: [-77.0428, -12.0464], // Centered on Lima, Peru
     zoom: 10.8,
     pitch: 25,
@@ -513,6 +540,25 @@ function bindEvents() {
         btn3D.textContent = '🗺️';
         btn3D.title = 'Cambiar a plano 2D';
         btn3D.classList.add('active');
+      }
+    });
+  }
+
+  // Satellite / Dark map base toggle
+  const btnSatellite = document.getElementById('btn-satellite-toggle');
+  if (btnSatellite) {
+    btnSatellite.addEventListener('click', () => {
+      const isSatellite = btnSatellite.classList.contains('active');
+      if (isSatellite) {
+        // Change to Dark Mode map style
+        state.map.setStyle(MAP_STYLES.dark);
+        btnSatellite.classList.remove('active');
+        btnSatellite.title = 'Activar mapa satelital';
+      } else {
+        // Change to Satellite map style
+        state.map.setStyle(MAP_STYLES.satellite);
+        btnSatellite.classList.add('active');
+        btnSatellite.title = 'Activar mapa oscuro';
       }
     });
   }
