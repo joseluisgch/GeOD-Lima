@@ -244,6 +244,36 @@ async function loadData() {
   }
 }
 
+// Helper to wrap long district names into two lines
+function wrapText(text) {
+  if (!text) return '';
+  if (text.length <= 12) return text;
+  
+  const words = text.split(' ');
+  if (words.length <= 1) return text;
+  
+  let mid = Math.ceil(words.length / 2);
+  
+  if (words[0] === 'SAN' || words[0] === 'SANTA') {
+    const next = words[1];
+    if (next === 'JUAN' || next === 'MARTIN' || next === 'BARTOLO' || next === 'BORJA' || next === 'ISIDRO' || next === 'LUIS' || next === 'MIGUEL') {
+      mid = 2;
+    } else {
+      mid = 1;
+    }
+  } else if (words[0] === 'VILLA') {
+    mid = 2;
+  } else if (words[0] === 'CARMEN') {
+    mid = 2;
+  } else if (words[0] === 'MAGDALENA') {
+    mid = 2;
+  }
+  
+  const line1 = words.slice(0, mid).join(' ');
+  const line2 = words.slice(mid).join(' ');
+  return `${line1}\n${line2}`;
+}
+
 // Filter, calculate stats, and update FlowmapLayer
 function updateVisualization() {
   const level = state.currentLevel;
@@ -335,44 +365,47 @@ function updateVisualization() {
     fadeOpacity: 0.15,
   });
   
-  const textLayer = new TextLayer({
-    id: 'text-layer',
-    data: state.locations,
-    getPosition: l => [l.lon, l.lat],
-    getText: l => state.currentLevel === 'districts' ? l.name : String(l.id),
-    fontFamily: 'Outfit, system-ui, sans-serif',
-    fontWeight: 600,
-    getSize: state.currentLevel === 'districts' ? 12 : 9,
-    getColor: [255, 255, 255, 230],
-    outlineWidth: 3,
-    outlineColor: [12, 15, 22, 255],
-    getTextAnchor: 'middle',
-    getAlignmentBaseline: 'bottom', // Place text above the offset coordinate
-    getPixelOffset: l => {
-      const val = l.activeFlow || 0;
-      const maxVal = maxActiveFlow || 1;
-      const isDistrict = state.currentLevel === 'districts';
-      
-      // Calculate dynamic radius matching flowmap.gl visual scaling
-      // Min radius for districts is 8px, max is 28px. For zones, min is 4px, max is 16px.
-      const minR = isDistrict ? 8 : 4;
-      const maxR = isDistrict ? 28 : 16;
-      const r = val > 0 ? minR + (maxR - minR) * Math.sqrt(val / maxVal) : minR;
-      
-      // Offset vertically Y upward (negative) by radius + 6px padding
-      return [0, -(r + 6)];
-    },
-    minZoom: state.currentLevel === 'districts' ? 0 : 12.5,
-    updateTriggers: {
-      getText: [state.currentLevel],
-      getSize: [state.currentLevel],
-      getPixelOffset: [state.currentLevel, maxActiveFlow]
-    }
-  });
+  const layers = [flowmapLayer];
+  
+  if (state.currentLevel === 'districts') {
+    const textLayer = new TextLayer({
+      id: 'text-layer',
+      data: state.locations,
+      getPosition: l => [l.lon, l.lat],
+      getText: l => wrapText(l.name),
+      fontFamily: 'Outfit, system-ui, sans-serif',
+      fontWeight: 600,
+      characterSet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,:-_()&ñÑáÁéÉíÍóÓúÚüÜ/ ',
+      getSize: 12,
+      getColor: [255, 255, 255, 230],
+      outlineWidth: 3,
+      outlineColor: [12, 15, 22, 255],
+      getTextAnchor: l => l.lon < -77.0428 ? 'end' : 'start', // Align to left/right based on map position
+      getAlignmentBaseline: 'center', // Vertically center beside the node
+      getPixelOffset: l => {
+        const val = l.activeFlow || 0;
+        const maxVal = maxActiveFlow || 1;
+        
+        // Calculate dynamic radius matching flowmap.gl visual scaling for districts (min 8px, max 28px)
+        const minR = 8;
+        const maxR = 28;
+        const r = val > 0 ? minR + (maxR - minR) * Math.sqrt(val / maxVal) : minR;
+        
+        // Offset horizontally to the left or right of the circle
+        const isLeft = l.lon < -77.0428;
+        const offsetX = isLeft ? -(r + 8) : (r + 8);
+        return [offsetX, 0];
+      },
+      updateTriggers: {
+        getPixelOffset: [maxActiveFlow]
+      }
+    });
+    layers.push(textLayer);
+  }
 
   // Set layers into overlay
   state.deckOverlay.setProps({
-    layers: [flowmapLayer, textLayer]
+    layers
   });
 }
 
