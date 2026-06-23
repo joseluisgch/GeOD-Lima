@@ -158,8 +158,9 @@ async function loadData() {
   const mode = state.currentMode;
   const level = state.currentLevel;
   
-  const locationsFile = `/data/locations_${level}.json`;
-  const flowsFile = `/data/flows_${level}_${mode}.json`;
+  const baseUrl = import.meta.env.BASE_URL || '/';
+  const locationsFile = `${baseUrl}data/locations_${level}.json`;
+  const flowsFile = `${baseUrl}data/flows_${level}_${mode}.json`;
   
   try {
     console.log(`Loading locations from: ${locationsFile}`);
