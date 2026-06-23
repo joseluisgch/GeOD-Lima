@@ -1,0 +1,8465 @@
+[
+  {
+    "id": 1,
+    "name": "Zona 1 (CIENEGUILLA)",
+    "lat": -12.045468213665117,
+    "lon": -76.77453386864524,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 656,
+    "name": "Zona 656 (CHACLACAYO)",
+    "lat": -11.983437177218887,
+    "lon": -76.73602457363043,
+    "district": "CHACLACAYO"
+  },
+  {
+    "id": 657,
+    "name": "Zona 657 (LURIGANCHO)",
+    "lat": -11.971047020775922,
+    "lon": -76.71424319791838,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 2,
+    "name": "Zona 2 (CIENEGUILLA)",
+    "lat": -12.082415278610606,
+    "lon": -76.72355166717375,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 6,
+    "name": "Zona 6 (MAGDALENA DEL MAR)",
+    "lat": -12.095163427615365,
+    "lon": -77.06803406637441,
+    "district": "MAGDALENA DEL MAR"
+  },
+  {
+    "id": 5,
+    "name": "Zona 5 (MAGDALENA DEL MAR)",
+    "lat": -12.09873573512642,
+    "lon": -77.06322885677307,
+    "district": "MAGDALENA DEL MAR"
+  },
+  {
+    "id": 4,
+    "name": "Zona 4 (SAN ISIDRO)",
+    "lat": -12.106636565718212,
+    "lon": -77.05751924075,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 7,
+    "name": "Zona 7 (MAGDALENA DEL MAR)",
+    "lat": -12.092818597356231,
+    "lon": -77.07269795480171,
+    "district": "MAGDALENA DEL MAR"
+  },
+  {
+    "id": 9,
+    "name": "Zona 9 (CALLAO)",
+    "lat": -12.055708223511598,
+    "lon": -77.14913188996883,
+    "district": "CALLAO"
+  },
+  {
+    "id": 10,
+    "name": "Zona 10 (CALLAO)",
+    "lat": -12.064598721410105,
+    "lon": -77.15107898377515,
+    "district": "CALLAO"
+  },
+  {
+    "id": 37,
+    "name": "Zona 37 (CALLAO)",
+    "lat": -12.065911361917733,
+    "lon": -77.13879050543724,
+    "district": "CALLAO"
+  },
+  {
+    "id": 20,
+    "name": "Zona 20 (ANCON)",
+    "lat": -11.689866533584544,
+    "lon": -77.0901466370067,
+    "district": "ANCON"
+  },
+  {
+    "id": 950,
+    "name": "Zona 950 (CARABAYLLO)",
+    "lat": -11.81734030941036,
+    "lon": -77.0797014020522,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 46,
+    "name": "Zona 46 (PUENTE PIEDRA)",
+    "lat": -11.82212804706332,
+    "lon": -77.0927489761932,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 947,
+    "name": "Zona 947 (PUENTE PIEDRA)",
+    "lat": -11.815721450842686,
+    "lon": -77.09955949736586,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 225,
+    "name": "Zona 225 (CARABAYLLO)",
+    "lat": -11.808066409457386,
+    "lon": -77.06208189609664,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 52,
+    "name": "Zona 52 (CIENEGUILLA)",
+    "lat": -12.05687162893197,
+    "lon": -76.8549860874983,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 665,
+    "name": "Zona 665 (ATE VITARTE)",
+    "lat": -12.035258266334884,
+    "lon": -76.821300806192,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 890,
+    "name": "Zona 890 (ATE VITARTE)",
+    "lat": -12.026268215998028,
+    "lon": -76.80466239982374,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 936,
+    "name": "Zona 936 (CIENEGUILLA)",
+    "lat": -12.072156943896799,
+    "lon": -76.77044718924714,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 935,
+    "name": "Zona 935 (CIENEGUILLA)",
+    "lat": -12.096548536939684,
+    "lon": -76.79993044827792,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 937,
+    "name": "Zona 937 (CIENEGUILLA)",
+    "lat": -12.094240109488753,
+    "lon": -76.82795505925361,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 35,
+    "name": "Zona 35 (MAGDALENA DEL MAR)",
+    "lat": -12.087114132518794,
+    "lon": -77.06922599450334,
+    "district": "MAGDALENA DEL MAR"
+  },
+  {
+    "id": 32,
+    "name": "Zona 32 (MAGDALENA DEL MAR)",
+    "lat": -12.089552458131482,
+    "lon": -77.06287729339743,
+    "district": "MAGDALENA DEL MAR"
+  },
+  {
+    "id": 534,
+    "name": "Zona 534 (MAGDALENA DEL MAR)",
+    "lat": -12.09149130152285,
+    "lon": -77.05880282816484,
+    "district": "MAGDALENA DEL MAR"
+  },
+  {
+    "id": 1104,
+    "name": "Zona 1104 (CALLAO)",
+    "lat": -12.06053653609438,
+    "lon": -77.1419773105499,
+    "district": "CALLAO"
+  },
+  {
+    "id": 8,
+    "name": "Zona 8 (CALLAO)",
+    "lat": -12.049925057515587,
+    "lon": -77.14332534574655,
+    "district": "CALLAO"
+  },
+  {
+    "id": 38,
+    "name": "Zona 38 (BELLAVISTA)",
+    "lat": -12.06350476071013,
+    "lon": -77.12832578467764,
+    "district": "BELLAVISTA"
+  },
+  {
+    "id": 60,
+    "name": "Zona 60 (LA PERLA)",
+    "lat": -12.066523259506281,
+    "lon": -77.112500390032,
+    "district": "LA PERLA"
+  },
+  {
+    "id": 200,
+    "name": "Zona 200 (LA PERLA)",
+    "lat": -12.070650723324421,
+    "lon": -77.11936999884418,
+    "district": "LA PERLA"
+  },
+  {
+    "id": 199,
+    "name": "Zona 199 (LA PERLA)",
+    "lat": -12.069383859807408,
+    "lon": -77.12611284756547,
+    "district": "LA PERLA"
+  },
+  {
+    "id": 1102,
+    "name": "Zona 1102 (CALLAO)",
+    "lat": -12.054784700497114,
+    "lon": -77.13874548102315,
+    "district": "CALLAO"
+  },
+  {
+    "id": 63,
+    "name": "Zona 63 (CALLAO)",
+    "lat": -12.045781904161508,
+    "lon": -77.13812269267177,
+    "district": "CALLAO"
+  },
+  {
+    "id": 47,
+    "name": "Zona 47 (CARABAYLLO)",
+    "lat": -11.83522364459436,
+    "lon": -77.07976486595707,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 40,
+    "name": "Zona 40 (PUENTE PIEDRA)",
+    "lat": -11.84244013010115,
+    "lon": -77.09109005116412,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 29,
+    "name": "Zona 29 (PUENTE PIEDRA)",
+    "lat": -11.838152160971594,
+    "lon": -77.10350400934459,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 45,
+    "name": "Zona 45 (PUENTE PIEDRA)",
+    "lat": -11.832861731883991,
+    "lon": -77.10055309109333,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 967,
+    "name": "Zona 967 (CARABAYLLO)",
+    "lat": -11.834138778512827,
+    "lon": -77.06206906707972,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 892,
+    "name": "Zona 892 (ATE VITARTE)",
+    "lat": -12.04716260028662,
+    "lon": -76.88835513066992,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 894,
+    "name": "Zona 894 (ATE VITARTE)",
+    "lat": -12.037433543072707,
+    "lon": -76.87299743614375,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 1151,
+    "name": "Zona 1151 (ATE VITARTE)",
+    "lat": -12.022242811551731,
+    "lon": -76.85153037021256,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 33,
+    "name": "Zona 33 (PUEBLO LIBRE)",
+    "lat": -12.084001828538693,
+    "lon": -77.06796956157943,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 34,
+    "name": "Zona 34 (PUEBLO LIBRE)",
+    "lat": -12.081530893669541,
+    "lon": -77.06298779999881,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 537,
+    "name": "Zona 537 (JESUS MARIA)",
+    "lat": -12.086695439986498,
+    "lon": -77.05895054948304,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 211,
+    "name": "Zona 211 (SAN MIGUEL)",
+    "lat": -12.075933816135125,
+    "lon": -77.10398397472115,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 58,
+    "name": "Zona 58 (LA PERLA)",
+    "lat": -12.067388127469048,
+    "lon": -77.10643976510313,
+    "district": "LA PERLA"
+  },
+  {
+    "id": 212,
+    "name": "Zona 212 (LA PERLA)",
+    "lat": -12.073708694771362,
+    "lon": -77.11293506796031,
+    "district": "LA PERLA"
+  },
+  {
+    "id": 1106,
+    "name": "Zona 1106 (BELLAVISTA)",
+    "lat": -12.059419210053683,
+    "lon": -77.10275420638126,
+    "district": "BELLAVISTA"
+  },
+  {
+    "id": 59,
+    "name": "Zona 59 (SAN MIGUEL)",
+    "lat": -12.065709655557937,
+    "lon": -77.10063222954203,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 222,
+    "name": "Zona 222 (SAN MIGUEL)",
+    "lat": -12.071019980594187,
+    "lon": -77.10139531494644,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 61,
+    "name": "Zona 61 (BELLAVISTA)",
+    "lat": -12.060486321123031,
+    "lon": -77.11222013324247,
+    "district": "BELLAVISTA"
+  },
+  {
+    "id": 62,
+    "name": "Zona 62 (BELLAVISTA)",
+    "lat": -12.060526323145485,
+    "lon": -77.12017836065506,
+    "district": "BELLAVISTA"
+  },
+  {
+    "id": 1110,
+    "name": "Zona 1110 (CALLAO)",
+    "lat": -12.056552248802864,
+    "lon": -77.12723230630222,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1111,
+    "name": "Zona 1111 (CALLAO)",
+    "lat": -12.057389734848549,
+    "lon": -77.13489216821148,
+    "district": "CALLAO"
+  },
+  {
+    "id": 231,
+    "name": "Zona 231 (VENTANILLA)",
+    "lat": -11.92123236752376,
+    "lon": -77.10963597474226,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 50,
+    "name": "Zona 50 (VENTANILLA)",
+    "lat": -11.905184807894921,
+    "lon": -77.1038112149417,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 695,
+    "name": "Zona 695 (VENTANILLA)",
+    "lat": -11.914491288711465,
+    "lon": -77.13184726820467,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 971,
+    "name": "Zona 971 (PUENTE PIEDRA)",
+    "lat": -11.908964557967384,
+    "lon": -77.08061788774828,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 69,
+    "name": "Zona 69 (PUENTE PIEDRA)",
+    "lat": -11.920059482123994,
+    "lon": -77.08650094264516,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 230,
+    "name": "Zona 230 (PUENTE PIEDRA)",
+    "lat": -11.935044151683227,
+    "lon": -77.09352312543876,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 975,
+    "name": "Zona 975 (PUENTE PIEDRA)",
+    "lat": -11.899886046041456,
+    "lon": -77.07862426976745,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 954,
+    "name": "Zona 954 (PUENTE PIEDRA)",
+    "lat": -11.852920886459987,
+    "lon": -77.07162456275971,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 966,
+    "name": "Zona 966 (CARABAYLLO)",
+    "lat": -11.85163570807614,
+    "lon": -77.04975321712917,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 77,
+    "name": "Zona 77 (PUENTE PIEDRA)",
+    "lat": -11.851742432964517,
+    "lon": -77.08229808784053,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 964,
+    "name": "Zona 964 (CARABAYLLO)",
+    "lat": -11.834640583522914,
+    "lon": -77.04581089780191,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 51,
+    "name": "Zona 51 (CARABAYLLO)",
+    "lat": -11.831756167550727,
+    "lon": -77.0221270564485,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 48,
+    "name": "Zona 48 (PUENTE PIEDRA)",
+    "lat": -11.858211564494805,
+    "lon": -77.08387869632179,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 968,
+    "name": "Zona 968 (CARABAYLLO)",
+    "lat": -11.841699340801313,
+    "lon": -77.07742962319655,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 969,
+    "name": "Zona 969 (CARABAYLLO)",
+    "lat": -11.838696875780025,
+    "lon": -77.06887852603833,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 956,
+    "name": "Zona 956 (CARABAYLLO)",
+    "lat": -11.846638665453396,
+    "lon": -77.0679289815434,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 965,
+    "name": "Zona 965 (CARABAYLLO)",
+    "lat": -11.841273032727415,
+    "lon": -77.05638279549618,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 953,
+    "name": "Zona 953 (PUENTE PIEDRA)",
+    "lat": -11.858481971808562,
+    "lon": -77.06658877020935,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 103,
+    "name": "Zona 103 (ATE VITARTE)",
+    "lat": -12.05022116503805,
+    "lon": -76.90959743900956,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 929,
+    "name": "Zona 929 (LA MOLINA)",
+    "lat": -12.070508550391027,
+    "lon": -76.89345648671703,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 1152,
+    "name": "Zona 1152 (ATE VITARTE)",
+    "lat": -12.03718343007912,
+    "lon": -76.90276210039357,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 898,
+    "name": "Zona 898 (ATE VITARTE)",
+    "lat": -12.024912161520898,
+    "lon": -76.91936307103082,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 899,
+    "name": "Zona 899 (ATE VITARTE)",
+    "lat": -12.026873531924997,
+    "lon": -76.91101770252189,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 900,
+    "name": "Zona 900 (ATE VITARTE)",
+    "lat": -12.024188577224452,
+    "lon": -76.9003434118467,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 1150,
+    "name": "Zona 1150 (ATE VITARTE)",
+    "lat": -12.02686158162705,
+    "lon": -76.88660621122233,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 54,
+    "name": "Zona 54 (PUEBLO LIBRE)",
+    "lat": -12.074842579607648,
+    "lon": -77.06786973173331,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 55,
+    "name": "Zona 55 (PUEBLO LIBRE)",
+    "lat": -12.0757496076891,
+    "lon": -77.05918408902482,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 517,
+    "name": "Zona 517 (JESUS MARIA)",
+    "lat": -12.081171993908365,
+    "lon": -77.0509654422662,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 56,
+    "name": "Zona 56 (PUEBLO LIBRE)",
+    "lat": -12.080357280696973,
+    "lon": -77.06826967725426,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 57,
+    "name": "Zona 57 (PUEBLO LIBRE)",
+    "lat": -12.078916489980346,
+    "lon": -77.07259153332043,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 915,
+    "name": "Zona 915 (SAN MIGUEL)",
+    "lat": -12.083654668455821,
+    "lon": -77.0748554481871,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 36,
+    "name": "Zona 36 (SAN MIGUEL)",
+    "lat": -12.08874148393358,
+    "lon": -77.077232617174,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 90,
+    "name": "Zona 90 (BELLAVISTA)",
+    "lat": -12.056361824208409,
+    "lon": -77.09342871428575,
+    "district": "BELLAVISTA"
+  },
+  {
+    "id": 92,
+    "name": "Zona 92 (SAN MIGUEL)",
+    "lat": -12.067127174328244,
+    "lon": -77.0879233280943,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 277,
+    "name": "Zona 277 (SAN MIGUEL)",
+    "lat": -12.069923616225818,
+    "lon": -77.0802268588407,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 210,
+    "name": "Zona 210 (SAN MIGUEL)",
+    "lat": -12.07620364436923,
+    "lon": -77.08622162868565,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 78,
+    "name": "Zona 78 (PUENTE PIEDRA)",
+    "lat": -11.90936110816741,
+    "lon": -77.06989661340124,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 96,
+    "name": "Zona 96 (COMAS)",
+    "lat": -11.924897053779807,
+    "lon": -77.07179835398769,
+    "district": "COMAS"
+  },
+  {
+    "id": 97,
+    "name": "Zona 97 (LOS OLIVOS)",
+    "lat": -11.926855386556925,
+    "lon": -77.07570458822968,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 72,
+    "name": "Zona 72 (PUENTE PIEDRA)",
+    "lat": -11.888551652005566,
+    "lon": -77.07187222390839,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 973,
+    "name": "Zona 973 (PUENTE PIEDRA)",
+    "lat": -11.889075720228819,
+    "lon": -77.08396004664554,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 976,
+    "name": "Zona 976 (PUENTE PIEDRA)",
+    "lat": -11.87942220345897,
+    "lon": -77.06057848139008,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 979,
+    "name": "Zona 979 (PUENTE PIEDRA)",
+    "lat": -11.89564198129605,
+    "lon": -77.06386349047152,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 977,
+    "name": "Zona 977 (PUENTE PIEDRA)",
+    "lat": -11.86710814527918,
+    "lon": -77.05932112350563,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 980,
+    "name": "Zona 980 (CARABAYLLO)",
+    "lat": -11.862975140312457,
+    "lon": -77.04565509638451,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 71,
+    "name": "Zona 71 (PUENTE PIEDRA)",
+    "lat": -11.878697805158408,
+    "lon": -77.07393578702823,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 955,
+    "name": "Zona 955 (PUENTE PIEDRA)",
+    "lat": -11.868675762769978,
+    "lon": -77.06874477909096,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 73,
+    "name": "Zona 73 (PUENTE PIEDRA)",
+    "lat": -11.862844714801323,
+    "lon": -77.06286233191443,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 970,
+    "name": "Zona 970 (PUENTE PIEDRA)",
+    "lat": -11.865200816893955,
+    "lon": -77.07597753496975,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 76,
+    "name": "Zona 76 (PUENTE PIEDRA)",
+    "lat": -11.867969318972488,
+    "lon": -77.07887679463772,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 109,
+    "name": "Zona 109 (ATE VITARTE)",
+    "lat": -12.053595945548603,
+    "lon": -76.92545047863771,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 104,
+    "name": "Zona 104 (ATE VITARTE)",
+    "lat": -12.038055807106295,
+    "lon": -76.92130965016705,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 904,
+    "name": "Zona 904 (ATE VITARTE)",
+    "lat": -12.035162755306661,
+    "lon": -76.9265621113417,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 901,
+    "name": "Zona 901 (ATE VITARTE)",
+    "lat": -12.03218176976952,
+    "lon": -76.92409449623891,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 896,
+    "name": "Zona 896 (ATE VITARTE)",
+    "lat": -12.032420356864055,
+    "lon": -76.91908384438281,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 53,
+    "name": "Zona 53 (PUEBLO LIBRE)",
+    "lat": -12.069932802793929,
+    "lon": -77.0663806712131,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 85,
+    "name": "Zona 85 (PUEBLO LIBRE)",
+    "lat": -12.06963291487531,
+    "lon": -77.05786897934509,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 91,
+    "name": "Zona 91 (PUEBLO LIBRE)",
+    "lat": -12.070951924774029,
+    "lon": -77.0532167868625,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 120,
+    "name": "Zona 120 (LIMA)",
+    "lat": -12.057283848841507,
+    "lon": -77.08453779961701,
+    "district": "LIMA"
+  },
+  {
+    "id": 1112,
+    "name": "Zona 1112 (SAN MIGUEL)",
+    "lat": -12.062950894475168,
+    "lon": -77.08262451050669,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 117,
+    "name": "Zona 117 (LIMA)",
+    "lat": -12.063793478719676,
+    "lon": -77.07612668591996,
+    "district": "LIMA"
+  },
+  {
+    "id": 89,
+    "name": "Zona 89 (BELLAVISTA)",
+    "lat": -12.059652149515824,
+    "lon": -77.09060222119128,
+    "district": "BELLAVISTA"
+  },
+  {
+    "id": 301,
+    "name": "Zona 301 (SAN MARTIN DE PORRES)",
+    "lat": -11.964374498805645,
+    "lon": -77.08946260284355,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 126,
+    "name": "Zona 126 (LOS OLIVOS)",
+    "lat": -11.959472893361283,
+    "lon": -77.08094851812795,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 125,
+    "name": "Zona 125 (LOS OLIVOS)",
+    "lat": -11.961839921298163,
+    "lon": -77.07287257673497,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 302,
+    "name": "Zona 302 (LOS OLIVOS)",
+    "lat": -11.96662653554294,
+    "lon": -77.07922574616114,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 93,
+    "name": "Zona 93 (LOS OLIVOS)",
+    "lat": -11.973436235045725,
+    "lon": -77.08134998843043,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 127,
+    "name": "Zona 127 (LOS OLIVOS)",
+    "lat": -11.956257802242774,
+    "lon": -77.07243925938283,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 1028,
+    "name": "Zona 1028 (LOS OLIVOS)",
+    "lat": -11.953089274723414,
+    "lon": -77.08003285324,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 232,
+    "name": "Zona 232 (SAN MARTIN DE PORRES)",
+    "lat": -11.954418397451441,
+    "lon": -77.0976783045292,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 129,
+    "name": "Zona 129 (LOS OLIVOS)",
+    "lat": -11.949971608493582,
+    "lon": -77.07354422041709,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 233,
+    "name": "Zona 233 (LOS OLIVOS)",
+    "lat": -11.943492070620906,
+    "lon": -77.08153339125167,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 839,
+    "name": "Zona 839 (COMAS)",
+    "lat": -11.932345571517258,
+    "lon": -77.07057048112291,
+    "district": "COMAS"
+  },
+  {
+    "id": 1029,
+    "name": "Zona 1029 (LOS OLIVOS)",
+    "lat": -11.934690000818579,
+    "lon": -77.07637716490072,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 1031,
+    "name": "Zona 1031 (LOS OLIVOS)",
+    "lat": -11.94238075362276,
+    "lon": -77.07447492423059,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 831,
+    "name": "Zona 831 (COMAS)",
+    "lat": -11.91854160128232,
+    "lon": -77.06673232941242,
+    "district": "COMAS"
+  },
+  {
+    "id": 718,
+    "name": "Zona 718 (COMAS)",
+    "lat": -11.920218392819839,
+    "lon": -77.0597870226913,
+    "district": "COMAS"
+  },
+  {
+    "id": 1032,
+    "name": "Zona 1032 (COMAS)",
+    "lat": -11.931040556262436,
+    "lon": -77.06699630286109,
+    "district": "COMAS"
+  },
+  {
+    "id": 830,
+    "name": "Zona 830 (COMAS)",
+    "lat": -11.926735242374553,
+    "lon": -77.06401154833598,
+    "district": "COMAS"
+  },
+  {
+    "id": 107,
+    "name": "Zona 107 (ATE VITARTE)",
+    "lat": -12.059035751618456,
+    "lon": -76.93355572324221,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 106,
+    "name": "Zona 106 (ATE VITARTE)",
+    "lat": -12.048728651160532,
+    "lon": -76.93509097678866,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 105,
+    "name": "Zona 105 (ATE VITARTE)",
+    "lat": -12.045940321122297,
+    "lon": -76.93652908035628,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 538,
+    "name": "Zona 538 (JESUS MARIA)",
+    "lat": -12.074785325928021,
+    "lon": -77.04982751992259,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 82,
+    "name": "Zona 82 (BREÑA)",
+    "lat": -12.061546641090791,
+    "lon": -77.05056584797676,
+    "district": "BREÑA"
+  },
+  {
+    "id": 1130,
+    "name": "Zona 1130 (BREÑA)",
+    "lat": -12.067383505261454,
+    "lon": -77.05013402968501,
+    "district": "BREÑA"
+  },
+  {
+    "id": 1131,
+    "name": "Zona 1131 (JESUS MARIA)",
+    "lat": -12.067421545746562,
+    "lon": -77.04480752859679,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 83,
+    "name": "Zona 83 (BREÑA)",
+    "lat": -12.06206913080487,
+    "lon": -77.05487033428285,
+    "district": "BREÑA"
+  },
+  {
+    "id": 84,
+    "name": "Zona 84 (BREÑA)",
+    "lat": -12.061435472739355,
+    "lon": -77.0578378837956,
+    "district": "BREÑA"
+  },
+  {
+    "id": 209,
+    "name": "Zona 209 (LIMA)",
+    "lat": -12.065385225202975,
+    "lon": -77.06975738334015,
+    "district": "LIMA"
+  },
+  {
+    "id": 87,
+    "name": "Zona 87 (PUEBLO LIBRE)",
+    "lat": -12.069542938712173,
+    "lon": -77.07423141586767,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 86,
+    "name": "Zona 86 (LIMA)",
+    "lat": -12.065160686158269,
+    "lon": -77.06394426073034,
+    "district": "LIMA"
+  },
+  {
+    "id": 914,
+    "name": "Zona 914 (LIMA)",
+    "lat": -12.061132703280258,
+    "lon": -77.07097938242038,
+    "district": "LIMA"
+  },
+  {
+    "id": 116,
+    "name": "Zona 116 (LIMA)",
+    "lat": -12.053958204690598,
+    "lon": -77.07126985389228,
+    "district": "LIMA"
+  },
+  {
+    "id": 119,
+    "name": "Zona 119 (LIMA)",
+    "lat": -12.054651227833222,
+    "lon": -77.07718401380096,
+    "district": "LIMA"
+  },
+  {
+    "id": 135,
+    "name": "Zona 135 (LIMA)",
+    "lat": -12.044091304241748,
+    "lon": -77.07033770522617,
+    "district": "LIMA"
+  },
+  {
+    "id": 246,
+    "name": "Zona 246 (LIMA)",
+    "lat": -12.048081674647666,
+    "lon": -77.0751270173712,
+    "district": "LIMA"
+  },
+  {
+    "id": 286,
+    "name": "Zona 286 (LIMA)",
+    "lat": -12.04267584618842,
+    "lon": -77.0787377043142,
+    "district": "LIMA"
+  },
+  {
+    "id": 288,
+    "name": "Zona 288 (CALLAO)",
+    "lat": -12.049180310899555,
+    "lon": -77.08497602099067,
+    "district": "CALLAO"
+  },
+  {
+    "id": 287,
+    "name": "Zona 287 (CARMEN DE LA LEGUA)",
+    "lat": -12.045768633378346,
+    "lon": -77.08569704668388,
+    "district": "CARMEN DE LA LEGUA"
+  },
+  {
+    "id": 1103,
+    "name": "Zona 1103 (CARMEN DE LA LEGUA)",
+    "lat": -12.042312116780938,
+    "lon": -77.0852691402376,
+    "district": "CARMEN DE LA LEGUA"
+  },
+  {
+    "id": 283,
+    "name": "Zona 283 (CARMEN DE LA LEGUA)",
+    "lat": -12.039180911707149,
+    "lon": -77.08832574169962,
+    "district": "CARMEN DE LA LEGUA"
+  },
+  {
+    "id": 136,
+    "name": "Zona 136 (LIMA)",
+    "lat": -12.036425840464318,
+    "lon": -77.07181274042155,
+    "district": "LIMA"
+  },
+  {
+    "id": 290,
+    "name": "Zona 290 (LIMA)",
+    "lat": -12.037337004716813,
+    "lon": -77.08011946162968,
+    "district": "LIMA"
+  },
+  {
+    "id": 138,
+    "name": "Zona 138 (SAN MARTIN DE PORRES)",
+    "lat": -12.033377813454333,
+    "lon": -77.07172931237871,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 139,
+    "name": "Zona 139 (SAN MARTIN DE PORRES)",
+    "lat": -12.034018183681445,
+    "lon": -77.08348883745808,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 280,
+    "name": "Zona 280 (SAN MARTIN DE PORRES)",
+    "lat": -12.033696770747342,
+    "lon": -77.09146924747984,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 141,
+    "name": "Zona 141 (SAN MARTIN DE PORRES)",
+    "lat": -12.030394928546373,
+    "lon": -77.07025198248469,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 142,
+    "name": "Zona 142 (SAN MARTIN DE PORRES)",
+    "lat": -12.02932765635809,
+    "lon": -77.08296201700166,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 95,
+    "name": "Zona 95 (LOS OLIVOS)",
+    "lat": -11.968088963511164,
+    "lon": -77.07105576907378,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 94,
+    "name": "Zona 94 (LOS OLIVOS)",
+    "lat": -11.97544217205425,
+    "lon": -77.07436026226075,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 146,
+    "name": "Zona 146 (LOS OLIVOS)",
+    "lat": -11.981112981380264,
+    "lon": -77.07506083684233,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 1027,
+    "name": "Zona 1027 (COMAS)",
+    "lat": -11.947181879548479,
+    "lon": -77.06878065864308,
+    "district": "COMAS"
+  },
+  {
+    "id": 130,
+    "name": "Zona 130 (COMAS)",
+    "lat": -11.950570281903213,
+    "lon": -77.06748190481281,
+    "district": "COMAS"
+  },
+  {
+    "id": 128,
+    "name": "Zona 128 (LOS OLIVOS)",
+    "lat": -11.954570638168097,
+    "lon": -77.06722620644346,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 195,
+    "name": "Zona 195 (COMAS)",
+    "lat": -11.943413773459614,
+    "lon": -77.06901184024635,
+    "district": "COMAS"
+  },
+  {
+    "id": 1030,
+    "name": "Zona 1030 (COMAS)",
+    "lat": -11.93958401678119,
+    "lon": -77.06948238396662,
+    "district": "COMAS"
+  },
+  {
+    "id": 716,
+    "name": "Zona 716 (COMAS)",
+    "lat": -11.935839349002897,
+    "lon": -77.07006438233958,
+    "district": "COMAS"
+  },
+  {
+    "id": 1140,
+    "name": "Zona 1140 (EL AGUSTINO)",
+    "lat": -12.037662379118897,
+    "lon": -76.99336277864776,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 147,
+    "name": "Zona 147 (EL AGUSTINO)",
+    "lat": -12.044174629452549,
+    "lon": -76.99147702103357,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 148,
+    "name": "Zona 148 (EL AGUSTINO)",
+    "lat": -12.052012249208953,
+    "lon": -76.99824688216351,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 149,
+    "name": "Zona 149 (EL AGUSTINO)",
+    "lat": -12.044067210577177,
+    "lon": -77.00096700377321,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 775,
+    "name": "Zona 775 (EL AGUSTINO)",
+    "lat": -12.038921805391828,
+    "lon": -77.00166083394436,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 131,
+    "name": "Zona 131 (ATE VITARTE)",
+    "lat": -12.057235765625524,
+    "lon": -76.9402149616722,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 730,
+    "name": "Zona 730 (ATE VITARTE)",
+    "lat": -12.052101830478005,
+    "lon": -76.94679467502763,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 729,
+    "name": "Zona 729 (ATE VITARTE)",
+    "lat": -12.04802861357903,
+    "lon": -76.94084220951576,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 854,
+    "name": "Zona 854 (SANTA ANITA)",
+    "lat": -12.04778337163009,
+    "lon": -76.95278310224403,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 855,
+    "name": "Zona 855 (SANTA ANITA)",
+    "lat": -12.044111198609679,
+    "lon": -76.94798032191623,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 720,
+    "name": "Zona 720 (SANTA ANITA)",
+    "lat": -12.039405753643697,
+    "lon": -76.94361513193131,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 724,
+    "name": "Zona 724 (ATE VITARTE)",
+    "lat": -12.037264132525106,
+    "lon": -76.93643270390392,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 114,
+    "name": "Zona 114 (BREÑA)",
+    "lat": -12.057061562435482,
+    "lon": -77.04464821557832,
+    "district": "BREÑA"
+  },
+  {
+    "id": 134,
+    "name": "Zona 134 (BREÑA)",
+    "lat": -12.062788311572382,
+    "lon": -77.04622269908563,
+    "district": "BREÑA"
+  },
+  {
+    "id": 164,
+    "name": "Zona 164 (LIMA)",
+    "lat": -12.063324329796876,
+    "lon": -77.04219554196196,
+    "district": "LIMA"
+  },
+  {
+    "id": 208,
+    "name": "Zona 208 (LIMA)",
+    "lat": -12.0596001067009,
+    "lon": -77.06246625873995,
+    "district": "LIMA"
+  },
+  {
+    "id": 796,
+    "name": "Zona 796 (LIMA)",
+    "lat": -12.052328954945414,
+    "lon": -77.05814755952633,
+    "district": "LIMA"
+  },
+  {
+    "id": 795,
+    "name": "Zona 795 (BREÑA)",
+    "lat": -12.052711345534187,
+    "lon": -77.05186756497092,
+    "district": "BREÑA"
+  },
+  {
+    "id": 1100,
+    "name": "Zona 1100 (LIMA)",
+    "lat": -12.04011265542884,
+    "lon": -77.06808162902168,
+    "district": "LIMA"
+  },
+  {
+    "id": 799,
+    "name": "Zona 799 (LIMA)",
+    "lat": -12.043411009275443,
+    "lon": -77.06273124259144,
+    "district": "LIMA"
+  },
+  {
+    "id": 118,
+    "name": "Zona 118 (LIMA)",
+    "lat": -12.052753247221213,
+    "lon": -77.06416099377407,
+    "district": "LIMA"
+  },
+  {
+    "id": 1091,
+    "name": "Zona 1091 (SAN MARTIN DE PORRES)",
+    "lat": -12.02543081250994,
+    "lon": -77.06616351850279,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1088,
+    "name": "Zona 1088 (SAN MARTIN DE PORRES)",
+    "lat": -12.026007705840739,
+    "lon": -77.07285607270849,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 169,
+    "name": "Zona 169 (SAN MARTIN DE PORRES)",
+    "lat": -12.015748255633769,
+    "lon": -77.0723676544263,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 123,
+    "name": "Zona 123 (SAN MARTIN DE PORRES)",
+    "lat": -12.032624357389826,
+    "lon": -77.06167599837256,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 806,
+    "name": "Zona 806 (LIMA)",
+    "lat": -12.037280027861469,
+    "lon": -77.06136486125902,
+    "district": "LIMA"
+  },
+  {
+    "id": 266,
+    "name": "Zona 266 (SAN MARTIN DE PORRES)",
+    "lat": -12.00090245306738,
+    "lon": -77.08712787958302,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 145,
+    "name": "Zona 145 (LOS OLIVOS)",
+    "lat": -11.99630040947773,
+    "lon": -77.07782086415001,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 265,
+    "name": "Zona 265 (SAN MARTIN DE PORRES)",
+    "lat": -11.994445523827162,
+    "lon": -77.08889960810072,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 192,
+    "name": "Zona 192 (LOS OLIVOS)",
+    "lat": -12.002660978330749,
+    "lon": -77.06820275522126,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 173,
+    "name": "Zona 173 (LOS OLIVOS)",
+    "lat": -12.00338150514139,
+    "lon": -77.0786132341454,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 293,
+    "name": "Zona 293 (LOS OLIVOS)",
+    "lat": -12.009233404729965,
+    "lon": -77.0788254044583,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 813,
+    "name": "Zona 813 (SAN MARTIN DE PORRES)",
+    "lat": -12.006589378741896,
+    "lon": -77.0894300606068,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 174,
+    "name": "Zona 174 (LOS OLIVOS)",
+    "lat": -11.995218636522035,
+    "lon": -77.06761081310266,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 253,
+    "name": "Zona 253 (LOS OLIVOS)",
+    "lat": -11.98742980574358,
+    "lon": -77.06844619671517,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 251,
+    "name": "Zona 251 (LOS OLIVOS)",
+    "lat": -11.987898753021005,
+    "lon": -77.07626142020924,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 143,
+    "name": "Zona 143 (SAN MARTIN DE PORRES)",
+    "lat": -11.987085433756835,
+    "lon": -77.085305786239,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 252,
+    "name": "Zona 252 (LOS OLIVOS)",
+    "lat": -11.981139267551034,
+    "lon": -77.06872507199071,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 144,
+    "name": "Zona 144 (LOS OLIVOS)",
+    "lat": -11.98018379501895,
+    "lon": -77.08122120143759,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 1036,
+    "name": "Zona 1036 (LOS OLIVOS)",
+    "lat": -11.974971564142672,
+    "lon": -77.0694157637078,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 176,
+    "name": "Zona 176 (EL AGUSTINO)",
+    "lat": -12.05133019325885,
+    "lon": -77.00759003452383,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 177,
+    "name": "Zona 177 (LIMA)",
+    "lat": -12.045260383183171,
+    "lon": -77.01451986354822,
+    "district": "LIMA"
+  },
+  {
+    "id": 179,
+    "name": "Zona 179 (LIMA)",
+    "lat": -12.040974634175472,
+    "lon": -77.00830313667467,
+    "district": "LIMA"
+  },
+  {
+    "id": 178,
+    "name": "Zona 178 (LIMA)",
+    "lat": -12.045618491890883,
+    "lon": -77.02240009553385,
+    "district": "LIMA"
+  },
+  {
+    "id": 784,
+    "name": "Zona 784 (RIMAC)",
+    "lat": -12.041219708325148,
+    "lon": -77.02220840764997,
+    "district": "RIMAC"
+  },
+  {
+    "id": 774,
+    "name": "Zona 774 (LIMA)",
+    "lat": -12.037774655326531,
+    "lon": -77.00999041612955,
+    "district": "LIMA"
+  },
+  {
+    "id": 865,
+    "name": "Zona 865 (EL AGUSTINO)",
+    "lat": -12.034604976752227,
+    "lon": -77.00505008522404,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 180,
+    "name": "Zona 180 (LIMA)",
+    "lat": -12.059201889657071,
+    "lon": -77.00926642460603,
+    "district": "LIMA"
+  },
+  {
+    "id": 181,
+    "name": "Zona 181 (EL AGUSTINO)",
+    "lat": -12.05734304800712,
+    "lon": -76.9956180082768,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 183,
+    "name": "Zona 183 (ATE VITARTE)",
+    "lat": -12.061213477787092,
+    "lon": -76.99206066453782,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 185,
+    "name": "Zona 185 (SAN LUIS)",
+    "lat": -12.064423707422275,
+    "lon": -76.9967410317222,
+    "district": "SAN LUIS"
+  },
+  {
+    "id": 186,
+    "name": "Zona 186 (EL AGUSTINO)",
+    "lat": -12.058705395687161,
+    "lon": -76.98301810990016,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 187,
+    "name": "Zona 187 (SANTA ANITA)",
+    "lat": -12.051309184651586,
+    "lon": -76.9834892647385,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 616,
+    "name": "Zona 616 (SANTA ANITA)",
+    "lat": -12.042479930321665,
+    "lon": -76.9825226540196,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 613,
+    "name": "Zona 613 (SANTA ANITA)",
+    "lat": -12.043163028933792,
+    "lon": -76.97547514994652,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 188,
+    "name": "Zona 188 (EL AGUSTINO)",
+    "lat": -12.057344852647391,
+    "lon": -76.9773933457838,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 847,
+    "name": "Zona 847 (SANTA ANITA)",
+    "lat": -12.04769796617997,
+    "lon": -76.97053136881576,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 154,
+    "name": "Zona 154 (SANTA ANITA)",
+    "lat": -12.051473675226438,
+    "lon": -76.96395712239338,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 848,
+    "name": "Zona 848 (SANTA ANITA)",
+    "lat": -12.045866947333405,
+    "lon": -76.96638761357322,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 849,
+    "name": "Zona 849 (SANTA ANITA)",
+    "lat": -12.045067131687686,
+    "lon": -76.96157557641999,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 151,
+    "name": "Zona 151 (ATE VITARTE)",
+    "lat": -12.05912486022982,
+    "lon": -76.96350831009345,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 856,
+    "name": "Zona 856 (SANTA ANITA)",
+    "lat": -12.053456855890618,
+    "lon": -76.96784377998425,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 851,
+    "name": "Zona 851 (SANTA ANITA)",
+    "lat": -12.055223148113775,
+    "lon": -76.97219900882413,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 150,
+    "name": "Zona 150 (ATE VITARTE)",
+    "lat": -12.057010976181244,
+    "lon": -76.95683410191236,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 853,
+    "name": "Zona 853 (SANTA ANITA)",
+    "lat": -12.050176852289303,
+    "lon": -76.95853907047976,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 721,
+    "name": "Zona 721 (SANTA ANITA)",
+    "lat": -12.04185157521673,
+    "lon": -76.95415987043873,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 922,
+    "name": "Zona 922 (ATE VITARTE)",
+    "lat": -12.055126064716346,
+    "lon": -76.95169975558976,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 857,
+    "name": "Zona 857 (LA MOLINA)",
+    "lat": -12.06032969748924,
+    "lon": -76.94687033577901,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 113,
+    "name": "Zona 113 (LA MOLINA)",
+    "lat": -12.064651292196451,
+    "lon": -76.94553412678177,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 523,
+    "name": "Zona 523 (JESUS MARIA)",
+    "lat": -12.069318117733744,
+    "lon": -77.0388448818898,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 165,
+    "name": "Zona 165 (LIMA)",
+    "lat": -12.062064654965404,
+    "lon": -77.03764531571198,
+    "district": "LIMA"
+  },
+  {
+    "id": 1132,
+    "name": "Zona 1132 (JESUS MARIA)",
+    "lat": -12.068290737768306,
+    "lon": -77.04145488950941,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 816,
+    "name": "Zona 816 (LIMA)",
+    "lat": -12.05795846441855,
+    "lon": -77.03617546932055,
+    "district": "LIMA"
+  },
+  {
+    "id": 159,
+    "name": "Zona 159 (LA VICTORIA)",
+    "lat": -12.061210678924862,
+    "lon": -77.03056755158033,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 556,
+    "name": "Zona 556 (LA VICTORIA)",
+    "lat": -12.066705906363628,
+    "lon": -77.03073824032268,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 115,
+    "name": "Zona 115 (LIMA)",
+    "lat": -12.05718943818945,
+    "lon": -77.03996191228582,
+    "district": "LIMA"
+  },
+  {
+    "id": 1090,
+    "name": "Zona 1090 (LOS OLIVOS)",
+    "lat": -12.007704068328694,
+    "lon": -77.06840909644986,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 787,
+    "name": "Zona 787 (SAN MARTIN DE PORRES)",
+    "lat": -12.012274645208974,
+    "lon": -77.0631096423948,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 168,
+    "name": "Zona 168 (SAN MARTIN DE PORRES)",
+    "lat": -12.017836201246757,
+    "lon": -77.06539353520783,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 189,
+    "name": "Zona 189 (LIMA)",
+    "lat": -12.057942691904291,
+    "lon": -77.01406695025439,
+    "district": "LIMA"
+  },
+  {
+    "id": 819,
+    "name": "Zona 819 (LIMA)",
+    "lat": -12.054063153270812,
+    "lon": -77.01618295270794,
+    "district": "LIMA"
+  },
+  {
+    "id": 1128,
+    "name": "Zona 1128 (LIMA)",
+    "lat": -12.050714172251814,
+    "lon": -77.02095983561094,
+    "district": "LIMA"
+  },
+  {
+    "id": 820,
+    "name": "Zona 820 (LIMA)",
+    "lat": -12.049913837872998,
+    "lon": -77.01549946317124,
+    "district": "LIMA"
+  },
+  {
+    "id": 158,
+    "name": "Zona 158 (ATE VITARTE)",
+    "lat": -12.064915792859503,
+    "lon": -76.97558907272476,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 629,
+    "name": "Zona 629 (ATE VITARTE)",
+    "lat": -12.067261827542625,
+    "lon": -76.98353282860269,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 184,
+    "name": "Zona 184 (SAN LUIS)",
+    "lat": -12.069223290979808,
+    "lon": -76.99118214421303,
+    "district": "SAN LUIS"
+  },
+  {
+    "id": 155,
+    "name": "Zona 155 (ATE VITARTE)",
+    "lat": -12.061696533740411,
+    "lon": -76.96913674629393,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 846,
+    "name": "Zona 846 (SANTA ANITA)",
+    "lat": -12.049352526037008,
+    "lon": -76.97529758356153,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 160,
+    "name": "Zona 160 (LA VICTORIA)",
+    "lat": -12.060431252854734,
+    "lon": -77.02395812618383,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 162,
+    "name": "Zona 162 (LA VICTORIA)",
+    "lat": -12.064769052249282,
+    "lon": -77.02577749254228,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 553,
+    "name": "Zona 553 (LA VICTORIA)",
+    "lat": -12.06829563219585,
+    "lon": -77.02534726840419,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 163,
+    "name": "Zona 163 (LIMA)",
+    "lat": -12.055294794372553,
+    "lon": -77.02698843282892,
+    "district": "LIMA"
+  },
+  {
+    "id": 1127,
+    "name": "Zona 1127 (LIMA)",
+    "lat": -12.049084934362444,
+    "lon": -77.03101660721244,
+    "district": "LIMA"
+  },
+  {
+    "id": 1126,
+    "name": "Zona 1126 (LIMA)",
+    "lat": -12.049716922913296,
+    "lon": -77.0248753843562,
+    "district": "LIMA"
+  },
+  {
+    "id": 1125,
+    "name": "Zona 1125 (LIMA)",
+    "lat": -12.047595597059935,
+    "lon": -77.03610675304209,
+    "district": "LIMA"
+  },
+  {
+    "id": 782,
+    "name": "Zona 782 (LIMA)",
+    "lat": -12.045909544857814,
+    "lon": -77.02875837676736,
+    "district": "LIMA"
+  },
+  {
+    "id": 1129,
+    "name": "Zona 1129 (LIMA)",
+    "lat": -12.05721476218136,
+    "lon": -77.03238778412056,
+    "district": "LIMA"
+  },
+  {
+    "id": 191,
+    "name": "Zona 191 (LA VICTORIA)",
+    "lat": -12.059873746249805,
+    "lon": -77.01895640894323,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 190,
+    "name": "Zona 190 (LA VICTORIA)",
+    "lat": -12.063393365747986,
+    "lon": -77.0151888641153,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 817,
+    "name": "Zona 817 (LIMA)",
+    "lat": -12.055689206212906,
+    "lon": -77.0210877114319,
+    "district": "LIMA"
+  },
+  {
+    "id": 972,
+    "name": "Zona 972 (PUENTE PIEDRA)",
+    "lat": -11.872055816955875,
+    "lon": -77.07312073200796,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 974,
+    "name": "Zona 974 (PUENTE PIEDRA)",
+    "lat": -11.875587025076726,
+    "lon": -77.08681855025614,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 42,
+    "name": "Zona 42 (VENTANILLA)",
+    "lat": -11.880950306646614,
+    "lon": -77.10088648727283,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 74,
+    "name": "Zona 74 (PUENTE PIEDRA)",
+    "lat": -11.864497424085844,
+    "lon": -77.09181274716377,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 11,
+    "name": "Zona 11 (LA PUNTA)",
+    "lat": -12.071535438795808,
+    "lon": -77.16375427628928,
+    "district": "LA PUNTA"
+  },
+  {
+    "id": 201,
+    "name": "Zona 201 (SAN MIGUEL)",
+    "lat": -12.092624104726545,
+    "lon": -77.07895706267816,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 202,
+    "name": "Zona 202 (SAN MIGUEL)",
+    "lat": -12.09072754921118,
+    "lon": -77.0830446640801,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 206,
+    "name": "Zona 206 (SAN MIGUEL)",
+    "lat": -12.08824928331358,
+    "lon": -77.0883064207155,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 121,
+    "name": "Zona 121 (SAN MIGUEL)",
+    "lat": -12.083074500688687,
+    "lon": -77.09960946325997,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 214,
+    "name": "Zona 214 (SAN MIGUEL)",
+    "lat": -12.08557830944644,
+    "lon": -77.09403430575954,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 122,
+    "name": "Zona 122 (SAN MIGUEL)",
+    "lat": -12.079886813833845,
+    "lon": -77.10668727810754,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 213,
+    "name": "Zona 213 (SAN MIGUEL)",
+    "lat": -12.07880147595969,
+    "lon": -77.09766408202957,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 215,
+    "name": "Zona 215 (SAN MIGUEL)",
+    "lat": -12.08104895685699,
+    "lon": -77.09160173414739,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 219,
+    "name": "Zona 219 (SAN MIGUEL)",
+    "lat": -12.072977892647133,
+    "lon": -77.09537633458004,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 218,
+    "name": "Zona 218 (SAN MIGUEL)",
+    "lat": -12.076159807177737,
+    "lon": -77.0904345905526,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 204,
+    "name": "Zona 204 (SAN MIGUEL)",
+    "lat": -12.084797573219207,
+    "lon": -77.08650112557252,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 205,
+    "name": "Zona 205 (SAN MIGUEL)",
+    "lat": -12.08674738559212,
+    "lon": -77.08129595085894,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 203,
+    "name": "Zona 203 (SAN MIGUEL)",
+    "lat": -12.080526066775036,
+    "lon": -77.08478513625336,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 221,
+    "name": "Zona 221 (SAN MIGUEL)",
+    "lat": -12.081806683227859,
+    "lon": -77.07937100228199,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 217,
+    "name": "Zona 217 (PUEBLO LIBRE)",
+    "lat": -12.077261048475386,
+    "lon": -77.07764492552117,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 220,
+    "name": "Zona 220 (SAN MIGUEL)",
+    "lat": -12.07642601533633,
+    "lon": -77.08237889929693,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 216,
+    "name": "Zona 216 (PUEBLO LIBRE)",
+    "lat": -12.073320920496338,
+    "lon": -77.07572470270112,
+    "district": "PUEBLO LIBRE"
+  },
+  {
+    "id": 88,
+    "name": "Zona 88 (SAN MIGUEL)",
+    "lat": -12.067986295531055,
+    "lon": -77.09380328043937,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 207,
+    "name": "Zona 207 (SAN MIGUEL)",
+    "lat": -12.072999759680725,
+    "lon": -77.08982208109954,
+    "district": "SAN MIGUEL"
+  },
+  {
+    "id": 25,
+    "name": "Zona 25 (SANTA ROSA)",
+    "lat": -11.796873587814417,
+    "lon": -77.17323577981568,
+    "district": "SANTA ROSA"
+  },
+  {
+    "id": 23,
+    "name": "Zona 23 (SANTA ROSA)",
+    "lat": -11.820504310486292,
+    "lon": -77.17154979432277,
+    "district": "SANTA ROSA"
+  },
+  {
+    "id": 944,
+    "name": "Zona 944 (VENTANILLA)",
+    "lat": -11.839020001024654,
+    "lon": -77.1631426450259,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 223,
+    "name": "Zona 223 (ANCON)",
+    "lat": -11.78768957315427,
+    "lon": -77.14290708148314,
+    "district": "ANCON"
+  },
+  {
+    "id": 224,
+    "name": "Zona 224 (ANCON)",
+    "lat": -11.778530210644217,
+    "lon": -77.18075422487418,
+    "district": "ANCON"
+  },
+  {
+    "id": 317,
+    "name": "Zona 317 (ANCON)",
+    "lat": -11.758927876221785,
+    "lon": -77.12583966797517,
+    "district": "ANCON"
+  },
+  {
+    "id": 312,
+    "name": "Zona 312 (ANCON)",
+    "lat": -11.760351094736297,
+    "lon": -77.16653780233642,
+    "district": "ANCON"
+  },
+  {
+    "id": 938,
+    "name": "Zona 938 (ANCON)",
+    "lat": -11.735854805830193,
+    "lon": -77.14394159259687,
+    "district": "ANCON"
+  },
+  {
+    "id": 18,
+    "name": "Zona 18 (ANCON)",
+    "lat": -11.80983119084125,
+    "lon": -77.11885197564168,
+    "district": "ANCON"
+  },
+  {
+    "id": 24,
+    "name": "Zona 24 (SANTA ROSA)",
+    "lat": -11.805576819705266,
+    "lon": -77.16043771472488,
+    "district": "SANTA ROSA"
+  },
+  {
+    "id": 28,
+    "name": "Zona 28 (SANTA ROSA)",
+    "lat": -11.81766997051924,
+    "lon": -77.15571455088036,
+    "district": "SANTA ROSA"
+  },
+  {
+    "id": 939,
+    "name": "Zona 939 (VENTANILLA)",
+    "lat": -11.828766197116298,
+    "lon": -77.14912013229379,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 26,
+    "name": "Zona 26 (SANTA ROSA)",
+    "lat": -11.794055399712846,
+    "lon": -77.15338507529628,
+    "district": "SANTA ROSA"
+  },
+  {
+    "id": 226,
+    "name": "Zona 226 (VENTANILLA)",
+    "lat": -11.937767253186678,
+    "lon": -77.13467102744433,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 1068,
+    "name": "Zona 1068 (VENTANILLA)",
+    "lat": -11.931871508145353,
+    "lon": -77.13123002257107,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 229,
+    "name": "Zona 229 (VENTANILLA)",
+    "lat": -11.938575075998195,
+    "lon": -77.11077907366021,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 228,
+    "name": "Zona 228 (SAN MARTIN DE PORRES)",
+    "lat": -11.946006067459015,
+    "lon": -77.12088048007526,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 227,
+    "name": "Zona 227 (CALLAO)",
+    "lat": -11.941377082453458,
+    "lon": -77.13341719736914,
+    "district": "CALLAO"
+  },
+  {
+    "id": 247,
+    "name": "Zona 247 (SAN MARTIN DE PORRES)",
+    "lat": -11.958515119540614,
+    "lon": -77.11079305576347,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 249,
+    "name": "Zona 249 (CALLAO)",
+    "lat": -11.949482538476097,
+    "lon": -77.1292994935538,
+    "district": "CALLAO"
+  },
+  {
+    "id": 297,
+    "name": "Zona 297 (SAN MARTIN DE PORRES)",
+    "lat": -11.966948023048888,
+    "lon": -77.10054119058829,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 66,
+    "name": "Zona 66 (CALLAO)",
+    "lat": -12.036434864954163,
+    "lon": -77.14031742489944,
+    "district": "CALLAO"
+  },
+  {
+    "id": 65,
+    "name": "Zona 65 (CALLAO)",
+    "lat": -12.029242101481211,
+    "lon": -77.13666160025396,
+    "district": "CALLAO"
+  },
+  {
+    "id": 234,
+    "name": "Zona 234 (CALLAO)",
+    "lat": -12.019352296431128,
+    "lon": -77.13565953854824,
+    "district": "CALLAO"
+  },
+  {
+    "id": 235,
+    "name": "Zona 235 (CALLAO)",
+    "lat": -12.007546084584629,
+    "lon": -77.13315168956488,
+    "district": "CALLAO"
+  },
+  {
+    "id": 243,
+    "name": "Zona 243 (CALLAO)",
+    "lat": -11.995629102604838,
+    "lon": -77.13127764765326,
+    "district": "CALLAO"
+  },
+  {
+    "id": 257,
+    "name": "Zona 257 (CALLAO)",
+    "lat": -11.983641716775427,
+    "lon": -77.13014116768404,
+    "district": "CALLAO"
+  },
+  {
+    "id": 295,
+    "name": "Zona 295 (CALLAO)",
+    "lat": -11.973804646305071,
+    "lon": -77.1294826346708,
+    "district": "CALLAO"
+  },
+  {
+    "id": 250,
+    "name": "Zona 250 (CALLAO)",
+    "lat": -11.963005525465055,
+    "lon": -77.13084577299593,
+    "district": "CALLAO"
+  },
+  {
+    "id": 140,
+    "name": "Zona 140 (CALLAO)",
+    "lat": -12.050165696599079,
+    "lon": -77.13697220338666,
+    "district": "CALLAO"
+  },
+  {
+    "id": 67,
+    "name": "Zona 67 (CALLAO)",
+    "lat": -12.048927073473047,
+    "lon": -77.13207279367964,
+    "district": "CALLAO"
+  },
+  {
+    "id": 64,
+    "name": "Zona 64 (CALLAO)",
+    "lat": -12.04169600265551,
+    "lon": -77.13088354224683,
+    "district": "CALLAO"
+  },
+  {
+    "id": 244,
+    "name": "Zona 244 (CALLAO)",
+    "lat": -11.996950473950005,
+    "lon": -77.12018150364555,
+    "district": "CALLAO"
+  },
+  {
+    "id": 242,
+    "name": "Zona 242 (CALLAO)",
+    "lat": -12.019819461739518,
+    "lon": -77.12167084389928,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1095,
+    "name": "Zona 1095 (CALLAO)",
+    "lat": -12.040825758018812,
+    "lon": -77.1241104702696,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1096,
+    "name": "Zona 1096 (CALLAO)",
+    "lat": -12.032865943137296,
+    "lon": -77.12523704072062,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1024,
+    "name": "Zona 1024 (CALLAO)",
+    "lat": -11.987245734575756,
+    "lon": -77.11996399866638,
+    "district": "CALLAO"
+  },
+  {
+    "id": 245,
+    "name": "Zona 245 (SAN MARTIN DE PORRES)",
+    "lat": -11.991854752324144,
+    "lon": -77.11292778062125,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1097,
+    "name": "Zona 1097 (CALLAO)",
+    "lat": -12.000247125576866,
+    "lon": -77.11126853225053,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1098,
+    "name": "Zona 1098 (CALLAO)",
+    "lat": -12.01322005299696,
+    "lon": -77.11316885508506,
+    "district": "CALLAO"
+  },
+  {
+    "id": 261,
+    "name": "Zona 261 (SAN MARTIN DE PORRES)",
+    "lat": -11.99399485223018,
+    "lon": -77.10395746486402,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 262,
+    "name": "Zona 262 (CALLAO)",
+    "lat": -12.004451979199688,
+    "lon": -77.10400362884978,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1094,
+    "name": "Zona 1094 (CALLAO)",
+    "lat": -12.012746652833197,
+    "lon": -77.10764196176666,
+    "district": "CALLAO"
+  },
+  {
+    "id": 263,
+    "name": "Zona 263 (SAN MARTIN DE PORRES)",
+    "lat": -11.998345421574133,
+    "lon": -77.09658648029941,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 258,
+    "name": "Zona 258 (SAN MARTIN DE PORRES)",
+    "lat": -11.986056167549192,
+    "lon": -77.0956473386132,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 264,
+    "name": "Zona 264 (CALLAO)",
+    "lat": -12.009772058729698,
+    "lon": -77.09595361027677,
+    "district": "CALLAO"
+  },
+  {
+    "id": 255,
+    "name": "Zona 255 (SAN MARTIN DE PORRES)",
+    "lat": -11.984065016983985,
+    "lon": -77.10752515975929,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 281,
+    "name": "Zona 281 (CALLAO)",
+    "lat": -12.013145631582283,
+    "lon": -77.10117773981128,
+    "district": "CALLAO"
+  },
+  {
+    "id": 812,
+    "name": "Zona 812 (CALLAO)",
+    "lat": -12.029412685962914,
+    "lon": -77.11682413843555,
+    "district": "CALLAO"
+  },
+  {
+    "id": 811,
+    "name": "Zona 811 (CALLAO)",
+    "lat": -12.036631320083272,
+    "lon": -77.11316970207672,
+    "district": "CALLAO"
+  },
+  {
+    "id": 272,
+    "name": "Zona 272 (CALLAO)",
+    "lat": -12.04340715068862,
+    "lon": -77.11196751763313,
+    "district": "CALLAO"
+  },
+  {
+    "id": 271,
+    "name": "Zona 271 (CALLAO)",
+    "lat": -12.043968601695067,
+    "lon": -77.10341253419061,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1099,
+    "name": "Zona 1099 (CALLAO)",
+    "lat": -12.042412117776438,
+    "lon": -77.11852344759,
+    "district": "CALLAO"
+  },
+  {
+    "id": 241,
+    "name": "Zona 241 (CALLAO)",
+    "lat": -12.037135108509675,
+    "lon": -77.09903547752283,
+    "district": "CALLAO"
+  },
+  {
+    "id": 239,
+    "name": "Zona 239 (CALLAO)",
+    "lat": -12.02170342607207,
+    "lon": -77.1139995145739,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1108,
+    "name": "Zona 1108 (CALLAO)",
+    "lat": -12.051777139076837,
+    "lon": -77.10379275238029,
+    "district": "CALLAO"
+  },
+  {
+    "id": 279,
+    "name": "Zona 279 (CALLAO)",
+    "lat": -12.050690614618096,
+    "lon": -77.0947807553552,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1107,
+    "name": "Zona 1107 (BELLAVISTA)",
+    "lat": -12.055834277476308,
+    "lon": -77.10198695998524,
+    "district": "BELLAVISTA"
+  },
+  {
+    "id": 278,
+    "name": "Zona 278 (CALLAO)",
+    "lat": -12.04797786280018,
+    "lon": -77.10389447486155,
+    "district": "CALLAO"
+  },
+  {
+    "id": 273,
+    "name": "Zona 273 (CALLAO)",
+    "lat": -12.04814285033353,
+    "lon": -77.11407924381956,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1109,
+    "name": "Zona 1109 (CALLAO)",
+    "lat": -12.052965829507064,
+    "lon": -77.11207216103524,
+    "district": "CALLAO"
+  },
+  {
+    "id": 284,
+    "name": "Zona 284 (CALLAO)",
+    "lat": -12.053649682206132,
+    "lon": -77.11950273925673,
+    "district": "CALLAO"
+  },
+  {
+    "id": 285,
+    "name": "Zona 285 (CALLAO)",
+    "lat": -12.047512192528563,
+    "lon": -77.1221615303948,
+    "district": "CALLAO"
+  },
+  {
+    "id": 267,
+    "name": "Zona 267 (CALLAO)",
+    "lat": -12.029685135217147,
+    "lon": -77.09885103931917,
+    "district": "CALLAO"
+  },
+  {
+    "id": 240,
+    "name": "Zona 240 (CALLAO)",
+    "lat": -12.033198757847156,
+    "lon": -77.10341835369758,
+    "district": "CALLAO"
+  },
+  {
+    "id": 238,
+    "name": "Zona 238 (CALLAO)",
+    "lat": -12.024754254900072,
+    "lon": -77.10761328605963,
+    "district": "CALLAO"
+  },
+  {
+    "id": 270,
+    "name": "Zona 270 (SAN MARTIN DE PORRES)",
+    "lat": -12.027261158247093,
+    "lon": -77.09003160482169,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 269,
+    "name": "Zona 269 (CALLAO)",
+    "lat": -12.02497289845762,
+    "lon": -77.09508284445353,
+    "district": "CALLAO"
+  },
+  {
+    "id": 236,
+    "name": "Zona 236 (CALLAO)",
+    "lat": -12.023856233534334,
+    "lon": -77.1014756751599,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1089,
+    "name": "Zona 1089 (CALLAO)",
+    "lat": -12.02050469876912,
+    "lon": -77.09883364921032,
+    "district": "CALLAO"
+  },
+  {
+    "id": 237,
+    "name": "Zona 237 (CALLAO)",
+    "lat": -12.024276097103852,
+    "lon": -77.10403397632557,
+    "district": "CALLAO"
+  },
+  {
+    "id": 913,
+    "name": "Zona 913 (SAN MARTIN DE PORRES)",
+    "lat": -12.025853663735527,
+    "lon": -77.081020908018,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 170,
+    "name": "Zona 170 (SAN MARTIN DE PORRES)",
+    "lat": -12.021369231496307,
+    "lon": -77.08035169727923,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1105,
+    "name": "Zona 1105 (CALLAO)",
+    "lat": -12.048188653826719,
+    "lon": -77.12796160275117,
+    "district": "CALLAO"
+  },
+  {
+    "id": 68,
+    "name": "Zona 68 (CALLAO)",
+    "lat": -12.053000768984187,
+    "lon": -77.13005176185926,
+    "district": "CALLAO"
+  },
+  {
+    "id": 282,
+    "name": "Zona 282 (CARMEN DE LA LEGUA)",
+    "lat": -12.041963542581842,
+    "lon": -77.09593511393676,
+    "district": "CARMEN DE LA LEGUA"
+  },
+  {
+    "id": 289,
+    "name": "Zona 289 (CARMEN DE LA LEGUA)",
+    "lat": -12.045708512798804,
+    "lon": -77.09273817240538,
+    "district": "CARMEN DE LA LEGUA"
+  },
+  {
+    "id": 291,
+    "name": "Zona 291 (LIMA)",
+    "lat": -12.0526095173287,
+    "lon": -77.08161917037906,
+    "district": "LIMA"
+  },
+  {
+    "id": 268,
+    "name": "Zona 268 (SAN MARTIN DE PORRES)",
+    "lat": -12.022434433102509,
+    "lon": -77.08831379631062,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 172,
+    "name": "Zona 172 (CALLAO)",
+    "lat": -12.013962169969322,
+    "lon": -77.09155744889213,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1081,
+    "name": "Zona 1081 (CALLAO)",
+    "lat": -12.01683225304351,
+    "lon": -77.0957184010368,
+    "district": "CALLAO"
+  },
+  {
+    "id": 292,
+    "name": "Zona 292 (SAN MARTIN DE PORRES)",
+    "lat": -12.019103341627916,
+    "lon": -77.08777905752936,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 171,
+    "name": "Zona 171 (SAN MARTIN DE PORRES)",
+    "lat": -12.015640787506424,
+    "lon": -77.08268421160727,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 773,
+    "name": "Zona 773 (CALLAO)",
+    "lat": -12.016668278767137,
+    "lon": -77.08989966930937,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1075,
+    "name": "Zona 1075 (CALLAO)",
+    "lat": -12.019849525508993,
+    "lon": -77.09307799937329,
+    "district": "CALLAO"
+  },
+  {
+    "id": 1076,
+    "name": "Zona 1076 (SAN MARTIN DE PORRES)",
+    "lat": -12.010368241519174,
+    "lon": -77.0843158831679,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 294,
+    "name": "Zona 294 (LOS OLIVOS)",
+    "lat": -12.00901745228092,
+    "lon": -77.07366760721631,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 248,
+    "name": "Zona 248 (CALLAO)",
+    "lat": -11.958512328239129,
+    "lon": -77.12320760326222,
+    "district": "CALLAO"
+  },
+  {
+    "id": 296,
+    "name": "Zona 296 (CALLAO)",
+    "lat": -11.96910090990297,
+    "lon": -77.12149651887606,
+    "district": "CALLAO"
+  },
+  {
+    "id": 256,
+    "name": "Zona 256 (CALLAO)",
+    "lat": -11.978489281696525,
+    "lon": -77.11844738437328,
+    "district": "CALLAO"
+  },
+  {
+    "id": 299,
+    "name": "Zona 299 (SAN MARTIN DE PORRES)",
+    "lat": -11.970696341360002,
+    "lon": -77.11069356722987,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 298,
+    "name": "Zona 298 (SAN MARTIN DE PORRES)",
+    "lat": -11.975128380426975,
+    "lon": -77.09764050219826,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 300,
+    "name": "Zona 300 (SAN MARTIN DE PORRES)",
+    "lat": -11.978970137032904,
+    "lon": -77.08896533710221,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 303,
+    "name": "Zona 303 (SAN MARTIN DE PORRES)",
+    "lat": -11.946150570104216,
+    "lon": -77.08903534290343,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 306,
+    "name": "Zona 306 (VENTANILLA)",
+    "lat": -11.897096252743584,
+    "lon": -77.13646180065847,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 307,
+    "name": "Zona 307 (VENTANILLA)",
+    "lat": -11.886460742663408,
+    "lon": -77.13853624175316,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 305,
+    "name": "Zona 305 (VENTANILLA)",
+    "lat": -11.878549835889057,
+    "lon": -77.1458711769292,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 304,
+    "name": "Zona 304 (VENTANILLA)",
+    "lat": -11.865390480646541,
+    "lon": -77.15307190308403,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 308,
+    "name": "Zona 308 (VENTANILLA)",
+    "lat": -11.872413602780194,
+    "lon": -77.13210784878979,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 43,
+    "name": "Zona 43 (VENTANILLA)",
+    "lat": -11.870039663670505,
+    "lon": -77.11429147755061,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 314,
+    "name": "Zona 314 (VENTANILLA)",
+    "lat": -11.890783223822273,
+    "lon": -77.1125940057563,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 309,
+    "name": "Zona 309 (VENTANILLA)",
+    "lat": -11.881672964554742,
+    "lon": -77.12096347559704,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 942,
+    "name": "Zona 942 (VENTANILLA)",
+    "lat": -11.863004650612291,
+    "lon": -77.14386196504452,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 946,
+    "name": "Zona 946 (VENTANILLA)",
+    "lat": -11.85949313185241,
+    "lon": -77.1349109144415,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 943,
+    "name": "Zona 943 (VENTANILLA)",
+    "lat": -11.854014168596162,
+    "lon": -77.14799734474349,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 311,
+    "name": "Zona 311 (MI PERU)",
+    "lat": -11.854850326728686,
+    "lon": -77.12527477138391,
+    "district": "MI PERU"
+  },
+  {
+    "id": 945,
+    "name": "Zona 945 (VENTANILLA)",
+    "lat": -11.848817204690251,
+    "lon": -77.1645568560614,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 940,
+    "name": "Zona 940 (VENTANILLA)",
+    "lat": -11.84684435534695,
+    "lon": -77.12628427861024,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 14,
+    "name": "Zona 14 (MI PERU)",
+    "lat": -11.853920072710967,
+    "lon": -77.11731193982344,
+    "district": "MI PERU"
+  },
+  {
+    "id": 44,
+    "name": "Zona 44 (VENTANILLA)",
+    "lat": -11.866115177938362,
+    "lon": -77.12548978648624,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 941,
+    "name": "Zona 941 (VENTANILLA)",
+    "lat": -11.839927501716224,
+    "lon": -77.13586348014402,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 17,
+    "name": "Zona 17 (SANTA ROSA)",
+    "lat": -11.812335712334352,
+    "lon": -77.13746757397969,
+    "district": "SANTA ROSA"
+  },
+  {
+    "id": 16,
+    "name": "Zona 16 (VENTANILLA)",
+    "lat": -11.825324556062098,
+    "lon": -77.13072329214839,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 313,
+    "name": "Zona 313 (VENTANILLA)",
+    "lat": -11.897835753390098,
+    "lon": -77.12010986769302,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 1192,
+    "name": "Zona 1192 (VENTANILLA)",
+    "lat": -11.862588114390899,
+    "lon": -77.10408596056119,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 12,
+    "name": "Zona 12 (PUENTE PIEDRA)",
+    "lat": -11.849105893139676,
+    "lon": -77.10545775424269,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 41,
+    "name": "Zona 41 (PUENTE PIEDRA)",
+    "lat": -11.853367701806445,
+    "lon": -77.09970475632367,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 49,
+    "name": "Zona 49 (PUENTE PIEDRA)",
+    "lat": -11.858016822965032,
+    "lon": -77.09452428907863,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 75,
+    "name": "Zona 75 (PUENTE PIEDRA)",
+    "lat": -11.858901888061293,
+    "lon": -77.07583217596367,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 27,
+    "name": "Zona 27 (SANTA ROSA)",
+    "lat": -11.812060528730628,
+    "lon": -77.14759693909237,
+    "district": "SANTA ROSA"
+  },
+  {
+    "id": 310,
+    "name": "Zona 310 (PUENTE PIEDRA)",
+    "lat": -11.822319258659814,
+    "lon": -77.10883844755779,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 949,
+    "name": "Zona 949 (PUENTE PIEDRA)",
+    "lat": -11.824610601561856,
+    "lon": -77.1202121768595,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 948,
+    "name": "Zona 948 (PUENTE PIEDRA)",
+    "lat": -11.831889103282084,
+    "lon": -77.112134117419,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 15,
+    "name": "Zona 15 (VENTANILLA)",
+    "lat": -11.836502242696234,
+    "lon": -77.12351140468404,
+    "district": "VENTANILLA"
+  },
+  {
+    "id": 13,
+    "name": "Zona 13 (PUENTE PIEDRA)",
+    "lat": -11.841246305501919,
+    "lon": -77.11023093606978,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 39,
+    "name": "Zona 39 (MI PERU)",
+    "lat": -11.848375784679813,
+    "lon": -77.11525460122117,
+    "district": "MI PERU"
+  },
+  {
+    "id": 316,
+    "name": "Zona 316 (ANCON)",
+    "lat": -11.747655267590675,
+    "lon": -77.15885244086437,
+    "district": "ANCON"
+  },
+  {
+    "id": 315,
+    "name": "Zona 315 (ANCON)",
+    "lat": -11.763614648770567,
+    "lon": -77.14745323498363,
+    "district": "ANCON"
+  },
+  {
+    "id": 319,
+    "name": "Zona 319 (PACHACAMAC)",
+    "lat": -12.155115770418968,
+    "lon": -76.75041613192958,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 324,
+    "name": "Zona 324 (PUNTA HERMOSA)",
+    "lat": -12.259603210041542,
+    "lon": -76.7275885830295,
+    "district": "PUNTA HERMOSA"
+  },
+  {
+    "id": 323,
+    "name": "Zona 323 (PUNTA NEGRA)",
+    "lat": -12.30254930151685,
+    "lon": -76.7061797158795,
+    "district": "PUNTA NEGRA"
+  },
+  {
+    "id": 1186,
+    "name": "Zona 1186 (PUNTA NEGRA)",
+    "lat": -12.363623849737566,
+    "lon": -76.79782902867109,
+    "district": "PUNTA NEGRA"
+  },
+  {
+    "id": 321,
+    "name": "Zona 321 (SAN BARTOLO)",
+    "lat": -12.368812243953485,
+    "lon": -76.72146717065039,
+    "district": "SAN BARTOLO"
+  },
+  {
+    "id": 1187,
+    "name": "Zona 1187 (SAN BARTOLO)",
+    "lat": -12.387207614519662,
+    "lon": -76.77742938710588,
+    "district": "SAN BARTOLO"
+  },
+  {
+    "id": 322,
+    "name": "Zona 322 (SANTA MARIA DEL MAR)",
+    "lat": -12.408877710968229,
+    "lon": -76.76695617463291,
+    "district": "SANTA MARIA DEL MAR"
+  },
+  {
+    "id": 320,
+    "name": "Zona 320 (PUNTA HERMOSA)",
+    "lat": -12.32823332210732,
+    "lon": -76.82863952837597,
+    "district": "PUNTA HERMOSA"
+  },
+  {
+    "id": 1185,
+    "name": "Zona 1185 (PUNTA HERMOSA)",
+    "lat": -12.33865134403156,
+    "lon": -76.82070853481959,
+    "district": "PUNTA HERMOSA"
+  },
+  {
+    "id": 1176,
+    "name": "Zona 1176 (PUNTA HERMOSA)",
+    "lat": -12.313817660638424,
+    "lon": -76.83678593698988,
+    "district": "PUNTA HERMOSA"
+  },
+  {
+    "id": 3,
+    "name": "Zona 3 (CIENEGUILLA)",
+    "lat": -12.08997600783176,
+    "lon": -76.76833106622172,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 318,
+    "name": "Zona 318 (CIENEGUILLA)",
+    "lat": -12.130428464901689,
+    "lon": -76.789936121675,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 326,
+    "name": "Zona 326 (PACHACAMAC)",
+    "lat": -12.183705273281227,
+    "lon": -76.79968653860884,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 328,
+    "name": "Zona 328 (PACHACAMAC)",
+    "lat": -12.207798697443717,
+    "lon": -76.84969609234646,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 329,
+    "name": "Zona 329 (PACHACAMAC)",
+    "lat": -12.171096594186311,
+    "lon": -76.86311798895483,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 327,
+    "name": "Zona 327 (LURIN)",
+    "lat": -12.207972083923519,
+    "lon": -76.78399723336052,
+    "district": "LURIN"
+  },
+  {
+    "id": 330,
+    "name": "Zona 330 (LURIN)",
+    "lat": -12.218768490436627,
+    "lon": -76.7553399653573,
+    "district": "LURIN"
+  },
+  {
+    "id": 331,
+    "name": "Zona 331 (LURIN)",
+    "lat": -12.227060274431492,
+    "lon": -76.73329764578499,
+    "district": "LURIN"
+  },
+  {
+    "id": 332,
+    "name": "Zona 332 (LURIN)",
+    "lat": -12.27975787370773,
+    "lon": -76.82493937597404,
+    "district": "LURIN"
+  },
+  {
+    "id": 325,
+    "name": "Zona 325 (LURIN)",
+    "lat": -12.299958785414493,
+    "lon": -76.85140750571857,
+    "district": "LURIN"
+  },
+  {
+    "id": 1188,
+    "name": "Zona 1188 (PUNTA HERMOSA)",
+    "lat": -12.313445294346353,
+    "lon": -76.81460462944534,
+    "district": "PUNTA HERMOSA"
+  },
+  {
+    "id": 411,
+    "name": "Zona 411 (LURIN)",
+    "lat": -12.249902941406214,
+    "lon": -76.93128948885368,
+    "district": "LURIN"
+  },
+  {
+    "id": 1166,
+    "name": "Zona 1166 (LURIN)",
+    "lat": -12.263459549281116,
+    "lon": -76.91278039873544,
+    "district": "LURIN"
+  },
+  {
+    "id": 1167,
+    "name": "Zona 1167 (LURIN)",
+    "lat": -12.260267083100207,
+    "lon": -76.90910151829698,
+    "district": "LURIN"
+  },
+  {
+    "id": 336,
+    "name": "Zona 336 (CHORRILLOS)",
+    "lat": -12.186116017105812,
+    "lon": -77.03250808220311,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 666,
+    "name": "Zona 666 (CHORRILLOS)",
+    "lat": -12.202263945014536,
+    "lon": -77.03177436611244,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 1153,
+    "name": "Zona 1153 (CHORRILLOS)",
+    "lat": -12.20508237943451,
+    "lon": -77.02414836162805,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 362,
+    "name": "Zona 362 (LURIN)",
+    "lat": -12.22092892812536,
+    "lon": -76.88458907243069,
+    "district": "LURIN"
+  },
+  {
+    "id": 360,
+    "name": "Zona 360 (LURIN)",
+    "lat": -12.247575764917277,
+    "lon": -76.87412623571203,
+    "district": "LURIN"
+  },
+  {
+    "id": 1174,
+    "name": "Zona 1174 (LURIN)",
+    "lat": -12.236626427951503,
+    "lon": -76.89270388803736,
+    "district": "LURIN"
+  },
+  {
+    "id": 638,
+    "name": "Zona 638 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.21058888059315,
+    "lon": -76.89785357593418,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 1177,
+    "name": "Zona 1177 (VILLA EL SALVADOR)",
+    "lat": -12.237129306984754,
+    "lon": -76.94925951245631,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 410,
+    "name": "Zona 410 (VILLA EL SALVADOR)",
+    "lat": -12.244402145260132,
+    "lon": -76.94333364069941,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1182,
+    "name": "Zona 1182 (VILLA EL SALVADOR)",
+    "lat": -12.24105632462787,
+    "lon": -76.94989689593575,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 340,
+    "name": "Zona 340 (VILLA EL SALVADOR)",
+    "lat": -12.237230462823293,
+    "lon": -76.9574907671082,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 341,
+    "name": "Zona 341 (VILLA EL SALVADOR)",
+    "lat": -12.23113341921349,
+    "lon": -76.96901274970962,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 648,
+    "name": "Zona 648 (VILLA EL SALVADOR)",
+    "lat": -12.244169617798219,
+    "lon": -76.92108038749431,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1171,
+    "name": "Zona 1171 (LURIN)",
+    "lat": -12.24923203067619,
+    "lon": -76.91019648707098,
+    "district": "LURIN"
+  },
+  {
+    "id": 1168,
+    "name": "Zona 1168 (LURIN)",
+    "lat": -12.251317378261707,
+    "lon": -76.9200594069567,
+    "district": "LURIN"
+  },
+  {
+    "id": 1156,
+    "name": "Zona 1156 (CHORRILLOS)",
+    "lat": -12.193223136430015,
+    "lon": -77.02275010044363,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 371,
+    "name": "Zona 371 (CHORRILLOS)",
+    "lat": -12.19089686776415,
+    "lon": -77.01120090258812,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 376,
+    "name": "Zona 376 (CHORRILLOS)",
+    "lat": -12.199021377699669,
+    "lon": -77.01601225478561,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 358,
+    "name": "Zona 358 (CHORRILLOS)",
+    "lat": -12.19632173071023,
+    "lon": -77.00529249824574,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 334,
+    "name": "Zona 334 (CHORRILLOS)",
+    "lat": -12.205036726459088,
+    "lon": -77.01324990455522,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 403,
+    "name": "Zona 403 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.17917121235445,
+    "lon": -76.89222850528907,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 404,
+    "name": "Zona 404 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.153779176030449,
+    "lon": -76.8975740419117,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 338,
+    "name": "Zona 338 (PACHACAMAC)",
+    "lat": -12.141651351948422,
+    "lon": -76.88238501173115,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 359,
+    "name": "Zona 359 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.190958116203936,
+    "lon": -76.90541574622019,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 388,
+    "name": "Zona 388 (VILLA EL SALVADOR)",
+    "lat": -12.239131534903063,
+    "lon": -76.9335656639336,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 379,
+    "name": "Zona 379 (VILLA EL SALVADOR)",
+    "lat": -12.233884471670816,
+    "lon": -76.92856641836397,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 380,
+    "name": "Zona 380 (VILLA EL SALVADOR)",
+    "lat": -12.240104064743173,
+    "lon": -76.92393889503522,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1181,
+    "name": "Zona 1181 (VILLA EL SALVADOR)",
+    "lat": -12.235664671389245,
+    "lon": -76.93988631710245,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 386,
+    "name": "Zona 386 (VILLA EL SALVADOR)",
+    "lat": -12.231152586364566,
+    "lon": -76.94450971728767,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 639,
+    "name": "Zona 639 (VILLA EL SALVADOR)",
+    "lat": -12.22312608915793,
+    "lon": -76.96783795079256,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 367,
+    "name": "Zona 367 (VILLA EL SALVADOR)",
+    "lat": -12.212198051178612,
+    "lon": -76.97206396536363,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 361,
+    "name": "Zona 361 (CHORRILLOS)",
+    "lat": -12.220679762001742,
+    "lon": -76.98335887482136,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 369,
+    "name": "Zona 369 (CHORRILLOS)",
+    "lat": -12.197309606532711,
+    "lon": -76.98029039035961,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 1165,
+    "name": "Zona 1165 (CHORRILLOS)",
+    "lat": -12.209176247194842,
+    "lon": -76.98306134169742,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 366,
+    "name": "Zona 366 (VILLA EL SALVADOR)",
+    "lat": -12.198596231916214,
+    "lon": -76.9698939349178,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1160,
+    "name": "Zona 1160 (VILLA EL SALVADOR)",
+    "lat": -12.198409849831025,
+    "lon": -76.96269283985515,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1162,
+    "name": "Zona 1162 (CHORRILLOS)",
+    "lat": -12.197585356075715,
+    "lon": -76.99137841457639,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 356,
+    "name": "Zona 356 (CHORRILLOS)",
+    "lat": -12.203834796652739,
+    "lon": -77.00238496415105,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 1191,
+    "name": "Zona 1191 (CHORRILLOS)",
+    "lat": -12.207156888207574,
+    "lon": -76.99448699120956,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 335,
+    "name": "Zona 335 (CHORRILLOS)",
+    "lat": -12.214331799295667,
+    "lon": -77.00222021867658,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 1161,
+    "name": "Zona 1161 (CHORRILLOS)",
+    "lat": -12.192087804933356,
+    "lon": -77.00135117147825,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 357,
+    "name": "Zona 357 (CHORRILLOS)",
+    "lat": -12.188687440836995,
+    "lon": -77.00227326007999,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 370,
+    "name": "Zona 370 (CHORRILLOS)",
+    "lat": -12.186560311365408,
+    "lon": -77.01374763800857,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 420,
+    "name": "Zona 420 (CHORRILLOS)",
+    "lat": -12.182182442639382,
+    "lon": -77.01840921081735,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 418,
+    "name": "Zona 418 (CHORRILLOS)",
+    "lat": -12.180497469348673,
+    "lon": -77.00141047885818,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 421,
+    "name": "Zona 421 (CHORRILLOS)",
+    "lat": -12.173711339212069,
+    "lon": -77.02858782427653,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 1158,
+    "name": "Zona 1158 (CHORRILLOS)",
+    "lat": -12.185161328297088,
+    "lon": -76.9934603738604,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 351,
+    "name": "Zona 351 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.183967848776975,
+    "lon": -76.92286462983458,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 352,
+    "name": "Zona 352 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.17521924450906,
+    "lon": -76.92992133750106,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 347,
+    "name": "Zona 347 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.158743121086543,
+    "lon": -76.91754152562594,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 378,
+    "name": "Zona 378 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.193677841022078,
+    "lon": -76.92592881273764,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 387,
+    "name": "Zona 387 (VILLA EL SALVADOR)",
+    "lat": -12.227540005439655,
+    "lon": -76.93424465339872,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 383,
+    "name": "Zona 383 (VILLA EL SALVADOR)",
+    "lat": -12.223220418309634,
+    "lon": -76.92730399622242,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 382,
+    "name": "Zona 382 (VILLA EL SALVADOR)",
+    "lat": -12.230779446799804,
+    "lon": -76.92281403155758,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1164,
+    "name": "Zona 1164 (VILLA EL SALVADOR)",
+    "lat": -12.20915253086907,
+    "lon": -76.96563955537032,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 363,
+    "name": "Zona 363 (VILLA EL SALVADOR)",
+    "lat": -12.195021231776384,
+    "lon": -76.95437729456071,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1163,
+    "name": "Zona 1163 (VILLA EL SALVADOR)",
+    "lat": -12.205089901894892,
+    "lon": -76.95876335121766,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 391,
+    "name": "Zona 391 (VILLA EL SALVADOR)",
+    "lat": -12.217837300688338,
+    "lon": -76.95995122265516,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 365,
+    "name": "Zona 365 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.18503546513072,
+    "lon": -76.9631276119456,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 1159,
+    "name": "Zona 1159 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.186634442937983,
+    "lon": -76.96947399908517,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 368,
+    "name": "Zona 368 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.175074884827216,
+    "lon": -76.9746329442185,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 559,
+    "name": "Zona 559 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.173988198637344,
+    "lon": -76.9664807470387,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 353,
+    "name": "Zona 353 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.19001483151109,
+    "lon": -76.9765051132883,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 1155,
+    "name": "Zona 1155 (CHORRILLOS)",
+    "lat": -12.189739969495081,
+    "lon": -76.99135861896137,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 893,
+    "name": "Zona 893 (CHORRILLOS)",
+    "lat": -12.179771411852643,
+    "lon": -76.9870587585531,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 667,
+    "name": "Zona 667 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.124902812389639,
+    "lon": -76.90249223426007,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 346,
+    "name": "Zona 346 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.12681518952064,
+    "lon": -76.92109851943526,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 350,
+    "name": "Zona 350 (LA MOLINA)",
+    "lat": -12.109487443170984,
+    "lon": -76.93740728430555,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 402,
+    "name": "Zona 402 (LA MOLINA)",
+    "lat": -12.094134383502636,
+    "lon": -76.94982909249914,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 374,
+    "name": "Zona 374 (LA MOLINA)",
+    "lat": -12.091889348371419,
+    "lon": -76.93444666288177,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 375,
+    "name": "Zona 375 (LA MOLINA)",
+    "lat": -12.103983687454885,
+    "lon": -76.91811851301664,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 598,
+    "name": "Zona 598 (LA MOLINA)",
+    "lat": -12.079268061481036,
+    "lon": -76.93428392965224,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 928,
+    "name": "Zona 928 (LA MOLINA)",
+    "lat": -12.08534952142154,
+    "lon": -76.93134531725356,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 372,
+    "name": "Zona 372 (LA MOLINA)",
+    "lat": -12.081804734973439,
+    "lon": -76.92090324034572,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 655,
+    "name": "Zona 655 (LA MOLINA)",
+    "lat": -12.081643810940282,
+    "lon": -76.90979456711331,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 345,
+    "name": "Zona 345 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.130399974556399,
+    "lon": -76.9362309548141,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 343,
+    "name": "Zona 343 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.14554055702246,
+    "lon": -76.9321682406036,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 673,
+    "name": "Zona 673 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.15977144623514,
+    "lon": -76.93463777557491,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 377,
+    "name": "Zona 377 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.171362965439792,
+    "lon": -76.94197241072047,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 405,
+    "name": "Zona 405 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.178950588602838,
+    "lon": -76.93807047588737,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 407,
+    "name": "Zona 407 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.187114813859262,
+    "lon": -76.93406262711213,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 408,
+    "name": "Zona 408 (VILLA EL SALVADOR)",
+    "lat": -12.190209564314252,
+    "lon": -76.94076373252851,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 384,
+    "name": "Zona 384 (VILLA EL SALVADOR)",
+    "lat": -12.217305513605732,
+    "lon": -76.9376093313069,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 389,
+    "name": "Zona 389 (VILLA EL SALVADOR)",
+    "lat": -12.219842044611939,
+    "lon": -76.94198124259572,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 385,
+    "name": "Zona 385 (VILLA EL SALVADOR)",
+    "lat": -12.214372555896908,
+    "lon": -76.93265583709504,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 641,
+    "name": "Zona 641 (VILLA EL SALVADOR)",
+    "lat": -12.208419043956882,
+    "lon": -76.92953876794918,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 646,
+    "name": "Zona 646 (VILLA EL SALVADOR)",
+    "lat": -12.21806075992512,
+    "lon": -76.92405753147493,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 395,
+    "name": "Zona 395 (VILLA EL SALVADOR)",
+    "lat": -12.19548038180369,
+    "lon": -76.94404940291135,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 364,
+    "name": "Zona 364 (VILLA EL SALVADOR)",
+    "lat": -12.20074320623678,
+    "lon": -76.95021047489455,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 394,
+    "name": "Zona 394 (VILLA EL SALVADOR)",
+    "lat": -12.207197680511072,
+    "lon": -76.94371080792,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 393,
+    "name": "Zona 393 (VILLA EL SALVADOR)",
+    "lat": -12.209743941645415,
+    "lon": -76.9480704738189,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 397,
+    "name": "Zona 397 (VILLA EL SALVADOR)",
+    "lat": -12.189225929056697,
+    "lon": -76.9508824401283,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 108,
+    "name": "Zona 108 (LA MOLINA)",
+    "lat": -12.067496696269679,
+    "lon": -76.91154881649497,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 110,
+    "name": "Zona 110 (LA MOLINA)",
+    "lat": -12.073633053604276,
+    "lon": -76.9250434395084,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 132,
+    "name": "Zona 132 (LA MOLINA)",
+    "lat": -12.0652516170158,
+    "lon": -76.93039904554757,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 344,
+    "name": "Zona 344 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.1396336324759,
+    "lon": -76.94275057155646,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 349,
+    "name": "Zona 349 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.124208742631213,
+    "lon": -76.94879200488892,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 447,
+    "name": "Zona 447 (SANTIAGO DE SURCO)",
+    "lat": -12.109151617236982,
+    "lon": -76.95731248510873,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 348,
+    "name": "Zona 348 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.156107597527875,
+    "lon": -76.93965587088411,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 1190,
+    "name": "Zona 1190 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.1558029123125,
+    "lon": -76.9506292610942,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 342,
+    "name": "Zona 342 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.146892599379681,
+    "lon": -76.95421605663235,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 396,
+    "name": "Zona 396 (VILLA EL SALVADOR)",
+    "lat": -12.204295836013001,
+    "lon": -76.93873234355742,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 409,
+    "name": "Zona 409 (VILLA EL SALVADOR)",
+    "lat": -12.200272822542502,
+    "lon": -76.93467460209918,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 645,
+    "name": "Zona 645 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.202103238633871,
+    "lon": -76.92326286195247,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 642,
+    "name": "Zona 642 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.218292569156908,
+    "lon": -76.91743347690978,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 728,
+    "name": "Zona 728 (LA MOLINA)",
+    "lat": -12.066586616662802,
+    "lon": -76.93728313677086,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 133,
+    "name": "Zona 133 (LA MOLINA)",
+    "lat": -12.06812437420828,
+    "lon": -76.94071134847185,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 81,
+    "name": "Zona 81 (LA MOLINA)",
+    "lat": -12.07306611874959,
+    "lon": -76.93841196652276,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 80,
+    "name": "Zona 80 (LA MOLINA)",
+    "lat": -12.070250594746387,
+    "lon": -76.93350439119803,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 596,
+    "name": "Zona 596 (LA MOLINA)",
+    "lat": -12.082587523533268,
+    "lon": -76.94595226935992,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 597,
+    "name": "Zona 597 (LA MOLINA)",
+    "lat": -12.075615837621621,
+    "lon": -76.9472121661187,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 1173,
+    "name": "Zona 1173 (VILLA EL SALVADOR)",
+    "lat": -12.227844492343245,
+    "lon": -76.95310795273559,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1172,
+    "name": "Zona 1172 (VILLA EL SALVADOR)",
+    "lat": -12.22626974370726,
+    "lon": -76.95909285881565,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 390,
+    "name": "Zona 390 (VILLA EL SALVADOR)",
+    "lat": -12.223985916767571,
+    "lon": -76.94646996883172,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 412,
+    "name": "Zona 412 (VILLA EL SALVADOR)",
+    "lat": -12.21149698110885,
+    "lon": -76.95404446011642,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 392,
+    "name": "Zona 392 (VILLA EL SALVADOR)",
+    "lat": -12.217735115671681,
+    "lon": -76.95025421156001,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 413,
+    "name": "Zona 413 (MIRAFLORES)",
+    "lat": -12.129226250945948,
+    "lon": -77.03264724836959,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 414,
+    "name": "Zona 414 (MIRAFLORES)",
+    "lat": -12.132790176682471,
+    "lon": -77.02648886997177,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 486,
+    "name": "Zona 486 (BARRANCO)",
+    "lat": -12.140617596214284,
+    "lon": -77.02489356536006,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 415,
+    "name": "Zona 415 (MIRAFLORES)",
+    "lat": -12.122610801116341,
+    "lon": -77.0387850056057,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 416,
+    "name": "Zona 416 (MIRAFLORES)",
+    "lat": -12.125212605352058,
+    "lon": -77.02829622449632,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 417,
+    "name": "Zona 417 (MIRAFLORES)",
+    "lat": -12.128682673432461,
+    "lon": -77.02074108464402,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 491,
+    "name": "Zona 491 (BARRANCO)",
+    "lat": -12.134689929655458,
+    "lon": -77.02004065057724,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 419,
+    "name": "Zona 419 (CHORRILLOS)",
+    "lat": -12.176872275874988,
+    "lon": -77.00876441186051,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 431,
+    "name": "Zona 431 (SANTIAGO DE SURCO)",
+    "lat": -12.159186134625694,
+    "lon": -77.0036244618506,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 435,
+    "name": "Zona 435 (CHORRILLOS)",
+    "lat": -12.164989475168184,
+    "lon": -77.0146681564968,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 436,
+    "name": "Zona 436 (CHORRILLOS)",
+    "lat": -12.156542702696889,
+    "lon": -77.01669221497855,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 483,
+    "name": "Zona 483 (CHORRILLOS)",
+    "lat": -12.174925782041,
+    "lon": -77.01602284956525,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 481,
+    "name": "Zona 481 (CHORRILLOS)",
+    "lat": -12.167851354262947,
+    "lon": -77.02196389328523,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 480,
+    "name": "Zona 480 (CHORRILLOS)",
+    "lat": -12.159921818872363,
+    "lon": -77.02180404919841,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 437,
+    "name": "Zona 437 (BARRANCO)",
+    "lat": -12.15381121248969,
+    "lon": -77.02266647750568,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 430,
+    "name": "Zona 430 (MIRAFLORES)",
+    "lat": -12.12649389764731,
+    "lon": -77.01565933595721,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 1142,
+    "name": "Zona 1142 (SANTIAGO DE SURCO)",
+    "lat": -12.134084480841805,
+    "lon": -77.0136204128203,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 1141,
+    "name": "Zona 1141 (BARRANCO)",
+    "lat": -12.142423978293348,
+    "lon": -77.01542682565136,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 776,
+    "name": "Zona 776 (BARRANCO)",
+    "lat": -12.139193776815278,
+    "lon": -77.01862189188299,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 428,
+    "name": "Zona 428 (MIRAFLORES)",
+    "lat": -12.122590266909507,
+    "lon": -77.02145497835706,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 429,
+    "name": "Zona 429 (MIRAFLORES)",
+    "lat": -12.119719357667192,
+    "lon": -77.03034163935064,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 1157,
+    "name": "Zona 1157 (CHORRILLOS)",
+    "lat": -12.185985432720209,
+    "lon": -77.00138378537292,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 433,
+    "name": "Zona 433 (SANTIAGO DE SURCO)",
+    "lat": -12.147409544269498,
+    "lon": -77.00423477409248,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 490,
+    "name": "Zona 490 (SANTIAGO DE SURCO)",
+    "lat": -12.148515457319816,
+    "lon": -77.01412547677752,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 434,
+    "name": "Zona 434 (SANTIAGO DE SURCO)",
+    "lat": -12.140809858532096,
+    "lon": -76.99791255621659,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 432,
+    "name": "Zona 432 (SANTIAGO DE SURCO)",
+    "lat": -12.15267513734785,
+    "lon": -77.0157230986155,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 488,
+    "name": "Zona 488 (BARRANCO)",
+    "lat": -12.147317968221456,
+    "lon": -77.01792018325945,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 585,
+    "name": "Zona 585 (SANTIAGO DE SURCO)",
+    "lat": -12.144360477467336,
+    "lon": -76.99309816830214,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 587,
+    "name": "Zona 587 (SANTIAGO DE SURCO)",
+    "lat": -12.146906001713457,
+    "lon": -76.99652633851181,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 489,
+    "name": "Zona 489 (SANTIAGO DE SURCO)",
+    "lat": -12.15091747495858,
+    "lon": -77.00890798312274,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 441,
+    "name": "Zona 441 (SANTIAGO DE SURCO)",
+    "lat": -12.14213153845307,
+    "lon": -77.00936212284553,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 487,
+    "name": "Zona 487 (BARRANCO)",
+    "lat": -12.14365820414102,
+    "lon": -77.02026664308296,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 440,
+    "name": "Zona 440 (SANTIAGO DE SURCO)",
+    "lat": -12.132786713500604,
+    "lon": -77.00611112925075,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 439,
+    "name": "Zona 439 (MIRAFLORES)",
+    "lat": -12.12651085731177,
+    "lon": -77.00817540856679,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 426,
+    "name": "Zona 426 (MIRAFLORES)",
+    "lat": -12.120522902053205,
+    "lon": -77.01024905264894,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 448,
+    "name": "Zona 448 (SANTIAGO DE SURCO)",
+    "lat": -12.136190906689924,
+    "lon": -77.00152037916473,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 449,
+    "name": "Zona 449 (SANTIAGO DE SURCO)",
+    "lat": -12.130700397109072,
+    "lon": -76.99673478181293,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 465,
+    "name": "Zona 465 (SANTIAGO DE SURCO)",
+    "lat": -12.13352421417344,
+    "lon": -76.99224401068629,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 446,
+    "name": "Zona 446 (SANTIAGO DE SURCO)",
+    "lat": -12.124988208610187,
+    "lon": -76.99643433026677,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 466,
+    "name": "Zona 466 (SANTIAGO DE SURCO)",
+    "lat": -12.140997969708897,
+    "lon": -76.98784832512446,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 425,
+    "name": "Zona 425 (SURQUILLO)",
+    "lat": -12.121428804245484,
+    "lon": -77.00348286747919,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 423,
+    "name": "Zona 423 (SURQUILLO)",
+    "lat": -12.114145661243445,
+    "lon": -77.0029678691994,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 427,
+    "name": "Zona 427 (SURQUILLO)",
+    "lat": -12.115906269174125,
+    "lon": -77.0149908176418,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 422,
+    "name": "Zona 422 (SURQUILLO)",
+    "lat": -12.109011620781759,
+    "lon": -77.01497952468362,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 548,
+    "name": "Zona 548 (MIRAFLORES)",
+    "lat": -12.121452231528291,
+    "lon": -77.0156139216319,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 543,
+    "name": "Zona 543 (SURQUILLO)",
+    "lat": -12.118012920664901,
+    "lon": -77.02201027585147,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 546,
+    "name": "Zona 546 (SURQUILLO)",
+    "lat": -12.114879766079211,
+    "lon": -77.02216936462281,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 452,
+    "name": "Zona 452 (SAN BORJA)",
+    "lat": -12.104779402335703,
+    "lon": -77.00729740285482,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 450,
+    "name": "Zona 450 (SANTIAGO DE SURCO)",
+    "lat": -12.12581068987959,
+    "lon": -76.98906954416346,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 445,
+    "name": "Zona 445 (SANTIAGO DE SURCO)",
+    "lat": -12.126760060669511,
+    "lon": -76.98432069678402,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 451,
+    "name": "Zona 451 (SANTIAGO DE SURCO)",
+    "lat": -12.132709804413896,
+    "lon": -76.98625617152699,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 424,
+    "name": "Zona 424 (SANTIAGO DE SURCO)",
+    "lat": -12.118852620639952,
+    "lon": -76.99205996818664,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 912,
+    "name": "Zona 912 (SURQUILLO)",
+    "lat": -12.118046552685854,
+    "lon": -77.00032856202195,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 467,
+    "name": "Zona 467 (SAN BORJA)",
+    "lat": -12.109175813833776,
+    "lon": -77.00196443379602,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 468,
+    "name": "Zona 468 (SAN BORJA)",
+    "lat": -12.105593209822358,
+    "lon": -76.99457762240726,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 620,
+    "name": "Zona 620 (SANTIAGO DE SURCO)",
+    "lat": -12.115472451957602,
+    "lon": -76.98758888267982,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 455,
+    "name": "Zona 455 (SAN BORJA)",
+    "lat": -12.097603452919161,
+    "lon": -77.00632385085461,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 454,
+    "name": "Zona 454 (SAN ISIDRO)",
+    "lat": -12.096868101496442,
+    "lon": -77.0151805626046,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 457,
+    "name": "Zona 457 (SAN BORJA)",
+    "lat": -12.091643944280404,
+    "lon": -77.00590655530998,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 605,
+    "name": "Zona 605 (SAN BORJA)",
+    "lat": -12.097100036046662,
+    "lon": -76.998591060835,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 453,
+    "name": "Zona 453 (SAN ISIDRO)",
+    "lat": -12.103062010257604,
+    "lon": -77.01434031991221,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 456,
+    "name": "Zona 456 (SAN ISIDRO)",
+    "lat": -12.092320977497813,
+    "lon": -77.01128803836512,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 604,
+    "name": "Zona 604 (SAN BORJA)",
+    "lat": -12.090580277060559,
+    "lon": -76.99968057581303,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 461,
+    "name": "Zona 461 (SANTIAGO DE SURCO)",
+    "lat": -12.11949214516968,
+    "lon": -76.96714033947424,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 463,
+    "name": "Zona 463 (SANTIAGO DE SURCO)",
+    "lat": -12.113681283028274,
+    "lon": -76.97331177551789,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 1144,
+    "name": "Zona 1144 (SANTIAGO DE SURCO)",
+    "lat": -12.104199771349835,
+    "lon": -76.96931218614392,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 464,
+    "name": "Zona 464 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.124845072308876,
+    "lon": -76.95765206681487,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 578,
+    "name": "Zona 578 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.142477434879849,
+    "lon": -76.97916567820316,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 442,
+    "name": "Zona 442 (SANTIAGO DE SURCO)",
+    "lat": -12.135101056327803,
+    "lon": -76.97607570519337,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 586,
+    "name": "Zona 586 (SANTIAGO DE SURCO)",
+    "lat": -12.143374347558009,
+    "lon": -76.98333029707294,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 443,
+    "name": "Zona 443 (SANTIAGO DE SURCO)",
+    "lat": -12.125307479760242,
+    "lon": -76.98074995275367,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 444,
+    "name": "Zona 444 (SANTIAGO DE SURCO)",
+    "lat": -12.134182783000464,
+    "lon": -76.98137228528702,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 579,
+    "name": "Zona 579 (SANTIAGO DE SURCO)",
+    "lat": -12.127618091357073,
+    "lon": -76.97025213081987,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 580,
+    "name": "Zona 580 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.136780454099073,
+    "lon": -76.97023003819014,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 621,
+    "name": "Zona 621 (SANTIAGO DE SURCO)",
+    "lat": -12.116571825107139,
+    "lon": -76.9804727981977,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 617,
+    "name": "Zona 617 (SAN BORJA)",
+    "lat": -12.089747001177765,
+    "lon": -76.99350195292251,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 471,
+    "name": "Zona 471 (SAN BORJA)",
+    "lat": -12.08658306029403,
+    "lon": -77.00690107268174,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 472,
+    "name": "Zona 472 (LA VICTORIA)",
+    "lat": -12.083172759592928,
+    "lon": -77.00615411138563,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 470,
+    "name": "Zona 470 (SAN LUIS)",
+    "lat": -12.081631719003328,
+    "lon": -77.00094080785658,
+    "district": "SAN LUIS"
+  },
+  {
+    "id": 469,
+    "name": "Zona 469 (SAN BORJA)",
+    "lat": -12.08557948566767,
+    "lon": -77.00027101063026,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 182,
+    "name": "Zona 182 (LA VICTORIA)",
+    "lat": -12.063393783960723,
+    "lon": -77.0078715591415,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 477,
+    "name": "Zona 477 (LA VICTORIA)",
+    "lat": -12.067458391512089,
+    "lon": -77.0014401064344,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 460,
+    "name": "Zona 460 (SAN BORJA)",
+    "lat": -12.084222415771926,
+    "lon": -76.99493545912587,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 474,
+    "name": "Zona 474 (SAN LUIS)",
+    "lat": -12.077137492108804,
+    "lon": -77.00478687797414,
+    "district": "SAN LUIS"
+  },
+  {
+    "id": 473,
+    "name": "Zona 473 (LA VICTORIA)",
+    "lat": -12.081781830254618,
+    "lon": -77.0102372601173,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 478,
+    "name": "Zona 478 (SAN LUIS)",
+    "lat": -12.07332818282592,
+    "lon": -76.9974276500071,
+    "district": "SAN LUIS"
+  },
+  {
+    "id": 557,
+    "name": "Zona 557 (LA VICTORIA)",
+    "lat": -12.087155082986737,
+    "lon": -77.01328460154039,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 475,
+    "name": "Zona 475 (LA VICTORIA)",
+    "lat": -12.072335399809099,
+    "lon": -77.00770434067195,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 438,
+    "name": "Zona 438 (CHORRILLOS)",
+    "lat": -12.16398387053643,
+    "lon": -77.02875366499535,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 482,
+    "name": "Zona 482 (CHORRILLOS)",
+    "lat": -12.171523589325272,
+    "lon": -77.02451407492752,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 484,
+    "name": "Zona 484 (CHORRILLOS)",
+    "lat": -12.171673784918594,
+    "lon": -77.01057289338587,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 485,
+    "name": "Zona 485 (BARRANCO)",
+    "lat": -12.14800161667792,
+    "lon": -77.02295013506702,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 492,
+    "name": "Zona 492 (BARRANCO)",
+    "lat": -12.152790255820307,
+    "lon": -77.01827885264642,
+    "district": "BARRANCO"
+  },
+  {
+    "id": 493,
+    "name": "Zona 493 (MIRAFLORES)",
+    "lat": -12.11338898504491,
+    "lon": -77.04595488684495,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 496,
+    "name": "Zona 496 (MIRAFLORES)",
+    "lat": -12.115999662560087,
+    "lon": -77.03900034736729,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 504,
+    "name": "Zona 504 (SAN ISIDRO)",
+    "lat": -12.104930504983232,
+    "lon": -77.0361856890594,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 505,
+    "name": "Zona 505 (MIRAFLORES)",
+    "lat": -12.11229822196532,
+    "lon": -77.03385718665248,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 526,
+    "name": "Zona 526 (SAN ISIDRO)",
+    "lat": -12.094907610905189,
+    "lon": -77.05610606760202,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 494,
+    "name": "Zona 494 (SAN ISIDRO)",
+    "lat": -12.099638800150846,
+    "lon": -77.05821599236302,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 531,
+    "name": "Zona 531 (SAN ISIDRO)",
+    "lat": -12.098819140997179,
+    "lon": -77.03594415955303,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 506,
+    "name": "Zona 506 (SAN ISIDRO)",
+    "lat": -12.101449650935582,
+    "lon": -77.02979030490086,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 544,
+    "name": "Zona 544 (MIRAFLORES)",
+    "lat": -12.106442567066125,
+    "lon": -77.02950088989286,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 166,
+    "name": "Zona 166 (JESUS MARIA)",
+    "lat": -12.090571544713136,
+    "lon": -77.0532269080107,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 167,
+    "name": "Zona 167 (SAN ISIDRO)",
+    "lat": -12.090972335371765,
+    "lon": -77.04980806186857,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 527,
+    "name": "Zona 527 (SAN ISIDRO)",
+    "lat": -12.096538827242052,
+    "lon": -77.05269886334314,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 911,
+    "name": "Zona 911 (SAN ISIDRO)",
+    "lat": -12.095583913998778,
+    "lon": -77.03503077163622,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 502,
+    "name": "Zona 502 (SAN ISIDRO)",
+    "lat": -12.095708345470145,
+    "lon": -77.03085662156748,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 503,
+    "name": "Zona 503 (SAN ISIDRO)",
+    "lat": -12.098258924960055,
+    "lon": -77.02872203108366,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 532,
+    "name": "Zona 532 (SAN ISIDRO)",
+    "lat": -12.101099900666233,
+    "lon": -77.04533332406083,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 495,
+    "name": "Zona 495 (SAN ISIDRO)",
+    "lat": -12.102494841033286,
+    "lon": -77.05431823522518,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 512,
+    "name": "Zona 512 (SAN ISIDRO)",
+    "lat": -12.09268336934803,
+    "lon": -77.04528270390703,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 529,
+    "name": "Zona 529 (SAN ISIDRO)",
+    "lat": -12.09508858943722,
+    "lon": -77.04087572491665,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 528,
+    "name": "Zona 528 (SAN ISIDRO)",
+    "lat": -12.096639494467604,
+    "lon": -77.04681806533765,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 530,
+    "name": "Zona 530 (SAN ISIDRO)",
+    "lat": -12.098217186340607,
+    "lon": -77.04141145757467,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 916,
+    "name": "Zona 916 (LINCE)",
+    "lat": -12.08835095094835,
+    "lon": -77.04559189349348,
+    "district": "LINCE"
+  },
+  {
+    "id": 501,
+    "name": "Zona 501 (SAN ISIDRO)",
+    "lat": -12.099960236574876,
+    "lon": -77.02254093710594,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 507,
+    "name": "Zona 507 (SURQUILLO)",
+    "lat": -12.105678795885506,
+    "lon": -77.02277238074876,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 498,
+    "name": "Zona 498 (SAN ISIDRO)",
+    "lat": -12.094299248565706,
+    "lon": -77.0211049913741,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 917,
+    "name": "Zona 917 (SAN ISIDRO)",
+    "lat": -12.092810358304444,
+    "lon": -77.0313898487086,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 499,
+    "name": "Zona 499 (SAN ISIDRO)",
+    "lat": -12.092666836021559,
+    "lon": -77.0260092096643,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 497,
+    "name": "Zona 497 (SAN ISIDRO)",
+    "lat": -12.095245340152553,
+    "lon": -77.02664472929371,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 909,
+    "name": "Zona 909 (SAN ISIDRO)",
+    "lat": -12.093616423233913,
+    "lon": -77.03583217031075,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 910,
+    "name": "Zona 910 (SAN ISIDRO)",
+    "lat": -12.091648225590976,
+    "lon": -77.04048774047969,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 516,
+    "name": "Zona 516 (LINCE)",
+    "lat": -12.084224375640861,
+    "lon": -77.0459907670222,
+    "district": "LINCE"
+  },
+  {
+    "id": 514,
+    "name": "Zona 514 (JESUS MARIA)",
+    "lat": -12.079415883374683,
+    "lon": -77.04033380083115,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 515,
+    "name": "Zona 515 (LINCE)",
+    "lat": -12.082887339095814,
+    "lon": -77.04120655592418,
+    "district": "LINCE"
+  },
+  {
+    "id": 535,
+    "name": "Zona 535 (JESUS MARIA)",
+    "lat": -12.087832436814521,
+    "lon": -77.05368643157931,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 919,
+    "name": "Zona 919 (LINCE)",
+    "lat": -12.087133937155977,
+    "lon": -77.04098580196053,
+    "district": "LINCE"
+  },
+  {
+    "id": 500,
+    "name": "Zona 500 (SAN ISIDRO)",
+    "lat": -12.092331006694945,
+    "lon": -77.01631696816581,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 511,
+    "name": "Zona 511 (LINCE)",
+    "lat": -12.08896925321455,
+    "lon": -77.02779789186752,
+    "district": "LINCE"
+  },
+  {
+    "id": 510,
+    "name": "Zona 510 (LA VICTORIA)",
+    "lat": -12.087900051483093,
+    "lon": -77.02051664940193,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 918,
+    "name": "Zona 918 (SAN ISIDRO)",
+    "lat": -12.091008717993608,
+    "lon": -77.03575080484424,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 555,
+    "name": "Zona 555 (LINCE)",
+    "lat": -12.088592732795611,
+    "lon": -77.03353154828474,
+    "district": "LINCE"
+  },
+  {
+    "id": 920,
+    "name": "Zona 920 (LINCE)",
+    "lat": -12.086755447555905,
+    "lon": -77.03739107627563,
+    "district": "LINCE"
+  },
+  {
+    "id": 513,
+    "name": "Zona 513 (LINCE)",
+    "lat": -12.082082535484798,
+    "lon": -77.03829930610353,
+    "district": "LINCE"
+  },
+  {
+    "id": 518,
+    "name": "Zona 518 (LINCE)",
+    "lat": -12.08164194386778,
+    "lon": -77.03508490128031,
+    "district": "LINCE"
+  },
+  {
+    "id": 1134,
+    "name": "Zona 1134 (JESUS MARIA)",
+    "lat": -12.074741778158877,
+    "lon": -77.03944405653638,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 519,
+    "name": "Zona 519 (JESUS MARIA)",
+    "lat": -12.076363229242103,
+    "lon": -77.04463013374829,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 1135,
+    "name": "Zona 1135 (LIMA)",
+    "lat": -12.076464479071173,
+    "lon": -77.03488216048949,
+    "district": "LIMA"
+  },
+  {
+    "id": 521,
+    "name": "Zona 521 (LIMA)",
+    "lat": -12.071268706531463,
+    "lon": -77.03430872540498,
+    "district": "LIMA"
+  },
+  {
+    "id": 522,
+    "name": "Zona 522 (LIMA)",
+    "lat": -12.076107457362601,
+    "lon": -77.03108731129531,
+    "district": "LIMA"
+  },
+  {
+    "id": 551,
+    "name": "Zona 551 (LINCE)",
+    "lat": -12.08100501743029,
+    "lon": -77.03007658372564,
+    "district": "LINCE"
+  },
+  {
+    "id": 520,
+    "name": "Zona 520 (JESUS MARIA)",
+    "lat": -12.07158363485872,
+    "lon": -77.0438862150429,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 1133,
+    "name": "Zona 1133 (LIMA)",
+    "lat": -12.066926770622771,
+    "lon": -77.03537666492372,
+    "district": "LIMA"
+  },
+  {
+    "id": 524,
+    "name": "Zona 524 (LA VICTORIA)",
+    "lat": -12.073192924904363,
+    "lon": -77.02906630796271,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 525,
+    "name": "Zona 525 (SAN ISIDRO)",
+    "lat": -12.106354490757811,
+    "lon": -77.04406338814842,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 533,
+    "name": "Zona 533 (SAN ISIDRO)",
+    "lat": -12.106352806644022,
+    "lon": -77.05024846511157,
+    "district": "SAN ISIDRO"
+  },
+  {
+    "id": 536,
+    "name": "Zona 536 (JESUS MARIA)",
+    "lat": -12.083809464477808,
+    "lon": -77.05632258545683,
+    "district": "JESUS MARIA"
+  },
+  {
+    "id": 545,
+    "name": "Zona 545 (MIRAFLORES)",
+    "lat": -12.11306053190332,
+    "lon": -77.02855689090065,
+    "district": "MIRAFLORES"
+  },
+  {
+    "id": 547,
+    "name": "Zona 547 (SURQUILLO)",
+    "lat": -12.111158498606304,
+    "lon": -77.02226431786104,
+    "district": "SURQUILLO"
+  },
+  {
+    "id": 549,
+    "name": "Zona 549 (LA VICTORIA)",
+    "lat": -12.083812544606042,
+    "lon": -77.01808344839078,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 508,
+    "name": "Zona 508 (LA VICTORIA)",
+    "lat": -12.083807030448856,
+    "lon": -77.02346158564283,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 509,
+    "name": "Zona 509 (LINCE)",
+    "lat": -12.08468814299585,
+    "lon": -77.02893425771758,
+    "district": "LINCE"
+  },
+  {
+    "id": 542,
+    "name": "Zona 542 (LA VICTORIA)",
+    "lat": -12.077282251014736,
+    "lon": -77.02004521668007,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 921,
+    "name": "Zona 921 (LA VICTORIA)",
+    "lat": -12.079695980574721,
+    "lon": -77.0155357099164,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 550,
+    "name": "Zona 550 (LA VICTORIA)",
+    "lat": -12.078637005926009,
+    "lon": -77.02518302530768,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 476,
+    "name": "Zona 476 (LA VICTORIA)",
+    "lat": -12.075165461101307,
+    "lon": -77.01340170429356,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 540,
+    "name": "Zona 540 (LA VICTORIA)",
+    "lat": -12.071508925101828,
+    "lon": -77.01919130357015,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 541,
+    "name": "Zona 541 (LA VICTORIA)",
+    "lat": -12.069054179657025,
+    "lon": -77.01445274237118,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 554,
+    "name": "Zona 554 (LA VICTORIA)",
+    "lat": -12.07257616858918,
+    "lon": -77.02489859053529,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 161,
+    "name": "Zona 161 (LA VICTORIA)",
+    "lat": -12.064069569005998,
+    "lon": -77.02012196513608,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 539,
+    "name": "Zona 539 (LA VICTORIA)",
+    "lat": -12.06757535247668,
+    "lon": -77.01966879948232,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 552,
+    "name": "Zona 552 (LINCE)",
+    "lat": -12.085244367399698,
+    "lon": -77.03437174479504,
+    "district": "LINCE"
+  },
+  {
+    "id": 479,
+    "name": "Zona 479 (LA VICTORIA)",
+    "lat": -12.067766600554695,
+    "lon": -77.00973421508424,
+    "district": "LA VICTORIA"
+  },
+  {
+    "id": 562,
+    "name": "Zona 562 (SANTIAGO DE SURCO)",
+    "lat": -12.164724886549099,
+    "lon": -76.9921936678358,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 563,
+    "name": "Zona 563 (CHORRILLOS)",
+    "lat": -12.173347380250524,
+    "lon": -76.99643491345262,
+    "district": "CHORRILLOS"
+  },
+  {
+    "id": 564,
+    "name": "Zona 564 (SANTIAGO DE SURCO)",
+    "lat": -12.156562425217231,
+    "lon": -76.98958619130624,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 589,
+    "name": "Zona 589 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.176820463480816,
+    "lon": -76.9583053997989,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 561,
+    "name": "Zona 561 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.166782341307897,
+    "lon": -76.98387643428525,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 355,
+    "name": "Zona 355 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.176157130086686,
+    "lon": -76.98015590053663,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 354,
+    "name": "Zona 354 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.183036144796807,
+    "lon": -76.97941052378202,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 558,
+    "name": "Zona 558 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.168228313563871,
+    "lon": -76.97321720544953,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 566,
+    "name": "Zona 566 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.166491535021217,
+    "lon": -76.96408043488233,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 573,
+    "name": "Zona 573 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.16771361491602,
+    "lon": -76.95841175211618,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 560,
+    "name": "Zona 560 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.161370319001191,
+    "lon": -76.97758556177001,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 568,
+    "name": "Zona 568 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.153973392092723,
+    "lon": -76.97889482068412,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 569,
+    "name": "Zona 569 (SANTIAGO DE SURCO)",
+    "lat": -12.152119891518531,
+    "lon": -76.98593341790061,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 576,
+    "name": "Zona 576 (SANTIAGO DE SURCO)",
+    "lat": -12.148922858087495,
+    "lon": -76.98923466144082,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 577,
+    "name": "Zona 577 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.148390684226676,
+    "lon": -76.97934773095604,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 570,
+    "name": "Zona 570 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.154000539934895,
+    "lon": -76.95658060439489,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 572,
+    "name": "Zona 572 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.148824997255552,
+    "lon": -76.96167872994491,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 595,
+    "name": "Zona 595 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.136319753202292,
+    "lon": -76.95564679551751,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 571,
+    "name": "Zona 571 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.154413837773104,
+    "lon": -76.96547754376074,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 591,
+    "name": "Zona 591 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.173066853349988,
+    "lon": -76.95226602393097,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 575,
+    "name": "Zona 575 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.16000781815706,
+    "lon": -76.96318422407579,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 565,
+    "name": "Zona 565 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.16274147197441,
+    "lon": -76.9693449101592,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 567,
+    "name": "Zona 567 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.15732055784732,
+    "lon": -76.96973295426766,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 574,
+    "name": "Zona 574 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.150873612822664,
+    "lon": -76.97382987657957,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 581,
+    "name": "Zona 581 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.146322244797158,
+    "lon": -76.9739193726913,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 582,
+    "name": "Zona 582 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.14166939699979,
+    "lon": -76.96846682945421,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 584,
+    "name": "Zona 584 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.13455150093311,
+    "lon": -76.96204190437231,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 583,
+    "name": "Zona 583 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.144479587413503,
+    "lon": -76.9654008975102,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 588,
+    "name": "Zona 588 (SAN JUAN DE MIRAFLORES)",
+    "lat": -12.183971544024791,
+    "lon": -76.95752481421272,
+    "district": "SAN JUAN DE MIRAFLORES"
+  },
+  {
+    "id": 590,
+    "name": "Zona 590 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.174225661470942,
+    "lon": -76.94855349483875,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 592,
+    "name": "Zona 592 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.164794529908303,
+    "lon": -76.94843832178604,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 593,
+    "name": "Zona 593 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.166050061104745,
+    "lon": -76.95473906541129,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 406,
+    "name": "Zona 406 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.18004583095529,
+    "lon": -76.94580394169368,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 594,
+    "name": "Zona 594 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.181338210017037,
+    "lon": -76.95027714820819,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 401,
+    "name": "Zona 401 (LA MOLINA)",
+    "lat": -12.088747774880588,
+    "lon": -76.9550602176627,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 1143,
+    "name": "Zona 1143 (SANTIAGO DE SURCO)",
+    "lat": -12.098338570024781,
+    "lon": -76.9628927187081,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 626,
+    "name": "Zona 626 (SAN BORJA)",
+    "lat": -12.09781757427926,
+    "lon": -76.99200070696884,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 399,
+    "name": "Zona 399 (SANTIAGO DE SURCO)",
+    "lat": -12.087199216906676,
+    "lon": -76.96255880120083,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 400,
+    "name": "Zona 400 (LA MOLINA)",
+    "lat": -12.080419204288447,
+    "lon": -76.95665280709625,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 633,
+    "name": "Zona 633 (LA MOLINA)",
+    "lat": -12.074465623682022,
+    "lon": -76.95926314716536,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 111,
+    "name": "Zona 111 (LA MOLINA)",
+    "lat": -12.071949826919315,
+    "lon": -76.95230042097269,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 612,
+    "name": "Zona 612 (SANTIAGO DE SURCO)",
+    "lat": -12.093531469032545,
+    "lon": -76.97090003571296,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 462,
+    "name": "Zona 462 (SANTIAGO DE SURCO)",
+    "lat": -12.103310761678275,
+    "lon": -76.97578831008126,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 622,
+    "name": "Zona 622 (SAN BORJA)",
+    "lat": -12.107378433920536,
+    "lon": -76.98275841256641,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 625,
+    "name": "Zona 625 (SAN BORJA)",
+    "lat": -12.10149953440652,
+    "lon": -76.98536448188655,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 624,
+    "name": "Zona 624 (SAN BORJA)",
+    "lat": -12.092072725729373,
+    "lon": -76.98406782730702,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 623,
+    "name": "Zona 623 (SAN BORJA)",
+    "lat": -12.098080983301745,
+    "lon": -76.98121959880153,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 619,
+    "name": "Zona 619 (SAN BORJA)",
+    "lat": -12.092515207901306,
+    "lon": -76.98965502932413,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 611,
+    "name": "Zona 611 (SANTIAGO DE SURCO)",
+    "lat": -12.08717325785244,
+    "lon": -76.97048098890859,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 398,
+    "name": "Zona 398 (SANTIAGO DE SURCO)",
+    "lat": -12.082155317856687,
+    "lon": -76.96443210991866,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 609,
+    "name": "Zona 609 (SANTIAGO DE SURCO)",
+    "lat": -12.090988134859712,
+    "lon": -76.97719754436264,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 606,
+    "name": "Zona 606 (ATE VITARTE)",
+    "lat": -12.07245879045101,
+    "lon": -76.97855358721414,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 630,
+    "name": "Zona 630 (ATE VITARTE)",
+    "lat": -12.079502105089178,
+    "lon": -76.98096747428838,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 627,
+    "name": "Zona 627 (ATE VITARTE)",
+    "lat": -12.076544773349891,
+    "lon": -76.9867111676267,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 610,
+    "name": "Zona 610 (SANTIAGO DE SURCO)",
+    "lat": -12.082056421356928,
+    "lon": -76.97658989161027,
+    "district": "SANTIAGO DE SURCO"
+  },
+  {
+    "id": 618,
+    "name": "Zona 618 (SAN BORJA)",
+    "lat": -12.087709672060123,
+    "lon": -76.98723498036836,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 628,
+    "name": "Zona 628 (SAN BORJA)",
+    "lat": -12.083645979887976,
+    "lon": -76.98899985047787,
+    "district": "SAN BORJA"
+  },
+  {
+    "id": 157,
+    "name": "Zona 157 (LA MOLINA)",
+    "lat": -12.070086999866092,
+    "lon": -76.97019825052176,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 156,
+    "name": "Zona 156 (LA MOLINA)",
+    "lat": -12.067815448154688,
+    "lon": -76.96584553493864,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 607,
+    "name": "Zona 607 (LA MOLINA)",
+    "lat": -12.07871850027632,
+    "lon": -76.97276811809064,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 632,
+    "name": "Zona 632 (LA MOLINA)",
+    "lat": -12.077585194049954,
+    "lon": -76.9684935489776,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 599,
+    "name": "Zona 599 (LA MOLINA)",
+    "lat": -12.073144572298984,
+    "lon": -76.9660898719045,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 458,
+    "name": "Zona 458 (SAN LUIS)",
+    "lat": -12.078492143662976,
+    "lon": -76.9915459572514,
+    "district": "SAN LUIS"
+  },
+  {
+    "id": 459,
+    "name": "Zona 459 (SAN LUIS)",
+    "lat": -12.079349776627375,
+    "lon": -76.99618311536157,
+    "district": "SAN LUIS"
+  },
+  {
+    "id": 631,
+    "name": "Zona 631 (ATE VITARTE)",
+    "lat": -12.0612792119687,
+    "lon": -76.98435627245085,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 112,
+    "name": "Zona 112 (LA MOLINA)",
+    "lat": -12.067724077699884,
+    "lon": -76.95334427231481,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 152,
+    "name": "Zona 152 (LA MOLINA)",
+    "lat": -12.063847136167826,
+    "lon": -76.95607266539996,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 634,
+    "name": "Zona 634 (LA MOLINA)",
+    "lat": -12.071055902447648,
+    "lon": -76.96109149877478,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 153,
+    "name": "Zona 153 (LA MOLINA)",
+    "lat": -12.06631046070736,
+    "lon": -76.96225330407016,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 608,
+    "name": "Zona 608 (LA MOLINA)",
+    "lat": -12.070502022151114,
+    "lon": -76.94510429843109,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 640,
+    "name": "Zona 640 (LURIN)",
+    "lat": -12.285798181728595,
+    "lon": -76.86983579740354,
+    "district": "LURIN"
+  },
+  {
+    "id": 333,
+    "name": "Zona 333 (LURIN)",
+    "lat": -12.272074813497245,
+    "lon": -76.88754875424401,
+    "district": "LURIN"
+  },
+  {
+    "id": 1179,
+    "name": "Zona 1179 (LURIN)",
+    "lat": -12.276843318333652,
+    "lon": -76.86156943538042,
+    "district": "LURIN"
+  },
+  {
+    "id": 637,
+    "name": "Zona 637 (LURIN)",
+    "lat": -12.281192724509488,
+    "lon": -76.84411279880229,
+    "district": "LURIN"
+  },
+  {
+    "id": 636,
+    "name": "Zona 636 (LURIN)",
+    "lat": -12.258539102479666,
+    "lon": -76.89980382831608,
+    "district": "LURIN"
+  },
+  {
+    "id": 635,
+    "name": "Zona 635 (LURIN)",
+    "lat": -12.260251644892765,
+    "lon": -76.83885860891638,
+    "district": "LURIN"
+  },
+  {
+    "id": 1184,
+    "name": "Zona 1184 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.225999040060863,
+    "lon": -76.89817807751557,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 1175,
+    "name": "Zona 1175 (LURIN)",
+    "lat": -12.236341870139368,
+    "lon": -76.90689556988755,
+    "district": "LURIN"
+  },
+  {
+    "id": 1183,
+    "name": "Zona 1183 (LURIN)",
+    "lat": -12.243915839296587,
+    "lon": -76.90228276517921,
+    "district": "LURIN"
+  },
+  {
+    "id": 644,
+    "name": "Zona 644 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.209359923786618,
+    "lon": -76.91169781240566,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 1170,
+    "name": "Zona 1170 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.219589276487316,
+    "lon": -76.91054561052746,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 1178,
+    "name": "Zona 1178 (VILLA EL SALVADOR)",
+    "lat": -12.233730247395444,
+    "lon": -76.91378289820582,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 1169,
+    "name": "Zona 1169 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.223017545802179,
+    "lon": -76.90427901463397,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 1180,
+    "name": "Zona 1180 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.231553550623815,
+    "lon": -76.90806710833166,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 643,
+    "name": "Zona 643 (VILLA EL SALVADOR)",
+    "lat": -12.228353228923618,
+    "lon": -76.91858551977992,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 381,
+    "name": "Zona 381 (VILLA EL SALVADOR)",
+    "lat": -12.237073218566064,
+    "lon": -76.9190776939256,
+    "district": "VILLA EL SALVADOR"
+  },
+  {
+    "id": 934,
+    "name": "Zona 934 (CIENEGUILLA)",
+    "lat": -12.07886927959471,
+    "lon": -76.87231325205096,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 650,
+    "name": "Zona 650 (PACHACAMAC)",
+    "lat": -12.08075965621301,
+    "lon": -76.88037663747171,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 930,
+    "name": "Zona 930 (LA MOLINA)",
+    "lat": -12.071788362245687,
+    "lon": -76.88632860656287,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 30,
+    "name": "Zona 30 (CIENEGUILLA)",
+    "lat": -12.119672667951457,
+    "lon": -76.83368076413528,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 31,
+    "name": "Zona 31 (CIENEGUILLA)",
+    "lat": -12.097846753374496,
+    "lon": -76.85484325454841,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 649,
+    "name": "Zona 649 (CIENEGUILLA)",
+    "lat": -12.079970494256575,
+    "lon": -76.8535075350383,
+    "district": "CIENEGUILLA"
+  },
+  {
+    "id": 337,
+    "name": "Zona 337 (PACHACAMAC)",
+    "lat": -12.138034968347517,
+    "lon": -76.8634780441898,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 651,
+    "name": "Zona 651 (PACHACAMAC)",
+    "lat": -12.086879816988494,
+    "lon": -76.87394665179932,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 652,
+    "name": "Zona 652 (PACHACAMAC)",
+    "lat": -12.087092844420537,
+    "lon": -76.88065364624515,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 933,
+    "name": "Zona 933 (PACHACAMAC)",
+    "lat": -12.094831946830702,
+    "lon": -76.87349817345513,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 339,
+    "name": "Zona 339 (PACHACAMAC)",
+    "lat": -12.114118172239685,
+    "lon": -76.86473922481977,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 654,
+    "name": "Zona 654 (PACHACAMAC)",
+    "lat": -12.116063780169782,
+    "lon": -76.88537004587958,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 1154,
+    "name": "Zona 1154 (VILLA MARIA DEL TRIUNFO)",
+    "lat": -12.17370003176105,
+    "lon": -76.91094279354533,
+    "district": "VILLA MARIA DEL TRIUNFO"
+  },
+  {
+    "id": 373,
+    "name": "Zona 373 (LA MOLINA)",
+    "lat": -12.06965559098969,
+    "lon": -76.90100868642244,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 653,
+    "name": "Zona 653 (LA MOLINA)",
+    "lat": -12.097346363488235,
+    "lon": -76.90283529534989,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 932,
+    "name": "Zona 932 (LA MOLINA)",
+    "lat": -12.083405663437647,
+    "lon": -76.90100484325922,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 931,
+    "name": "Zona 931 (LA MOLINA)",
+    "lat": -12.081961145334226,
+    "lon": -76.89032464288819,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 726,
+    "name": "Zona 726 (LA MOLINA)",
+    "lat": -12.088715266180468,
+    "lon": -76.89185478687483,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 727,
+    "name": "Zona 727 (LA MOLINA)",
+    "lat": -12.089174784042964,
+    "lon": -76.88769685981588,
+    "district": "LA MOLINA"
+  },
+  {
+    "id": 927,
+    "name": "Zona 927 (PACHACAMAC)",
+    "lat": -12.096757383348903,
+    "lon": -76.8850792302009,
+    "district": "PACHACAMAC"
+  },
+  {
+    "id": 647,
+    "name": "Zona 647 (PUCUSANA)",
+    "lat": -12.471462818634766,
+    "lon": -76.76163795572681,
+    "district": "PUCUSANA"
+  },
+  {
+    "id": 19,
+    "name": "Zona 19 (CARABAYLLO)",
+    "lat": -11.740904646708653,
+    "lon": -76.99241685725421,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 22,
+    "name": "Zona 22 (CARABAYLLO)",
+    "lat": -11.776362369743337,
+    "lon": -76.89328790202678,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 21,
+    "name": "Zona 21 (CARABAYLLO)",
+    "lat": -11.814457549180588,
+    "lon": -76.97503578507191,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 602,
+    "name": "Zona 602 (LURIGANCHO)",
+    "lat": -11.960651119019452,
+    "lon": -76.81577190504714,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 603,
+    "name": "Zona 603 (LURIGANCHO)",
+    "lat": -11.96317031850851,
+    "lon": -76.84230914433988,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 660,
+    "name": "Zona 660 (LURIGANCHO)",
+    "lat": -11.967720174624846,
+    "lon": -76.87600813789005,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 601,
+    "name": "Zona 601 (LURIGANCHO)",
+    "lat": -11.940527967923327,
+    "lon": -76.78193150055093,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 951,
+    "name": "Zona 951 (CARABAYLLO)",
+    "lat": -11.810399239392284,
+    "lon": -77.03904704173019,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 952,
+    "name": "Zona 952 (CARABAYLLO)",
+    "lat": -11.780395991956796,
+    "lon": -77.0289515768999,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 662,
+    "name": "Zona 662 (CHACLACAYO)",
+    "lat": -11.992143800274535,
+    "lon": -76.81625775764249,
+    "district": "CHACLACAYO"
+  },
+  {
+    "id": 671,
+    "name": "Zona 671 (ATE VITARTE)",
+    "lat": -12.00248030702351,
+    "lon": -76.83599366131128,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 886,
+    "name": "Zona 886 (LURIGANCHO)",
+    "lat": -11.99122476802273,
+    "lon": -76.86236198171777,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 672,
+    "name": "Zona 672 (ATE VITARTE)",
+    "lat": -12.010597521862588,
+    "lon": -76.80282640336966,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 1148,
+    "name": "Zona 1148 (CHACLACAYO)",
+    "lat": -11.990337260747868,
+    "lon": -76.7933217114141,
+    "district": "CHACLACAYO"
+  },
+  {
+    "id": 1147,
+    "name": "Zona 1147 (CHACLACAYO)",
+    "lat": -11.99768103855856,
+    "lon": -76.76734550997418,
+    "district": "CHACLACAYO"
+  },
+  {
+    "id": 1146,
+    "name": "Zona 1146 (LURIGANCHO)",
+    "lat": -11.968300321673773,
+    "lon": -76.7766081564199,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 600,
+    "name": "Zona 600 (LURIGANCHO)",
+    "lat": -11.952264250497745,
+    "lon": -76.74923716868577,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 679,
+    "name": "Zona 679 (CARABAYLLO)",
+    "lat": -11.851562274809107,
+    "lon": -76.96615310229842,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 677,
+    "name": "Zona 677 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.891980345696595,
+    "lon": -76.9608120975987,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 678,
+    "name": "Zona 678 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.898905354309095,
+    "lon": -76.92768862338465,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 676,
+    "name": "Zona 676 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.933684628551504,
+    "lon": -76.95282647476434,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 674,
+    "name": "Zona 674 (LURIGANCHO)",
+    "lat": -11.96847884583197,
+    "lon": -76.94058384411713,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 1005,
+    "name": "Zona 1005 (COMAS)",
+    "lat": -11.912507372755188,
+    "lon": -77.0045102347044,
+    "district": "COMAS"
+  },
+  {
+    "id": 1000,
+    "name": "Zona 1000 (CARABAYLLO)",
+    "lat": -11.882535654032374,
+    "lon": -76.98819622412775,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 688,
+    "name": "Zona 688 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.901275728300245,
+    "lon": -76.98517100389155,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 995,
+    "name": "Zona 995 (CARABAYLLO)",
+    "lat": -11.864724822888856,
+    "lon": -76.99453278143744,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 697,
+    "name": "Zona 697 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.930039249271104,
+    "lon": -76.99078887118455,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 687,
+    "name": "Zona 687 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.92940231688215,
+    "lon": -76.97860735041913,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 689,
+    "name": "Zona 689 (LURIGANCHO)",
+    "lat": -12.000074532933521,
+    "lon": -76.94677650385383,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 881,
+    "name": "Zona 881 (LURIGANCHO)",
+    "lat": -11.98382157345174,
+    "lon": -76.92240517248369,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 694,
+    "name": "Zona 694 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.983029418182962,
+    "lon": -76.97710645314305,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 862,
+    "name": "Zona 862 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.968021520976283,
+    "lon": -76.9641690272214,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1060,
+    "name": "Zona 1060 (COMAS)",
+    "lat": -11.927070967453854,
+    "lon": -77.01825062479638,
+    "district": "COMAS"
+  },
+  {
+    "id": 1043,
+    "name": "Zona 1043 (COMAS)",
+    "lat": -11.912394995949485,
+    "lon": -77.02327231567088,
+    "district": "COMAS"
+  },
+  {
+    "id": 1006,
+    "name": "Zona 1006 (CARABAYLLO)",
+    "lat": -11.899783777632821,
+    "lon": -77.01927789489177,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 711,
+    "name": "Zona 711 (LURIGANCHO)",
+    "lat": -12.016173112029124,
+    "lon": -76.94511403501824,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 842,
+    "name": "Zona 842 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.013706967925115,
+    "lon": -76.96558048500468,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 692,
+    "name": "Zona 692 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.013411549334107,
+    "lon": -76.97815270229597,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 712,
+    "name": "Zona 712 (LURIGANCHO)",
+    "lat": -12.015941454351294,
+    "lon": -76.93368894972285,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 691,
+    "name": "Zona 691 (LURIGANCHO)",
+    "lat": -12.014242209502134,
+    "lon": -76.9200899316633,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 683,
+    "name": "Zona 683 (COMAS)",
+    "lat": -11.927555865125749,
+    "lon": -77.02999048630588,
+    "district": "COMAS"
+  },
+  {
+    "id": 1063,
+    "name": "Zona 1063 (COMAS)",
+    "lat": -11.917759293451466,
+    "lon": -77.03118179716263,
+    "district": "COMAS"
+  },
+  {
+    "id": 1189,
+    "name": "Zona 1189 (COMAS)",
+    "lat": -11.910898964061294,
+    "lon": -77.03207107473195,
+    "district": "COMAS"
+  },
+  {
+    "id": 699,
+    "name": "Zona 699 (EL AGUSTINO)",
+    "lat": -12.025180407964514,
+    "lon": -76.95430967780152,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 713,
+    "name": "Zona 713 (ATE VITARTE)",
+    "lat": -12.023615123588385,
+    "lon": -76.92977160945028,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 700,
+    "name": "Zona 700 (ATE VITARTE)",
+    "lat": -12.026448388742155,
+    "lon": -76.94926257801569,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 714,
+    "name": "Zona 714 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.02117401275616,
+    "lon": -76.96259285184668,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 701,
+    "name": "Zona 701 (ATE VITARTE)",
+    "lat": -12.024847696922363,
+    "lon": -76.93934502234573,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 722,
+    "name": "Zona 722 (SANTA ANITA)",
+    "lat": -12.032961544781061,
+    "lon": -76.95314532924614,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 845,
+    "name": "Zona 845 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.023155745668994,
+    "lon": -76.97363288457545,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1065,
+    "name": "Zona 1065 (COMAS)",
+    "lat": -11.928026465786306,
+    "lon": -77.03528559766515,
+    "district": "COMAS"
+  },
+  {
+    "id": 685,
+    "name": "Zona 685 (COMAS)",
+    "lat": -11.923256225428162,
+    "lon": -77.04034551145432,
+    "district": "COMAS"
+  },
+  {
+    "id": 682,
+    "name": "Zona 682 (COMAS)",
+    "lat": -11.9203683924759,
+    "lon": -77.03867888546193,
+    "district": "COMAS"
+  },
+  {
+    "id": 719,
+    "name": "Zona 719 (ATE VITARTE)",
+    "lat": -12.030029148097569,
+    "lon": -76.9393361442767,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 725,
+    "name": "Zona 725 (ATE VITARTE)",
+    "lat": -12.028812330182884,
+    "lon": -76.93208729304392,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 723,
+    "name": "Zona 723 (SANTA ANITA)",
+    "lat": -12.030874130267314,
+    "lon": -76.94680392437213,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 696,
+    "name": "Zona 696 (COMAS)",
+    "lat": -11.928384973342732,
+    "lon": -77.04148433291608,
+    "district": "COMAS"
+  },
+  {
+    "id": 1064,
+    "name": "Zona 1064 (COMAS)",
+    "lat": -11.932101681873085,
+    "lon": -77.03586503238685,
+    "district": "COMAS"
+  },
+  {
+    "id": 686,
+    "name": "Zona 686 (COMAS)",
+    "lat": -11.922709868307775,
+    "lon": -77.04427618109608,
+    "district": "COMAS"
+  },
+  {
+    "id": 731,
+    "name": "Zona 731 (COMAS)",
+    "lat": -11.94399762767673,
+    "lon": -77.02715082659905,
+    "district": "COMAS"
+  },
+  {
+    "id": 684,
+    "name": "Zona 684 (COMAS)",
+    "lat": -11.918759325968482,
+    "lon": -77.04358671127056,
+    "district": "COMAS"
+  },
+  {
+    "id": 852,
+    "name": "Zona 852 (SANTA ANITA)",
+    "lat": -12.0350799416306,
+    "lon": -76.95944550480476,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 1026,
+    "name": "Zona 1026 (COMAS)",
+    "lat": -11.928735427896388,
+    "lon": -77.06004867702096,
+    "district": "COMAS"
+  },
+  {
+    "id": 1025,
+    "name": "Zona 1025 (COMAS)",
+    "lat": -11.931837272867522,
+    "lon": -77.06163753434322,
+    "district": "COMAS"
+  },
+  {
+    "id": 680,
+    "name": "Zona 680 (COMAS)",
+    "lat": -11.913815332809813,
+    "lon": -77.0420178075599,
+    "district": "COMAS"
+  },
+  {
+    "id": 703,
+    "name": "Zona 703 (COMAS)",
+    "lat": -11.921717207096659,
+    "lon": -77.04849863581823,
+    "district": "COMAS"
+  },
+  {
+    "id": 705,
+    "name": "Zona 705 (COMAS)",
+    "lat": -11.91314985571797,
+    "lon": -77.04525794599272,
+    "district": "COMAS"
+  },
+  {
+    "id": 1019,
+    "name": "Zona 1019 (COMAS)",
+    "lat": -11.91009908229711,
+    "lon": -77.04834649253331,
+    "district": "COMAS"
+  },
+  {
+    "id": 1039,
+    "name": "Zona 1039 (COMAS)",
+    "lat": -11.908592432017093,
+    "lon": -77.04277883316455,
+    "district": "COMAS"
+  },
+  {
+    "id": 706,
+    "name": "Zona 706 (COMAS)",
+    "lat": -11.926882068468693,
+    "lon": -77.04503476958773,
+    "district": "COMAS"
+  },
+  {
+    "id": 717,
+    "name": "Zona 717 (COMAS)",
+    "lat": -11.934941010541856,
+    "lon": -77.06553110066923,
+    "district": "COMAS"
+  },
+  {
+    "id": 1016,
+    "name": "Zona 1016 (COMAS)",
+    "lat": -11.927585021192412,
+    "lon": -77.0543007064435,
+    "district": "COMAS"
+  },
+  {
+    "id": 840,
+    "name": "Zona 840 (COMAS)",
+    "lat": -11.93184629499277,
+    "lon": -77.05616270300673,
+    "district": "COMAS"
+  },
+  {
+    "id": 841,
+    "name": "Zona 841 (COMAS)",
+    "lat": -11.936540446361953,
+    "lon": -77.06040318670611,
+    "district": "COMAS"
+  },
+  {
+    "id": 1020,
+    "name": "Zona 1020 (COMAS)",
+    "lat": -11.925833071945798,
+    "lon": -77.05906221047718,
+    "district": "COMAS"
+  },
+  {
+    "id": 1041,
+    "name": "Zona 1041 (COMAS)",
+    "lat": -11.928970891277544,
+    "lon": -77.05067769889263,
+    "district": "COMAS"
+  },
+  {
+    "id": 707,
+    "name": "Zona 707 (COMAS)",
+    "lat": -11.930877187272614,
+    "lon": -77.04686049261389,
+    "district": "COMAS"
+  },
+  {
+    "id": 709,
+    "name": "Zona 709 (COMAS)",
+    "lat": -11.93388890870501,
+    "lon": -77.04122518456309,
+    "district": "COMAS"
+  },
+  {
+    "id": 1061,
+    "name": "Zona 1061 (COMAS)",
+    "lat": -11.935918199754417,
+    "lon": -77.04499925387238,
+    "district": "COMAS"
+  },
+  {
+    "id": 861,
+    "name": "Zona 861 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.957093756505811,
+    "lon": -76.96917617037678,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 698,
+    "name": "Zona 698 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.939727517794463,
+    "lon": -77.0009826996879,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 732,
+    "name": "Zona 732 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.990684646967708,
+    "lon": -76.98764793939152,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 735,
+    "name": "Zona 735 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.975518326520715,
+    "lon": -76.99487771145655,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 866,
+    "name": "Zona 866 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.97344625862351,
+    "lon": -76.98947848702609,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 739,
+    "name": "Zona 739 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.949006342921388,
+    "lon": -77.00887923413882,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 740,
+    "name": "Zona 740 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.969541522409095,
+    "lon": -77.00013862521001,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 741,
+    "name": "Zona 741 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.960207574396414,
+    "lon": -76.99304321793022,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 860,
+    "name": "Zona 860 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.950439505211621,
+    "lon": -76.99535745010986,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 864,
+    "name": "Zona 864 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.952591645898513,
+    "lon": -76.98444909044511,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 863,
+    "name": "Zona 863 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.961899008862593,
+    "lon": -76.98494671885669,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 742,
+    "name": "Zona 742 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.982007124156487,
+    "lon": -76.99904133190128,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 743,
+    "name": "Zona 743 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.976159083409321,
+    "lon": -77.00589122917955,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 746,
+    "name": "Zona 746 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.96391573977676,
+    "lon": -77.00478461518662,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 744,
+    "name": "Zona 744 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.988412820945078,
+    "lon": -77.00387655482722,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 745,
+    "name": "Zona 745 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.993414337092716,
+    "lon": -77.00603797946675,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 736,
+    "name": "Zona 736 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.95778611502231,
+    "lon": -77.01300436174708,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 748,
+    "name": "Zona 748 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.96259228934285,
+    "lon": -77.02060085794164,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 737,
+    "name": "Zona 737 (COMAS)",
+    "lat": -11.957741488457996,
+    "lon": -77.03463634221757,
+    "district": "COMAS"
+  },
+  {
+    "id": 749,
+    "name": "Zona 749 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.984025644663781,
+    "lon": -77.00380339448193,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 750,
+    "name": "Zona 750 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.981342487924758,
+    "lon": -77.00928843385888,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 751,
+    "name": "Zona 751 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.994062598732102,
+    "lon": -77.0128609113755,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 752,
+    "name": "Zona 752 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.986310880088293,
+    "lon": -77.0118185914906,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 734,
+    "name": "Zona 734 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.998682718599074,
+    "lon": -77.00475751924826,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 753,
+    "name": "Zona 753 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.005648332888272,
+    "lon": -77.002356269114,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1136,
+    "name": "Zona 1136 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.002628756795135,
+    "lon": -76.98830533797053,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 754,
+    "name": "Zona 754 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.008251189024048,
+    "lon": -77.00785361897678,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 733,
+    "name": "Zona 733 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.997423186469023,
+    "lon": -76.99505414233819,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 693,
+    "name": "Zona 693 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.007589762897057,
+    "lon": -76.98112712385182,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 759,
+    "name": "Zona 759 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.000044808496906,
+    "lon": -77.01129798683483,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 755,
+    "name": "Zona 755 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.020975165239202,
+    "lon": -76.99428399396662,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 756,
+    "name": "Zona 756 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.023314471861394,
+    "lon": -77.00075665184438,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 757,
+    "name": "Zona 757 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.013529475507527,
+    "lon": -76.99826067826687,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 758,
+    "name": "Zona 758 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.995205593908665,
+    "lon": -77.0223993392684,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 760,
+    "name": "Zona 760 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.985101155704161,
+    "lon": -77.02279951153837,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 832,
+    "name": "Zona 832 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.975020553773367,
+    "lon": -77.02163143180931,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 761,
+    "name": "Zona 761 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.015372758098575,
+    "lon": -77.00710896002171,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 762,
+    "name": "Zona 762 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.010873614795656,
+    "lon": -77.01575649308859,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 779,
+    "name": "Zona 779 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.004019468365918,
+    "lon": -77.02058701426549,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 763,
+    "name": "Zona 763 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.019771273925329,
+    "lon": -77.01261621293843,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 764,
+    "name": "Zona 764 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.02716683797833,
+    "lon": -77.00749089097116,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 765,
+    "name": "Zona 765 (EL AGUSTINO)",
+    "lat": -12.030057292636032,
+    "lon": -77.0028615441134,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 767,
+    "name": "Zona 767 (LIMA)",
+    "lat": -12.033720102342025,
+    "lon": -77.01051099581774,
+    "district": "LIMA"
+  },
+  {
+    "id": 1072,
+    "name": "Zona 1072 (INDEPENDENCIA)",
+    "lat": -11.990718592074101,
+    "lon": -77.04122527725235,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 825,
+    "name": "Zona 825 (INDEPENDENCIA)",
+    "lat": -11.98223832467268,
+    "lon": -77.04436072836528,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 824,
+    "name": "Zona 824 (INDEPENDENCIA)",
+    "lat": -11.98024154991261,
+    "lon": -77.03484269178004,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1069,
+    "name": "Zona 1069 (INDEPENDENCIA)",
+    "lat": -11.975538367734854,
+    "lon": -77.05331807541985,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1067,
+    "name": "Zona 1067 (INDEPENDENCIA)",
+    "lat": -11.971989481358767,
+    "lon": -77.04559234701888,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 738,
+    "name": "Zona 738 (INDEPENDENCIA)",
+    "lat": -11.96731639435797,
+    "lon": -77.03467575197848,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1079,
+    "name": "Zona 1079 (INDEPENDENCIA)",
+    "lat": -11.99934111999944,
+    "lon": -77.03902205197905,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1139,
+    "name": "Zona 1139 (EL AGUSTINO)",
+    "lat": -12.034105401998534,
+    "lon": -77.00013751525691,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 766,
+    "name": "Zona 766 (EL AGUSTINO)",
+    "lat": -12.032650671525616,
+    "lon": -76.9947824710319,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 614,
+    "name": "Zona 614 (EL AGUSTINO)",
+    "lat": -12.032822704860465,
+    "lon": -76.97684441049601,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 1037,
+    "name": "Zona 1037 (INDEPENDENCIA)",
+    "lat": -11.993812544713865,
+    "lon": -77.05254715631774,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 771,
+    "name": "Zona 771 (INDEPENDENCIA)",
+    "lat": -11.990458083564446,
+    "lon": -77.05332448311427,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 770,
+    "name": "Zona 770 (INDEPENDENCIA)",
+    "lat": -11.987346111544204,
+    "lon": -77.0534617387041,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 777,
+    "name": "Zona 777 (LIMA)",
+    "lat": -12.04565628126133,
+    "lon": -77.00610094052948,
+    "district": "LIMA"
+  },
+  {
+    "id": 768,
+    "name": "Zona 768 (INDEPENDENCIA)",
+    "lat": -11.992843265572173,
+    "lon": -77.06145152169972,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 175,
+    "name": "Zona 175 (INDEPENDENCIA)",
+    "lat": -11.999083361073343,
+    "lon": -77.06041770807464,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1083,
+    "name": "Zona 1083 (INDEPENDENCIA)",
+    "lat": -12.003377189338437,
+    "lon": -77.05960706607362,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1073,
+    "name": "Zona 1073 (INDEPENDENCIA)",
+    "lat": -11.99197968019287,
+    "lon": -77.05814806422956,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 769,
+    "name": "Zona 769 (INDEPENDENCIA)",
+    "lat": -11.986587211972967,
+    "lon": -77.06108232103438,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1070,
+    "name": "Zona 1070 (INDEPENDENCIA)",
+    "lat": -11.982522248633211,
+    "lon": -77.0561089588737,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 778,
+    "name": "Zona 778 (RIMAC)",
+    "lat": -12.007952168391917,
+    "lon": -77.03239060280148,
+    "district": "RIMAC"
+  },
+  {
+    "id": 805,
+    "name": "Zona 805 (RIMAC)",
+    "lat": -12.023144801789353,
+    "lon": -77.02418278149734,
+    "district": "RIMAC"
+  },
+  {
+    "id": 137,
+    "name": "Zona 137 (RIMAC)",
+    "lat": -12.015595106081241,
+    "lon": -77.0259036993103,
+    "district": "RIMAC"
+  },
+  {
+    "id": 780,
+    "name": "Zona 780 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.025923739137802,
+    "lon": -77.01684649278366,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1087,
+    "name": "Zona 1087 (RIMAC)",
+    "lat": -12.018401456009022,
+    "lon": -77.04069600352827,
+    "district": "RIMAC"
+  },
+  {
+    "id": 790,
+    "name": "Zona 790 (RIMAC)",
+    "lat": -12.022060573784964,
+    "lon": -77.0332291894222,
+    "district": "RIMAC"
+  },
+  {
+    "id": 807,
+    "name": "Zona 807 (INDEPENDENCIA)",
+    "lat": -12.008936944592604,
+    "lon": -77.04765303543019,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1078,
+    "name": "Zona 1078 (INDEPENDENCIA)",
+    "lat": -12.002959830376803,
+    "lon": -77.05138522940977,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 791,
+    "name": "Zona 791 (RIMAC)",
+    "lat": -12.026745569272691,
+    "lon": -77.0286967239879,
+    "district": "RIMAC"
+  },
+  {
+    "id": 814,
+    "name": "Zona 814 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.0324639193965,
+    "lon": -77.01541979004234,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1120,
+    "name": "Zona 1120 (RIMAC)",
+    "lat": -12.03769913154301,
+    "lon": -77.0362948805715,
+    "district": "RIMAC"
+  },
+  {
+    "id": 793,
+    "name": "Zona 793 (RIMAC)",
+    "lat": -12.034405376931431,
+    "lon": -77.03411857073162,
+    "district": "RIMAC"
+  },
+  {
+    "id": 781,
+    "name": "Zona 781 (RIMAC)",
+    "lat": -12.0339538490495,
+    "lon": -77.02572401910669,
+    "district": "RIMAC"
+  },
+  {
+    "id": 1119,
+    "name": "Zona 1119 (RIMAC)",
+    "lat": -12.03868374296795,
+    "lon": -77.03960316779002,
+    "district": "RIMAC"
+  },
+  {
+    "id": 124,
+    "name": "Zona 124 (SAN MARTIN DE PORRES)",
+    "lat": -12.02706895087258,
+    "lon": -77.05997725876811,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 259,
+    "name": "Zona 259 (SAN MARTIN DE PORRES)",
+    "lat": -12.029010556825382,
+    "lon": -77.05520648467672,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1101,
+    "name": "Zona 1101 (SAN MARTIN DE PORRES)",
+    "lat": -12.030083135823904,
+    "lon": -77.05832708918673,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 260,
+    "name": "Zona 260 (SAN MARTIN DE PORRES)",
+    "lat": -12.030616649473476,
+    "lon": -77.04974248961419,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1114,
+    "name": "Zona 1114 (SAN MARTIN DE PORRES)",
+    "lat": -12.03455405009038,
+    "lon": -77.05507174309392,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1193,
+    "name": "Zona 1193 (RIMAC)",
+    "lat": -12.02322069214108,
+    "lon": -77.0472921691386,
+    "district": "RIMAC"
+  },
+  {
+    "id": 1195,
+    "name": "Zona 1195 (RIMAC)",
+    "lat": -12.017683477354838,
+    "lon": -77.04907010494796,
+    "district": "RIMAC"
+  },
+  {
+    "id": 809,
+    "name": "Zona 809 (SAN MARTIN DE PORRES)",
+    "lat": -12.01429130880012,
+    "lon": -77.05464661995158,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 808,
+    "name": "Zona 808 (RIMAC)",
+    "lat": -12.01281242512492,
+    "lon": -77.05084383456833,
+    "district": "RIMAC"
+  },
+  {
+    "id": 789,
+    "name": "Zona 789 (RIMAC)",
+    "lat": -12.030217116375074,
+    "lon": -77.03934223680419,
+    "district": "RIMAC"
+  },
+  {
+    "id": 792,
+    "name": "Zona 792 (RIMAC)",
+    "lat": -12.033770087880576,
+    "lon": -77.04174500499424,
+    "district": "RIMAC"
+  },
+  {
+    "id": 1117,
+    "name": "Zona 1117 (RIMAC)",
+    "lat": -12.026918023517977,
+    "lon": -77.03659037565603,
+    "district": "RIMAC"
+  },
+  {
+    "id": 815,
+    "name": "Zona 815 (RIMAC)",
+    "lat": -12.037284621921872,
+    "lon": -77.02175944473076,
+    "district": "RIMAC"
+  },
+  {
+    "id": 1122,
+    "name": "Zona 1122 (LIMA)",
+    "lat": -12.041466845744486,
+    "lon": -77.03792164473973,
+    "district": "LIMA"
+  },
+  {
+    "id": 1121,
+    "name": "Zona 1121 (LIMA)",
+    "lat": -12.046052702435901,
+    "lon": -77.03860086748993,
+    "district": "LIMA"
+  },
+  {
+    "id": 802,
+    "name": "Zona 802 (LIMA)",
+    "lat": -12.043205885403435,
+    "lon": -77.04135268405392,
+    "district": "LIMA"
+  },
+  {
+    "id": 1115,
+    "name": "Zona 1115 (LIMA)",
+    "lat": -12.038611670265924,
+    "lon": -77.04733306933478,
+    "district": "LIMA"
+  },
+  {
+    "id": 785,
+    "name": "Zona 785 (LIMA)",
+    "lat": -12.043777373611467,
+    "lon": -77.03337102303404,
+    "district": "LIMA"
+  },
+  {
+    "id": 818,
+    "name": "Zona 818 (LIMA)",
+    "lat": -12.052486019858343,
+    "lon": -77.03736176986604,
+    "district": "LIMA"
+  },
+  {
+    "id": 786,
+    "name": "Zona 786 (LIMA)",
+    "lat": -12.05263727510176,
+    "lon": -77.04044602742798,
+    "district": "LIMA"
+  },
+  {
+    "id": 1124,
+    "name": "Zona 1124 (LIMA)",
+    "lat": -12.054072387763622,
+    "lon": -77.03398425865866,
+    "district": "LIMA"
+  },
+  {
+    "id": 1085,
+    "name": "Zona 1085 (SAN MARTIN DE PORRES)",
+    "lat": -12.022328965680927,
+    "lon": -77.05695052547776,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1092,
+    "name": "Zona 1092 (SAN MARTIN DE PORRES)",
+    "lat": -12.021755811381206,
+    "lon": -77.0619050114948,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 274,
+    "name": "Zona 274 (SAN MARTIN DE PORRES)",
+    "lat": -12.026729993397987,
+    "lon": -77.05090318873779,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1086,
+    "name": "Zona 1086 (SAN MARTIN DE PORRES)",
+    "lat": -12.021390931632112,
+    "lon": -77.05186481368916,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 810,
+    "name": "Zona 810 (SAN MARTIN DE PORRES)",
+    "lat": -12.018261119988738,
+    "lon": -77.05369559601863,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 788,
+    "name": "Zona 788 (SAN MARTIN DE PORRES)",
+    "lat": -12.024958195162306,
+    "lon": -77.05503447122268,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 794,
+    "name": "Zona 794 (BREÑA)",
+    "lat": -12.056269619994483,
+    "lon": -77.05086415408972,
+    "district": "BREÑA"
+  },
+  {
+    "id": 797,
+    "name": "Zona 797 (LIMA)",
+    "lat": -12.047518111300624,
+    "lon": -77.04894422490585,
+    "district": "LIMA"
+  },
+  {
+    "id": 798,
+    "name": "Zona 798 (BREÑA)",
+    "lat": -12.05272120006572,
+    "lon": -77.04505010104356,
+    "district": "BREÑA"
+  },
+  {
+    "id": 800,
+    "name": "Zona 800 (LIMA)",
+    "lat": -12.048384392049954,
+    "lon": -77.0539556712413,
+    "district": "LIMA"
+  },
+  {
+    "id": 1113,
+    "name": "Zona 1113 (LIMA)",
+    "lat": -12.044163407697042,
+    "lon": -77.05781694401544,
+    "district": "LIMA"
+  },
+  {
+    "id": 803,
+    "name": "Zona 803 (LIMA)",
+    "lat": -12.03834684114416,
+    "lon": -77.0528371229119,
+    "district": "LIMA"
+  },
+  {
+    "id": 804,
+    "name": "Zona 804 (LIMA)",
+    "lat": -12.042917443545752,
+    "lon": -77.05306654683544,
+    "district": "LIMA"
+  },
+  {
+    "id": 276,
+    "name": "Zona 276 (SAN MARTIN DE PORRES)",
+    "lat": -12.037179521265989,
+    "lon": -77.0454473481685,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1116,
+    "name": "Zona 1116 (LIMA)",
+    "lat": -12.042905602798415,
+    "lon": -77.0464404913156,
+    "district": "LIMA"
+  },
+  {
+    "id": 801,
+    "name": "Zona 801 (LIMA)",
+    "lat": -12.048146447302363,
+    "lon": -77.04415750016061,
+    "district": "LIMA"
+  },
+  {
+    "id": 1123,
+    "name": "Zona 1123 (LIMA)",
+    "lat": -12.049202550295416,
+    "lon": -77.04095065138337,
+    "district": "LIMA"
+  },
+  {
+    "id": 275,
+    "name": "Zona 275 (SAN MARTIN DE PORRES)",
+    "lat": -12.033097945985833,
+    "lon": -77.0465063098097,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1038,
+    "name": "Zona 1038 (INDEPENDENCIA)",
+    "lat": -11.999319571930581,
+    "lon": -77.05213855098833,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1077,
+    "name": "Zona 1077 (INDEPENDENCIA)",
+    "lat": -11.996871571744897,
+    "lon": -77.0462773783879,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1082,
+    "name": "Zona 1082 (LOS OLIVOS)",
+    "lat": -12.006947152642098,
+    "lon": -77.06357740217065,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 1194,
+    "name": "Zona 1194 (INDEPENDENCIA)",
+    "lat": -12.005682942547557,
+    "lon": -77.05542854834711,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1084,
+    "name": "Zona 1084 (INDEPENDENCIA)",
+    "lat": -12.006301233629301,
+    "lon": -77.05916251504974,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1080,
+    "name": "Zona 1080 (INDEPENDENCIA)",
+    "lat": -12.002811594679086,
+    "lon": -77.05613928954486,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1074,
+    "name": "Zona 1074 (INDEPENDENCIA)",
+    "lat": -11.99820066261502,
+    "lon": -77.05679486050161,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 193,
+    "name": "Zona 193 (SAN MARTIN DE PORRES)",
+    "lat": -12.009563184571377,
+    "lon": -77.05526888042994,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 194,
+    "name": "Zona 194 (SAN MARTIN DE PORRES)",
+    "lat": -12.011572620369133,
+    "lon": -77.05876908930296,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 1093,
+    "name": "Zona 1093 (SAN MARTIN DE PORRES)",
+    "lat": -12.017656120929317,
+    "lon": -77.05795687822862,
+    "district": "SAN MARTIN DE PORRES"
+  },
+  {
+    "id": 783,
+    "name": "Zona 783 (LIMA)",
+    "lat": -12.051382883541294,
+    "lon": -77.0324415037965,
+    "district": "LIMA"
+  },
+  {
+    "id": 1118,
+    "name": "Zona 1118 (RIMAC)",
+    "lat": -12.030958809420031,
+    "lon": -77.03171586372213,
+    "district": "RIMAC"
+  },
+  {
+    "id": 710,
+    "name": "Zona 710 (COMAS)",
+    "lat": -11.937403863731387,
+    "lon": -77.03683948170628,
+    "district": "COMAS"
+  },
+  {
+    "id": 1055,
+    "name": "Zona 1055 (COMAS)",
+    "lat": -11.953433624980594,
+    "lon": -77.04250345155245,
+    "district": "COMAS"
+  },
+  {
+    "id": 1058,
+    "name": "Zona 1058 (COMAS)",
+    "lat": -11.944283648085232,
+    "lon": -77.04151579351553,
+    "district": "COMAS"
+  },
+  {
+    "id": 1059,
+    "name": "Zona 1059 (COMAS)",
+    "lat": -11.947816613899107,
+    "lon": -77.04565608876494,
+    "district": "COMAS"
+  },
+  {
+    "id": 1057,
+    "name": "Zona 1057 (COMAS)",
+    "lat": -11.958367178312967,
+    "lon": -77.04644644762145,
+    "district": "COMAS"
+  },
+  {
+    "id": 1053,
+    "name": "Zona 1053 (COMAS)",
+    "lat": -11.95681568629753,
+    "lon": -77.05087023724462,
+    "district": "COMAS"
+  },
+  {
+    "id": 1054,
+    "name": "Zona 1054 (COMAS)",
+    "lat": -11.952833386561942,
+    "lon": -77.04868094799593,
+    "district": "COMAS"
+  },
+  {
+    "id": 1056,
+    "name": "Zona 1056 (COMAS)",
+    "lat": -11.962568017093403,
+    "lon": -77.04736277996686,
+    "district": "COMAS"
+  },
+  {
+    "id": 1052,
+    "name": "Zona 1052 (COMAS)",
+    "lat": -11.971552744151412,
+    "lon": -77.05565475168537,
+    "district": "COMAS"
+  },
+  {
+    "id": 1035,
+    "name": "Zona 1035 (LOS OLIVOS)",
+    "lat": -11.959276643286735,
+    "lon": -77.06640471666657,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 829,
+    "name": "Zona 829 (LOS OLIVOS)",
+    "lat": -11.966071155204476,
+    "lon": -77.06513665771817,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 836,
+    "name": "Zona 836 (COMAS)",
+    "lat": -11.959292228155604,
+    "lon": -77.05627227347898,
+    "district": "COMAS"
+  },
+  {
+    "id": 835,
+    "name": "Zona 835 (COMAS)",
+    "lat": -11.954056772172041,
+    "lon": -77.05453555658478,
+    "district": "COMAS"
+  },
+  {
+    "id": 838,
+    "name": "Zona 838 (COMAS)",
+    "lat": -11.949550843567193,
+    "lon": -77.05256842150027,
+    "district": "COMAS"
+  },
+  {
+    "id": 827,
+    "name": "Zona 827 (COMAS)",
+    "lat": -11.960688015458226,
+    "lon": -77.05229804157557,
+    "district": "COMAS"
+  },
+  {
+    "id": 772,
+    "name": "Zona 772 (INDEPENDENCIA)",
+    "lat": -11.977638746738466,
+    "lon": -77.05716165566533,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 828,
+    "name": "Zona 828 (COMAS)",
+    "lat": -11.966167579838542,
+    "lon": -77.05189415029211,
+    "district": "COMAS"
+  },
+  {
+    "id": 1034,
+    "name": "Zona 1034 (COMAS)",
+    "lat": -11.95791021550056,
+    "lon": -77.06227554421386,
+    "district": "COMAS"
+  },
+  {
+    "id": 1050,
+    "name": "Zona 1050 (COMAS)",
+    "lat": -11.962882566408659,
+    "lon": -77.0605200390074,
+    "district": "COMAS"
+  },
+  {
+    "id": 1049,
+    "name": "Zona 1049 (COMAS)",
+    "lat": -11.966734321059594,
+    "lon": -77.05952812607336,
+    "district": "COMAS"
+  },
+  {
+    "id": 1047,
+    "name": "Zona 1047 (COMAS)",
+    "lat": -11.958308293690997,
+    "lon": -77.05958939785623,
+    "district": "COMAS"
+  },
+  {
+    "id": 1046,
+    "name": "Zona 1046 (COMAS)",
+    "lat": -11.9511384923741,
+    "lon": -77.05861294795518,
+    "district": "COMAS"
+  },
+  {
+    "id": 1033,
+    "name": "Zona 1033 (COMAS)",
+    "lat": -11.952649048402842,
+    "lon": -77.0624737729415,
+    "district": "COMAS"
+  },
+  {
+    "id": 198,
+    "name": "Zona 198 (COMAS)",
+    "lat": -11.947724300356654,
+    "lon": -77.06333282028224,
+    "district": "COMAS"
+  },
+  {
+    "id": 1048,
+    "name": "Zona 1048 (COMAS)",
+    "lat": -11.946442513288153,
+    "lon": -77.0577034552424,
+    "district": "COMAS"
+  },
+  {
+    "id": 833,
+    "name": "Zona 833 (LOS OLIVOS)",
+    "lat": -11.973534224530104,
+    "lon": -77.06369521441948,
+    "district": "LOS OLIVOS"
+  },
+  {
+    "id": 823,
+    "name": "Zona 823 (COMAS)",
+    "lat": -11.971998467236626,
+    "lon": -77.05944209270892,
+    "district": "COMAS"
+  },
+  {
+    "id": 1071,
+    "name": "Zona 1071 (INDEPENDENCIA)",
+    "lat": -11.98233979568111,
+    "lon": -77.05128417588858,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 254,
+    "name": "Zona 254 (INDEPENDENCIA)",
+    "lat": -11.98037047090681,
+    "lon": -77.06235112305718,
+    "district": "INDEPENDENCIA"
+  },
+  {
+    "id": 1051,
+    "name": "Zona 1051 (COMAS)",
+    "lat": -11.963996240856302,
+    "lon": -77.05641911662218,
+    "district": "COMAS"
+  },
+  {
+    "id": 821,
+    "name": "Zona 821 (COMAS)",
+    "lat": -11.943203150271472,
+    "lon": -77.04775146992203,
+    "district": "COMAS"
+  },
+  {
+    "id": 822,
+    "name": "Zona 822 (COMAS)",
+    "lat": -11.938945097146497,
+    "lon": -77.04694942250299,
+    "district": "COMAS"
+  },
+  {
+    "id": 1042,
+    "name": "Zona 1042 (COMAS)",
+    "lat": -11.936852323419428,
+    "lon": -77.05128094618694,
+    "district": "COMAS"
+  },
+  {
+    "id": 1062,
+    "name": "Zona 1062 (COMAS)",
+    "lat": -11.934010243812944,
+    "lon": -77.04886741595892,
+    "district": "COMAS"
+  },
+  {
+    "id": 1045,
+    "name": "Zona 1045 (COMAS)",
+    "lat": -11.941878542037754,
+    "lon": -77.05268140838574,
+    "district": "COMAS"
+  },
+  {
+    "id": 1044,
+    "name": "Zona 1044 (COMAS)",
+    "lat": -11.946144669705097,
+    "lon": -77.05177444092843,
+    "district": "COMAS"
+  },
+  {
+    "id": 197,
+    "name": "Zona 197 (COMAS)",
+    "lat": -11.943616728216096,
+    "lon": -77.06350553350303,
+    "district": "COMAS"
+  },
+  {
+    "id": 196,
+    "name": "Zona 196 (COMAS)",
+    "lat": -11.939929489969906,
+    "lon": -77.06402678543546,
+    "district": "COMAS"
+  },
+  {
+    "id": 1040,
+    "name": "Zona 1040 (COMAS)",
+    "lat": -11.933106285486291,
+    "lon": -77.05312301659946,
+    "district": "COMAS"
+  },
+  {
+    "id": 837,
+    "name": "Zona 837 (COMAS)",
+    "lat": -11.938817385699574,
+    "lon": -77.05603364095403,
+    "district": "COMAS"
+  },
+  {
+    "id": 834,
+    "name": "Zona 834 (COMAS)",
+    "lat": -11.94353381239059,
+    "lon": -77.05679043242851,
+    "district": "COMAS"
+  },
+  {
+    "id": 708,
+    "name": "Zona 708 (COMAS)",
+    "lat": -11.932879745391517,
+    "lon": -77.04465642229546,
+    "district": "COMAS"
+  },
+  {
+    "id": 826,
+    "name": "Zona 826 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.97092877307077,
+    "lon": -77.01512621338216,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 844,
+    "name": "Zona 844 (SAN JUAN DE LURIGANCHO)",
+    "lat": -12.023272658811372,
+    "lon": -76.9869394167909,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 843,
+    "name": "Zona 843 (EL AGUSTINO)",
+    "lat": -12.030317274687247,
+    "lon": -76.98879193386466,
+    "district": "EL AGUSTINO"
+  },
+  {
+    "id": 615,
+    "name": "Zona 615 (SANTA ANITA)",
+    "lat": -12.039839599066797,
+    "lon": -76.96888948464134,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 850,
+    "name": "Zona 850 (SANTA ANITA)",
+    "lat": -12.037632010818976,
+    "lon": -76.9647598843151,
+    "district": "SANTA ANITA"
+  },
+  {
+    "id": 675,
+    "name": "Zona 675 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.94340724143149,
+    "lon": -76.96193785462268,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 858,
+    "name": "Zona 858 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.943525775980902,
+    "lon": -76.97128130062957,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 868,
+    "name": "Zona 868 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.945787262316827,
+    "lon": -76.98061883317477,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1137,
+    "name": "Zona 1137 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.952854739116226,
+    "lon": -76.96596817074831,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 859,
+    "name": "Zona 859 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.95023131803763,
+    "lon": -76.97530446919102,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1138,
+    "name": "Zona 1138 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.971359144970696,
+    "lon": -76.98510503771975,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 747,
+    "name": "Zona 747 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.969124266629235,
+    "lon": -76.98040007328805,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 867,
+    "name": "Zona 867 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.96739361139448,
+    "lon": -76.98952423803505,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 1066,
+    "name": "Zona 1066 (SAN JUAN DE LURIGANCHO)",
+    "lat": -11.954468292644444,
+    "lon": -76.99852364646534,
+    "district": "SAN JUAN DE LURIGANCHO"
+  },
+  {
+    "id": 869,
+    "name": "Zona 869 (CARABAYLLO)",
+    "lat": -11.827325180521521,
+    "lon": -77.00283661774787,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 876,
+    "name": "Zona 876 (CARABAYLLO)",
+    "lat": -11.844903655799968,
+    "lon": -77.0034399576506,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 994,
+    "name": "Zona 994 (CARABAYLLO)",
+    "lat": -11.851982452262973,
+    "lon": -77.00716815764332,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 993,
+    "name": "Zona 993 (CARABAYLLO)",
+    "lat": -11.838067147622048,
+    "lon": -76.987224907957,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 992,
+    "name": "Zona 992 (CARABAYLLO)",
+    "lat": -11.827429197271035,
+    "lon": -76.99558631321806,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 872,
+    "name": "Zona 872 (CARABAYLLO)",
+    "lat": -11.855362957023562,
+    "lon": -77.02526790276951,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 871,
+    "name": "Zona 871 (CARABAYLLO)",
+    "lat": -11.838934404213932,
+    "lon": -77.00903380862052,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 997,
+    "name": "Zona 997 (CARABAYLLO)",
+    "lat": -11.845419436879416,
+    "lon": -77.01258217573974,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 870,
+    "name": "Zona 870 (CARABAYLLO)",
+    "lat": -11.833717848063039,
+    "lon": -77.00638600022522,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 961,
+    "name": "Zona 961 (CARABAYLLO)",
+    "lat": -11.860147623138236,
+    "lon": -77.0086890517866,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 958,
+    "name": "Zona 958 (CARABAYLLO)",
+    "lat": -11.85673398952521,
+    "lon": -77.01279589749815,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 959,
+    "name": "Zona 959 (CARABAYLLO)",
+    "lat": -11.85448080154281,
+    "lon": -77.01835862186755,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 996,
+    "name": "Zona 996 (CARABAYLLO)",
+    "lat": -11.873642806316726,
+    "lon": -77.0092811766127,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 991,
+    "name": "Zona 991 (CARABAYLLO)",
+    "lat": -11.889773351221981,
+    "lon": -77.0151923717183,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 999,
+    "name": "Zona 999 (CARABAYLLO)",
+    "lat": -11.883946883247955,
+    "lon": -77.01508806111482,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1004,
+    "name": "Zona 1004 (CARABAYLLO)",
+    "lat": -11.897751659822225,
+    "lon": -77.01093239992655,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 873,
+    "name": "Zona 873 (CARABAYLLO)",
+    "lat": -11.870849952852046,
+    "lon": -77.04261166435263,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 79,
+    "name": "Zona 79 (CARABAYLLO)",
+    "lat": -11.882442352352829,
+    "lon": -77.05108998844582,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 983,
+    "name": "Zona 983 (CARABAYLLO)",
+    "lat": -11.863476095889864,
+    "lon": -77.02708553874527,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 982,
+    "name": "Zona 982 (CARABAYLLO)",
+    "lat": -11.872353027379036,
+    "lon": -77.03325739995657,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 963,
+    "name": "Zona 963 (CARABAYLLO)",
+    "lat": -11.865364851673512,
+    "lon": -77.0211613069542,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 957,
+    "name": "Zona 957 (CARABAYLLO)",
+    "lat": -11.861183633096383,
+    "lon": -77.01703359184367,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 960,
+    "name": "Zona 960 (CARABAYLLO)",
+    "lat": -11.864302113873055,
+    "lon": -77.012478583717,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1003,
+    "name": "Zona 1003 (CARABAYLLO)",
+    "lat": -11.891981633781818,
+    "lon": -77.02441241970554,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 990,
+    "name": "Zona 990 (CARABAYLLO)",
+    "lat": -11.885965638852579,
+    "lon": -77.02763874790294,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 989,
+    "name": "Zona 989 (CARABAYLLO)",
+    "lat": -11.876031195455385,
+    "lon": -77.02103835387494,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1002,
+    "name": "Zona 1002 (CARABAYLLO)",
+    "lat": -11.897416479659313,
+    "lon": -77.02646970361509,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1001,
+    "name": "Zona 1001 (CARABAYLLO)",
+    "lat": -11.904397382229414,
+    "lon": -77.02646939776015,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 981,
+    "name": "Zona 981 (COMAS)",
+    "lat": -11.894249557925658,
+    "lon": -77.05254314538733,
+    "district": "COMAS"
+  },
+  {
+    "id": 978,
+    "name": "Zona 978 (PUENTE PIEDRA)",
+    "lat": -11.887860610903376,
+    "lon": -77.06119609735141,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 874,
+    "name": "Zona 874 (CARABAYLLO)",
+    "lat": -11.879780771955339,
+    "lon": -77.03920154643139,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 875,
+    "name": "Zona 875 (CARABAYLLO)",
+    "lat": -11.887337899575597,
+    "lon": -77.04582010905403,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 984,
+    "name": "Zona 984 (CARABAYLLO)",
+    "lat": -11.885021747868569,
+    "lon": -77.03488456333456,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 985,
+    "name": "Zona 985 (CARABAYLLO)",
+    "lat": -11.878685548070584,
+    "lon": -77.03059608569686,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1011,
+    "name": "Zona 1011 (CARABAYLLO)",
+    "lat": -11.893032880690631,
+    "lon": -77.0337135141755,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1012,
+    "name": "Zona 1012 (CARABAYLLO)",
+    "lat": -11.895597220339825,
+    "lon": -77.03106288391253,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1013,
+    "name": "Zona 1013 (CARABAYLLO)",
+    "lat": -11.901959647915378,
+    "lon": -77.0336444329788,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 100,
+    "name": "Zona 100 (COMAS)",
+    "lat": -11.906972436178522,
+    "lon": -77.03683627905379,
+    "district": "COMAS"
+  },
+  {
+    "id": 988,
+    "name": "Zona 988 (COMAS)",
+    "lat": -11.909970753196028,
+    "lon": -77.0397985905559,
+    "district": "COMAS"
+  },
+  {
+    "id": 987,
+    "name": "Zona 987 (COMAS)",
+    "lat": -11.913083838307704,
+    "lon": -77.03702188978502,
+    "district": "COMAS"
+  },
+  {
+    "id": 681,
+    "name": "Zona 681 (COMAS)",
+    "lat": -11.917101715935376,
+    "lon": -77.03650531757285,
+    "district": "COMAS"
+  },
+  {
+    "id": 1009,
+    "name": "Zona 1009 (CARABAYLLO)",
+    "lat": -11.89359893802732,
+    "lon": -77.04378401084797,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1014,
+    "name": "Zona 1014 (COMAS)",
+    "lat": -11.900014205300502,
+    "lon": -77.04733577947961,
+    "district": "COMAS"
+  },
+  {
+    "id": 877,
+    "name": "Zona 877 (COMAS)",
+    "lat": -11.90184267539225,
+    "lon": -77.0577657964508,
+    "district": "COMAS"
+  },
+  {
+    "id": 1010,
+    "name": "Zona 1010 (CARABAYLLO)",
+    "lat": -11.888753755877264,
+    "lon": -77.03955292827052,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1007,
+    "name": "Zona 1007 (CARABAYLLO)",
+    "lat": -11.89112420084599,
+    "lon": -77.0362552502201,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 1008,
+    "name": "Zona 1008 (CARABAYLLO)",
+    "lat": -11.895254287648795,
+    "lon": -77.0389600829954,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 99,
+    "name": "Zona 99 (CARABAYLLO)",
+    "lat": -11.897428959249085,
+    "lon": -77.03642041994901,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 98,
+    "name": "Zona 98 (COMAS)",
+    "lat": -11.902861219719558,
+    "lon": -77.03870984182376,
+    "district": "COMAS"
+  },
+  {
+    "id": 1017,
+    "name": "Zona 1017 (COMAS)",
+    "lat": -11.898574737356135,
+    "lon": -77.04126470051979,
+    "district": "COMAS"
+  },
+  {
+    "id": 1018,
+    "name": "Zona 1018 (COMAS)",
+    "lat": -11.90406889428364,
+    "lon": -77.0442286695945,
+    "district": "COMAS"
+  },
+  {
+    "id": 1015,
+    "name": "Zona 1015 (COMAS)",
+    "lat": -11.905783603871047,
+    "lon": -77.04109494217019,
+    "district": "COMAS"
+  },
+  {
+    "id": 101,
+    "name": "Zona 101 (COMAS)",
+    "lat": -11.906808051867102,
+    "lon": -77.05132739868974,
+    "district": "COMAS"
+  },
+  {
+    "id": 878,
+    "name": "Zona 878 (COMAS)",
+    "lat": -11.909183051707371,
+    "lon": -77.06090191336135,
+    "district": "COMAS"
+  },
+  {
+    "id": 102,
+    "name": "Zona 102 (COMAS)",
+    "lat": -11.91408461043606,
+    "lon": -77.05525923177119,
+    "district": "COMAS"
+  },
+  {
+    "id": 1022,
+    "name": "Zona 1022 (COMAS)",
+    "lat": -11.918853250997127,
+    "lon": -77.05567893340928,
+    "district": "COMAS"
+  },
+  {
+    "id": 1021,
+    "name": "Zona 1021 (COMAS)",
+    "lat": -11.922558013707022,
+    "lon": -77.05793435331431,
+    "district": "COMAS"
+  },
+  {
+    "id": 704,
+    "name": "Zona 704 (COMAS)",
+    "lat": -11.916310167493343,
+    "lon": -77.05115666199238,
+    "district": "COMAS"
+  },
+  {
+    "id": 1023,
+    "name": "Zona 1023 (COMAS)",
+    "lat": -11.92093438848279,
+    "lon": -77.053232717296,
+    "district": "COMAS"
+  },
+  {
+    "id": 702,
+    "name": "Zona 702 (COMAS)",
+    "lat": -11.924491669650976,
+    "lon": -77.05462942748285,
+    "district": "COMAS"
+  },
+  {
+    "id": 70,
+    "name": "Zona 70 (PUENTE PIEDRA)",
+    "lat": -11.875354392009697,
+    "lon": -77.06509049488056,
+    "district": "PUENTE PIEDRA"
+  },
+  {
+    "id": 962,
+    "name": "Zona 962 (CARABAYLLO)",
+    "lat": -11.86918130949006,
+    "lon": -77.01641926731709,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 986,
+    "name": "Zona 986 (CARABAYLLO)",
+    "lat": -11.871171917622357,
+    "lon": -77.02580499680504,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 998,
+    "name": "Zona 998 (CARABAYLLO)",
+    "lat": -11.838179318849544,
+    "lon": -76.99867792110207,
+    "district": "CARABAYLLO"
+  },
+  {
+    "id": 661,
+    "name": "Zona 661 (LURIGANCHO)",
+    "lat": -11.971055302867756,
+    "lon": -76.90646010421935,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 895,
+    "name": "Zona 895 (LURIGANCHO)",
+    "lat": -11.99203294725106,
+    "lon": -76.90391092765181,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 715,
+    "name": "Zona 715 (LURIGANCHO)",
+    "lat": -12.001588248272204,
+    "lon": -76.91027625021232,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 879,
+    "name": "Zona 879 (LURIGANCHO)",
+    "lat": -11.993474823484004,
+    "lon": -76.89498986211846,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 925,
+    "name": "Zona 925 (LURIGANCHO)",
+    "lat": -11.987271244558594,
+    "lon": -76.8991266068075,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 884,
+    "name": "Zona 884 (LURIGANCHO)",
+    "lat": -12.002338731109955,
+    "lon": -76.88761165531793,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 888,
+    "name": "Zona 888 (LURIGANCHO)",
+    "lat": -11.999299539268458,
+    "lon": -76.87917686893357,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 887,
+    "name": "Zona 887 (LURIGANCHO)",
+    "lat": -12.006248605869136,
+    "lon": -76.87664561148142,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 891,
+    "name": "Zona 891 (LURIGANCHO)",
+    "lat": -12.009643022584578,
+    "lon": -76.88714540323711,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 885,
+    "name": "Zona 885 (LURIGANCHO)",
+    "lat": -12.011708506738726,
+    "lon": -76.89642885996916,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 664,
+    "name": "Zona 664 (ATE VITARTE)",
+    "lat": -12.01254642076411,
+    "lon": -76.88412841069899,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 889,
+    "name": "Zona 889 (ATE VITARTE)",
+    "lat": -12.018699615445838,
+    "lon": -76.90398572707787,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 923,
+    "name": "Zona 923 (ATE VITARTE)",
+    "lat": -12.022458504065193,
+    "lon": -76.91751935179481,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 690,
+    "name": "Zona 690 (LURIGANCHO)",
+    "lat": -12.01175236914686,
+    "lon": -76.91012297199032,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 882,
+    "name": "Zona 882 (LURIGANCHO)",
+    "lat": -12.008420235233887,
+    "lon": -76.8982401569991,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 663,
+    "name": "Zona 663 (ATE VITARTE)",
+    "lat": -12.020074976487354,
+    "lon": -76.8713643932653,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 1149,
+    "name": "Zona 1149 (ATE VITARTE)",
+    "lat": -12.019591077422342,
+    "lon": -76.88887008912629,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 880,
+    "name": "Zona 880 (LURIGANCHO)",
+    "lat": -12.000766549171708,
+    "lon": -76.89995624958162,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 883,
+    "name": "Zona 883 (LURIGANCHO)",
+    "lat": -12.00643262774652,
+    "lon": -76.90353952483922,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 897,
+    "name": "Zona 897 (ATE VITARTE)",
+    "lat": -12.0277109347881,
+    "lon": -76.925938799626,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 903,
+    "name": "Zona 903 (ATE VITARTE)",
+    "lat": -12.033000953924159,
+    "lon": -76.93009975926628,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 902,
+    "name": "Zona 902 (ATE VITARTE)",
+    "lat": -12.041685909240414,
+    "lon": -76.93242148168265,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 926,
+    "name": "Zona 926 (ATE VITARTE)",
+    "lat": -12.039524678549848,
+    "lon": -76.92792726296392,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 924,
+    "name": "Zona 924 (LURIGANCHO)",
+    "lat": -11.976159782910347,
+    "lon": -76.8938084320626,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 670,
+    "name": "Zona 670 (ATE VITARTE)",
+    "lat": -12.022839973455111,
+    "lon": -76.83686883479358,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 669,
+    "name": "Zona 669 (ATE VITARTE)",
+    "lat": -12.018711275503897,
+    "lon": -76.8254354118636,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 668,
+    "name": "Zona 668 (ATE VITARTE)",
+    "lat": -12.010956206197923,
+    "lon": -76.82495175691285,
+    "district": "ATE VITARTE"
+  },
+  {
+    "id": 908,
+    "name": "Zona 908 (LURIGANCHO)",
+    "lat": -11.91489725581583,
+    "lon": -76.70316709465068,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 659,
+    "name": "Zona 659 (LURIGANCHO)",
+    "lat": -11.943145032297766,
+    "lon": -76.66742077327875,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 905,
+    "name": "Zona 905 (LURIGANCHO)",
+    "lat": -11.918440024602114,
+    "lon": -76.67292894842349,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 658,
+    "name": "Zona 658 (LURIGANCHO)",
+    "lat": -11.967995448792504,
+    "lon": -76.68563720523754,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 1145,
+    "name": "Zona 1145 (LURIGANCHO)",
+    "lat": -11.938842050479987,
+    "lon": -76.73070940796931,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 907,
+    "name": "Zona 907 (LURIGANCHO)",
+    "lat": -11.921428015842116,
+    "lon": -76.72472535236923,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 906,
+    "name": "Zona 906 (LURIGANCHO)",
+    "lat": -11.899173737644483,
+    "lon": -76.73774889935865,
+    "district": "LURIGANCHO"
+  },
+  {
+    "id": 1806,
+    "name": "Zona 1806 (ZONA EXTERNA)",
+    "lat": -11.576733206600023,
+    "lon": -77.26340327211803,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1807,
+    "name": "Zona 1807 (ZONA EXTERNA)",
+    "lat": -11.487985815215401,
+    "lon": -77.2126866580819,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1805,
+    "name": "Zona 1805 (ZONA EXTERNA)",
+    "lat": -11.113648560371876,
+    "lon": -77.59446045798569,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1804,
+    "name": "Zona 1804 (ZONA EXTERNA)",
+    "lat": -10.774723089001258,
+    "lon": -77.74479974152197,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1809,
+    "name": "Zona 1809 (ZONA EXTERNA)",
+    "lat": -11.666339835232291,
+    "lon": -76.78935566554813,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1810,
+    "name": "Zona 1810 (ZONA EXTERNA)",
+    "lat": -11.740219814313486,
+    "lon": -76.70188433196168,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1808,
+    "name": "Zona 1808 (ZONA EXTERNA)",
+    "lat": -11.465317357288589,
+    "lon": -76.6228057953347,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1816,
+    "name": "Zona 1816 (ZONA EXTERNA)",
+    "lat": -12.663570984189084,
+    "lon": -76.63742035464905,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1813,
+    "name": "Zona 1813 (ZONA EXTERNA)",
+    "lat": -11.863680467808681,
+    "lon": -76.4103530814646,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1815,
+    "name": "Zona 1815 (ZONA EXTERNA)",
+    "lat": -12.526079992896618,
+    "lon": -76.72717298073317,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1814,
+    "name": "Zona 1814 (ZONA EXTERNA)",
+    "lat": -12.087420555611867,
+    "lon": -76.50290013832576,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1818,
+    "name": "Zona 1818 (ZONA EXTERNA)",
+    "lat": -13.077698792273406,
+    "lon": -76.35945945015996,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1817,
+    "name": "Zona 1817 (ZONA EXTERNA)",
+    "lat": -12.776680901136709,
+    "lon": -76.58144435678744,
+    "district": "ZONA EXTERNA"
+  },
+  {
+    "id": 1812,
+    "name": "Zona 1812 (ZONA EXTERNA)",
+    "lat": -11.907341888812535,
+    "lon": -76.66472773551199,
+    "district": "ZONA EXTERNA"
+  }
+]
