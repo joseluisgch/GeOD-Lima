@@ -512,3 +512,121 @@ select option {
   from { opacity: 0; transform: translateY(4px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+/* Custom Floating Map Controls */
+.map-custom-controls {
+  position: absolute;
+  top: 110px;
+  right: 10px;
+  z-index: 9;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.map-control-btn {
+  width: 29px;
+  height: 29px;
+  border-radius: 4px;
+  background: rgba(18, 24, 38, 0.85);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+.map-control-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--active-accent);
+}
+
+.map-control-btn.active {
+  border-color: var(--active-accent);
+  box-shadow: 0 0 8px rgba(var(--active-accent-rgb), 0.3);
+}
+
+/* Mobile Sidebar Toggle Button */
+.sidebar-toggle-btn {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--panel-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  box-shadow: var(--shadow-main);
+  transition: all 0.2s ease;
+}
+
+.sidebar-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--active-accent);
+}
+
+/* Sidebar Close Button */
+.sidebar-close-btn {
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+  font-size: 0.8rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.sidebar-close-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ff3b30;
+}
+
+/* Responsive / Mobile Queries */
+@media (max-width: 768px) {
+  .sidebar-toggle-btn {
+    display: flex;
+  }
+  
+  .sidebar-close-btn {
+    display: flex;
+  }
+  
+  .sidebar {
+    left: 20px;
+    transform: translateX(-120%);
+    width: 320px;
+    max-width: calc(100vw - 40px);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1000;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .sidebar-header {
+    padding-top: 36px; /* Leave space for close button */
+  }
+}
+

@@ -115,6 +115,12 @@ function initMap() {
         console.log("Empty map clicked, clearing selection filter.");
         state.selectedLocation = null;
         updateVisualization();
+        
+        // Close sidebar on mobile when clicking empty space on map
+        const sidebar = document.querySelector('.sidebar');
+        if (sidebar && window.innerWidth <= 768) {
+          sidebar.classList.remove('open');
+        }
       }
     }
   });
@@ -472,6 +478,44 @@ function bindEvents() {
       updateVisualization();
     }
   });
+
+  // Mobile Sidebar Toggle and Close
+  const sidebar = document.querySelector('.sidebar');
+  const toggleBtn = document.getElementById('sidebar-toggle');
+  const closeBtn = document.getElementById('sidebar-close');
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.add('open');
+    });
+  }
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      sidebar.classList.remove('open');
+    });
+  }
+
+  // 3D Isometric / 2D flat view toggle
+  const btn3D = document.getElementById('btn-3d-toggle');
+  if (btn3D) {
+    btn3D.addEventListener('click', () => {
+      const currentPitch = state.map.getPitch();
+      if (currentPitch > 10) {
+        // Change to 2D flat view
+        state.map.easeTo({ pitch: 0, bearing: 0, duration: 800 });
+        btn3D.textContent = '🧊';
+        btn3D.title = 'Cambiar a perspectiva 3D';
+        btn3D.classList.remove('active');
+      } else {
+        // Change to 3D isometric view
+        state.map.easeTo({ pitch: 55, bearing: -15, duration: 800 });
+        btn3D.textContent = '🗺️';
+        btn3D.title = 'Cambiar a plano 2D';
+        btn3D.classList.add('active');
+      }
+    });
+  }
 }
 
 // Start Application
