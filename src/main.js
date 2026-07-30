@@ -557,41 +557,160 @@ function handleHover(info) {
     const isDistrict = state.currentLevel === 'districts';
     const locIdStr = String(object.id);
     
-    // Calculate incoming and outgoing sum from current visible flows
-    let totalIncoming = 0;
-    let totalOutgoing = 0;
+    // Obtener el nombre del distrito de manera robusta
+    const districtName = isDistrict 
+      ? locIdStr 
+      : (state.zoneToDistrictMap.get(Number(object.id)) || state.zoneToDistrictMap.get(String(object.id)) || object.district);
+
+    let recibeOtroDistrito = 0;
+    let enviaOtroDistrito = 0;
+    let recibeMismoDistrito = 0;
+    let enviaMismoDistrito = 0;
+    let mismaZona = 0;
+    let mismoDistrito = 0; // Para nivel distrital
+
     if (state.visibleFlows) {
       for (const f of state.visibleFlows) {
-        if (String(f.dest) === locIdStr) {
-          totalIncoming += f.count;
-        }
-        if (String(f.origin) === locIdStr) {
-          totalOutgoing += f.count;
+        const originStr = String(f.origin);
+        const destStr = String(f.dest);
+
+        if (isDistrict) {
+          if (destStr === locIdStr) {
+            if (originStr === locIdStr) {
+              mismoDistrito += f.count;
+            } else {
+              recibeOtroDistrito += f.count;
+            }
+          }
+          if (originStr === locIdStr) {
+            if (destStr !== locIdStr) {
+              enviaOtroDistrito += f.count;
+            }
+          }
+        } else {
+          // Nivel zonal
+          const originId = Number(f.origin);
+          const destId = Number(f.dest);
+          const originDistrict = state.zoneToDistrictMap.get(originId) || state.zoneToDistrictMap.get(String(originId));
+          const destDistrict = state.zoneToDistrictMap.get(destId) || state.zoneToDistrictMap.get(String(destId));
+
+          if (destStr === locIdStr) {
+            if (originStr === locIdStr) {
+              mismaZona += f.count;
+            } else if (originDistrict && districtName && originDistrict === districtName) {
+              recibeMismoDistrito += f.count;
+            } else {
+              recibeOtroDistrito += f.count;
+            }
+          }
+          if (originStr === locIdStr) {
+            if (destStr !== locIdStr) {
+              if (destDistrict && districtName && destDistrict === districtName) {
+                enviaMismoDistrito += f.count;
+              } else {
+                enviaOtroDistrito += f.count;
+              }
+            }
+          }
         }
       }
     }
-    
-    el.tooltip.innerHTML = `
-      <div class="tooltip-title">${isDistrict ? 'Distrito' : 'Zona de Movilidad'}</div>
-      <div class="tooltip-row">
-        <span>Nombre:</span>
-        <span class="tooltip-value">${object.name}</span>
-      </div>
-      ${object.district ? `
-      <div class="tooltip-row">
-        <span>Distrito:</span>
-        <span class="tooltip-value">${object.district}</span>
-      </div>` : ''}
-      <div class="tooltip-row" style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 6px; margin-top: 4px;">
-        <span>Flujo Recibido:</span>
-        <span class="tooltip-value">${Math.round(totalIncoming).toLocaleString('es-PE')} ${unit}</span>
-      </div>
-      <div class="tooltip-row">
-        <span>Flujo Enviado:</span>
-        <span class="tooltip-value">${Math.round(totalOutgoing).toLocaleString('es-PE')} ${unit}</span>
-      </div>
-      <div class="helper-text" style="margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 4px;">Haz clic para filtrar flujos entrantes/salientes.</div>
-    `;
+
+    const totalUnique = isDistrict 
+      ? (recibeOtroDistrito + enviaOtroDistrito + mismoDistrito)
+      : (recibeOtroDistrito + recibeMismoDistrito + enviaOtroDistrito + enviaMismoDistrito + mismaZona);
+
+    if (isDistrict) {
+      el.tooltip.innerHTML = `
+        <div class="tooltip-title">Distrito</div>
+        <div class="tooltip-row">
+          <span>Nombre:</span>
+          <span class="tooltip-value">${object.name}</span>
+        </div>
+        
+        <div class="tooltip-divider"></div>
+        
+        <table class="tooltip-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>RECIBE</th>
+              <th>ENVÍA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="row-label">Otro distrito</td>
+              <td class="val-col">${Math.round(recibeOtroDistrito).toLocaleString('es-PE')}</td>
+              <td class="val-col">${Math.round(enviaOtroDistrito).toLocaleString('es-PE')}</td>
+            </tr>
+            <tr>
+              <td class="row-label">Mismo distrito</td>
+              <td class="val-col">${Math.round(mismoDistrito).toLocaleString('es-PE')}</td>
+              <td class="val-col">${Math.round(mismoDistrito).toLocaleString('es-PE')}</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="tooltip-divider"></div>
+        
+        <div class="tooltip-total-row">
+          <span>Total de flujos únicos</span>
+          <span class="tooltip-value">${Math.round(totalUnique).toLocaleString('es-PE')} ${unit}</span>
+        </div>
+        <div class="helper-text" style="margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 4px;">Haz clic para filtrar flujos entrantes/salientes.</div>
+      `;
+    } else {
+      el.tooltip.innerHTML = `
+        <div class="tooltip-title">Zona de Movilidad</div>
+        <div class="tooltip-row">
+          <span>Nombre:</span>
+          <span class="tooltip-value">${object.name}</span>
+        </div>
+        ${districtName ? `
+        <div class="tooltip-row">
+          <span>Distrito:</span>
+          <span class="tooltip-value">${districtName}</span>
+        </div>` : ''}
+        
+        <div class="tooltip-divider"></div>
+        
+        <table class="tooltip-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>RECIBE</th>
+              <th>ENVÍA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="row-label">Otro distrito</td>
+              <td class="val-col">${Math.round(recibeOtroDistrito).toLocaleString('es-PE')}</td>
+              <td class="val-col">${Math.round(enviaOtroDistrito).toLocaleString('es-PE')}</td>
+            </tr>
+            <tr>
+              <td class="row-label">Mismo distrito</td>
+              <td class="val-col">${Math.round(recibeMismoDistrito).toLocaleString('es-PE')}</td>
+              <td class="val-col">${Math.round(enviaMismoDistrito).toLocaleString('es-PE')}</td>
+            </tr>
+            <tr>
+              <td class="row-label">Misma zona</td>
+              <td class="val-col">${Math.round(mismaZona).toLocaleString('es-PE')}</td>
+              <td class="val-col">${Math.round(mismaZona).toLocaleString('es-PE')}</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="tooltip-divider"></div>
+        
+        <div class="tooltip-total-row">
+          <span>Total de flujos únicos</span>
+          <span class="tooltip-value">${Math.round(totalUnique).toLocaleString('es-PE')} ${unit}</span>
+        </div>
+        <div class="helper-text" style="margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 4px;">Haz clic para filtrar flujos entrantes/salientes.</div>
+      `;
+    }
   } 
   // Case B: Hovering a Flow Line
   else if (object.type === 'flow' || object.origin !== undefined) {

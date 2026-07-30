@@ -472,6 +472,65 @@ select option {
   color: var(--active-accent);
 }
 
+/* Estilos para la tabla detallada del tooltip */
+.tooltip-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6px 0;
+  font-size: 0.8rem;
+}
+
+.tooltip-table th {
+  text-align: right;
+  font-weight: 600;
+  color: var(--text-secondary);
+  padding: 4px 8px;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+}
+
+.tooltip-table th:first-child {
+  text-align: left;
+}
+
+.tooltip-table td {
+  padding: 6px 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 0.8rem;
+}
+
+.tooltip-table td.row-label {
+  text-align: left;
+  color: var(--text-secondary);
+}
+
+.tooltip-table td.val-col {
+  text-align: right;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.tooltip-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.tooltip-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 4px 0;
+}
+
+.tooltip-total-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 6px;
+  margin-top: 4px;
+}
+
 /* Loading Overlay */
 .loading-overlay {
   position: absolute;
