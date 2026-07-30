@@ -3773,27 +3773,93 @@ in vec3 view_direction;uniform vec3 u_sun_pos;uniform vec3 u_globe_position;unif
         <span class="route-od" title="${t} ➔ ${n}">${t} ➔ ${n}</span>
       </div>
       <span class="route-count">${e.count.toLocaleString(`es-PE`,{maximumFractionDigits:1})}</span>
-    `,$.topRoutesList.appendChild(r)})}function XF(e){if(!e||!e.object){$.tooltip.classList.add(`hidden`);return}let{x:t,y:n,object:r}=e;$.tooltip.classList.remove(`hidden`),$.tooltip.style.left=`${t+15}px`,$.tooltip.style.top=`${n+15}px`;let i=VF[Q.currentMode].unit;if(r.type===`location`||r.lat!==void 0||r.id&&!r.origin){let e=Q.currentLevel===`districts`,t=String(r.id),n=0,a=0;if(Q.visibleFlows)for(let e of Q.visibleFlows)String(e.dest)===t&&(n+=e.count),String(e.origin)===t&&(a+=e.count);$.tooltip.innerHTML=`
-      <div class="tooltip-title">${e?`Distrito`:`Zona de Movilidad`}</div>
-      <div class="tooltip-row">
-        <span>Nombre:</span>
-        <span class="tooltip-value">${r.name}</span>
-      </div>
-      ${r.district?`
-      <div class="tooltip-row">
-        <span>Distrito:</span>
-        <span class="tooltip-value">${r.district}</span>
-      </div>`:``}
-      <div class="tooltip-row" style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 6px; margin-top: 4px;">
-        <span>Flujo Recibido:</span>
-        <span class="tooltip-value">${Math.round(n).toLocaleString(`es-PE`)} ${i}</span>
-      </div>
-      <div class="tooltip-row">
-        <span>Flujo Enviado:</span>
-        <span class="tooltip-value">${Math.round(a).toLocaleString(`es-PE`)} ${i}</span>
-      </div>
-      <div class="helper-text" style="margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 4px;">Haz clic para filtrar flujos entrantes/salientes.</div>
-    `}else if(r.type===`flow`||r.origin!==void 0){let e=typeof r.origin==`object`&&r.origin!==null?r.origin.name:r.origin,t=typeof r.dest==`object`&&r.dest!==null?r.dest.name:r.dest;$.tooltip.innerHTML=`
+    `,$.topRoutesList.appendChild(r)})}function XF(e){if(!e||!e.object){$.tooltip.classList.add(`hidden`);return}let{x:t,y:n,object:r}=e;$.tooltip.classList.remove(`hidden`),$.tooltip.style.left=`${t+15}px`,$.tooltip.style.top=`${n+15}px`;let i=VF[Q.currentMode].unit;if(r.type===`location`||r.lat!==void 0||r.id&&!r.origin){let e=Q.currentLevel===`districts`,t=String(r.id),n=e?t:Q.zoneToDistrictMap.get(Number(r.id))||Q.zoneToDistrictMap.get(String(r.id))||r.district,a=0,o=0,s=0,c=0,l=0,u=0;if(Q.visibleFlows)for(let r of Q.visibleFlows){let i=String(r.origin),d=String(r.dest);if(e)d===t&&(i===t?u+=r.count:a+=r.count),i===t&&d!==t&&(o+=r.count);else{let e=Number(r.origin),u=Number(r.dest),f=Q.zoneToDistrictMap.get(e)||Q.zoneToDistrictMap.get(String(e)),p=Q.zoneToDistrictMap.get(u)||Q.zoneToDistrictMap.get(String(u));d===t&&(i===t?l+=r.count:f&&n&&f===n?s+=r.count:a+=r.count),i===t&&d!==t&&(p&&n&&p===n?c+=r.count:o+=r.count)}}let d=e?a+o+u:a+s+o+c+l;e?$.tooltip.innerHTML=`
+        <div class="tooltip-title">Distrito</div>
+        <div class="tooltip-row">
+          <span>Nombre:</span>
+          <span class="tooltip-value">${r.name}</span>
+        </div>
+        
+        <div class="tooltip-divider"></div>
+        
+        <table class="tooltip-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>RECIBE</th>
+              <th>ENVÍA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="row-label">Otro distrito</td>
+              <td class="val-col">${Math.round(a).toLocaleString(`es-PE`)}</td>
+              <td class="val-col">${Math.round(o).toLocaleString(`es-PE`)}</td>
+            </tr>
+            <tr>
+              <td class="row-label">Mismo distrito</td>
+              <td class="val-col">${Math.round(u).toLocaleString(`es-PE`)}</td>
+              <td class="val-col">${Math.round(u).toLocaleString(`es-PE`)}</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="tooltip-divider"></div>
+        
+        <div class="tooltip-total-row">
+          <span>Total de flujos únicos</span>
+          <span class="tooltip-value">${Math.round(d).toLocaleString(`es-PE`)} ${i}</span>
+        </div>
+        <div class="helper-text" style="margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 4px;">Haz clic para filtrar flujos entrantes/salientes.</div>
+      `:$.tooltip.innerHTML=`
+        <div class="tooltip-title">Zona de Movilidad</div>
+        <div class="tooltip-row">
+          <span>Nombre:</span>
+          <span class="tooltip-value">${r.name}</span>
+        </div>
+        ${n?`
+        <div class="tooltip-row">
+          <span>Distrito:</span>
+          <span class="tooltip-value">${n}</span>
+        </div>`:``}
+        
+        <div class="tooltip-divider"></div>
+        
+        <table class="tooltip-table">
+          <thead>
+            <tr>
+              <th></th>
+              <th>RECIBE</th>
+              <th>ENVÍA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="row-label">Otro distrito</td>
+              <td class="val-col">${Math.round(a).toLocaleString(`es-PE`)}</td>
+              <td class="val-col">${Math.round(o).toLocaleString(`es-PE`)}</td>
+            </tr>
+            <tr>
+              <td class="row-label">Mismo distrito</td>
+              <td class="val-col">${Math.round(s).toLocaleString(`es-PE`)}</td>
+              <td class="val-col">${Math.round(c).toLocaleString(`es-PE`)}</td>
+            </tr>
+            <tr>
+              <td class="row-label">Misma zona</td>
+              <td class="val-col">${Math.round(l).toLocaleString(`es-PE`)}</td>
+              <td class="val-col">${Math.round(l).toLocaleString(`es-PE`)}</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <div class="tooltip-divider"></div>
+        
+        <div class="tooltip-total-row">
+          <span>Total de flujos únicos</span>
+          <span class="tooltip-value">${Math.round(d).toLocaleString(`es-PE`)} ${i}</span>
+        </div>
+        <div class="helper-text" style="margin-top: 6px; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 4px;">Haz clic para filtrar flujos entrantes/salientes.</div>
+      `}else if(r.type===`flow`||r.origin!==void 0){let e=typeof r.origin==`object`&&r.origin!==null?r.origin.name:r.origin,t=typeof r.dest==`object`&&r.dest!==null?r.dest.name:r.dest;$.tooltip.innerHTML=`
       <div class="tooltip-title">Ruta de Flujo</div>
       <div class="tooltip-row">
         <span>Origen:</span>
